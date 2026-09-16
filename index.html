@@ -360,7 +360,7 @@ html,body,button,input,select,textarea{ -webkit-text-size-adjust:100%!important;
   @media(max-width:360px){.app{padding-left:6px;padding-right:6px}.topbar{grid-template-columns:36px 1fr 36px}#creatorDock{padding-left:11px;padding-right:11px}.stage-actions .pedal strong{font-size:13px}}
 
   /* V7: o mockup aprovado é a própria camada visual. */
-  body{min-height:100svh;display:block;background:#000;overflow:hidden}
+  body{min-height:100svh;display:block;background:#000;overflow:hidden;padding-top:env(safe-area-inset-top)}
   .app{position:relative;width:min(100vw,414px);height:auto;min-height:0;aspect-ratio:941/1671;margin:0 auto;padding:0;display:block;overflow:hidden;background:#151515}
   .mockup-visual{position:absolute;z-index:0;inset:0;width:100%;height:100%;display:block;object-fit:contain;pointer-events:none;user-select:none}
   .topbar{position:absolute;z-index:5;inset:0;display:block;height:auto;pointer-events:none;background:none;border:0}.topbar>div{display:none}.topbar .icon-btn{position:absolute;width:10%;height:7%;opacity:.001;pointer-events:auto}.topbar #menuRep{left:2.7%;top:.7%}.topbar #openSettings{right:2.7%;top:.7%}
