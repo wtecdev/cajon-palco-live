@@ -2,7 +2,7 @@
 // Cacheia o app inteiro (index.html contem tudo: audio, css, js embutidos)
 // para funcionar 100% offline apos a primeira visita.
 
-const CACHE_VERSION = 'cajon-palco-v1';
+const CACHE_VERSION = 'cajon-palco-v2';
 const APP_SHELL = [
   './',
   './index.html',
