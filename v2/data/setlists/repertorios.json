@@ -1,0 +1,1979 @@
+{
+  "formato": "setlists_v1",
+  "observacao": "BPM, compasso e padrão em branco de propósito: preencher medindo, não chutar.",
+  "setlists": [
+    {
+      "id": "the_house_acustico",
+      "nome": "The House — Acústico",
+      "obs": "Posições 30 a 34 vieram vazias.",
+      "blocos": [
+        {
+          "bloco": 1,
+          "musicas": [
+            {
+              "titulo": "Música Urbana",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Quando o Sol Bater",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "O Mundo",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Depois de Nós",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Stand By Me",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Sereníssima",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "O Nosso Amor a Gente Inventa",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Por Enquanto",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Relicário",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Patience",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Layla",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Nada Sei",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "O Teatro dos Vampiros",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Tendo a Lua",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Olhos Vermelhos",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Linger",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Simple Man",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Tempo Perdido",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Runaway Train",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Hard Luck",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Primeiros Erros",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "It's a Heartache",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Infinita Highway",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Ovelha Negra",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Flerte Fatal",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Armas Químicas",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Anjos",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Epitáfio",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Garganta",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Knockin' on Heaven's Door",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the_grunge_geral",
+      "nome": "The Grunge — Geral",
+      "obs": "Posição 38 veio vazia.",
+      "blocos": [
+        {
+          "bloco": 1,
+          "musicas": [
+            {
+              "titulo": "Aonde Quer Que Eu Vá",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Segundo Sol",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "O Tempo Não Para",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Por Onde Andei",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Daughter",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Céu Azul",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Society – Eddie Vedder",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Você Me Faz Tão Bem",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "The Man Who Sold the World",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Stand By Me – Oasis",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Garoto de Aluguel",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Refrão de um Bolero",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Wish You Were Here",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Que Eu Também Não Entendo",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "O Dia Que Não Terminou",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Patience",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Cegos do Castelo",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Você Vai Lembrar de Mim",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Ana Song (Open Fire)",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "All Star",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Don't Look Back in Anger",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Eu Que Não Amo Você",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Use Somebody",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Codinome Beija-Flor",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Like a Stone",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Black – Pearl Jam",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Yellow Ledbetter",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Exagerado",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "My Hero",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Fátima",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Retorno de Saturno",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Miss You Love",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Amanhã ou Depois",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "O Papa é Pop",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Creep – Radiohead",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "O Poeta Está Vivo",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "O Chão Que Ela Pisa",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lista_raul_legiao",
+      "nome": "Raul Seixas / Legião Urbana (sem nome — confirmar se é Ralé Urbana)",
+      "obs": "Item 28 veio cortado: 'Maluco Beleza (F' — confirmar o tom.",
+      "blocos": [
+        {
+          "bloco": 1,
+          "musicas": [
+            {
+              "titulo": "Será",
+              "tom": "C",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Metamorfose Ambulante",
+              "tom": "A",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Quase Sem Querer",
+              "tom": "G",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Como Vovó Já Dizia",
+              "tom": "E",
+              "tom_confirmar": false,
+              "nota": "com pausa",
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Sereníssima",
+              "tom": "G",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            }
+          ]
+        },
+        {
+          "bloco": 2,
+          "musicas": [
+            {
+              "titulo": "Ouro de Tolo",
+              "tom": "G",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Ainda é Cedo",
+              "tom": "D",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Sociedade Alternativa",
+              "tom": "A",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Teatro dos Vampiros",
+              "tom": "G",
+              "tom_confirmar": false,
+              "nota": "violão",
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Há Tempos",
+              "tom": "D",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Al Capone",
+              "tom": "E",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            }
+          ]
+        },
+        {
+          "bloco": 3,
+          "musicas": [
+            {
+              "titulo": "Hoje a Noite Não Tem Luar",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Eduardo e Mônica",
+              "tom": "E",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Monte Castelo",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            }
+          ]
+        },
+        {
+          "bloco": 4,
+          "musicas": [
+            {
+              "titulo": "Capim Guiné",
+              "tom": "G",
+              "tom_confirmar": false,
+              "nota": "violão",
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Medo da Chuva",
+              "tom": "A",
+              "tom_confirmar": false,
+              "nota": "violão",
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Eu Sei",
+              "tom": "D",
+              "tom_confirmar": false,
+              "nota": "violão",
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Eu Também Vou Reclamar",
+              "tom": "E",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Meninos e Meninas",
+              "tom": "D",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Meu Amigo Pedro",
+              "tom": "G",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            }
+          ]
+        },
+        {
+          "bloco": 5,
+          "musicas": [
+            {
+              "titulo": "Faroeste Caboclo",
+              "tom": "G",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Cowboy Fora da Lei",
+              "tom": "C",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Pais e Filhos",
+              "tom": "C",
+              "tom_confirmar": false,
+              "nota": "violão",
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Eu Nasci Há Dez Mil Anos Atrás",
+              "tom": "C",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Dezesseis",
+              "tom": "Bb",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Gita",
+              "tom": "E",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Maluco Beleza",
+              "tom": "F",
+              "tom_confirmar": true,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lista_charlie_brown",
+      "nome": "Charlie Brown Jr. (sem nome)",
+      "obs": "",
+      "blocos": [
+        {
+          "bloco": 1,
+          "musicas": [
+            {
+              "titulo": "O Coro Vai Comer",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Proibida Pra Mim",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Tudo Que Ela Gosta de Escutar",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Só Por Uma Noite",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Sino Dourado",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            }
+          ]
+        },
+        {
+          "bloco": 2,
+          "musicas": [
+            {
+              "titulo": "Rubão, o Dono do Mundo",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Dias de Luta, Dias de Glória",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Me Encontra",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Lugar ao Sol",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Te Levar",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            }
+          ]
+        },
+        {
+          "bloco": 3,
+          "musicas": [
+            {
+              "titulo": "Sheik",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Gimme o Anel",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Quinta-Feira",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Pontes Indestrutíveis",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            }
+          ]
+        },
+        {
+          "bloco": 4,
+          "musicas": [
+            {
+              "titulo": "Samba Makossa",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": "Acústicas",
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Vícios e Virtudes",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Tudo Mudar",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Céu Azul",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Longe de Você",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Só os Loucos Sabem",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            }
+          ]
+        },
+        {
+          "bloco": 5,
+          "musicas": [
+            {
+              "titulo": "Lutar Pelo Que É Meu",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Zóio de Lula",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Papo Reto",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lista_pop_rock_bar",
+      "nome": "Pop-rock de bar (sem nome)",
+      "obs": "Numeração original pula o 27.",
+      "blocos": [
+        {
+          "bloco": 1,
+          "musicas": [
+            {
+              "titulo": "Mulher de Fases",
+              "tom": "G",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Exagerado",
+              "tom": "G",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Vou Deixar",
+              "tom": "D",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Além do Horizonte",
+              "tom": "F#m",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Será",
+              "tom": "C",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            }
+          ]
+        },
+        {
+          "bloco": 2,
+          "musicas": [
+            {
+              "titulo": "O Sol",
+              "tom": "A",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Vento Ventania",
+              "tom": "B",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "A Sua Maneira",
+              "tom": "Bm",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Rádio Pirata",
+              "tom": "Bm",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Outro Lugar",
+              "tom": "Bm",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Proibida Pra Mim",
+              "tom": "F#",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "A Cera",
+              "tom": "Dm",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            }
+          ]
+        },
+        {
+          "bloco": 3,
+          "musicas": [
+            {
+              "titulo": "Seven Nation Army",
+              "tom": "E",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Beggin",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Bad Moon Rising",
+              "tom": "D",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            }
+          ]
+        },
+        {
+          "bloco": 4,
+          "musicas": [
+            {
+              "titulo": "Proud Mary",
+              "tom": "C",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Have You Ever",
+              "tom": "Am",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Whisky a Go Go",
+              "tom": "E7",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "I Want to Break Free",
+              "tom": "D",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "La Bamba / Twist and Shout",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            }
+          ]
+        },
+        {
+          "bloco": 5,
+          "musicas": [
+            {
+              "titulo": "O Mundo Animal",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Chopis Centis",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Vira Vira",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Robocop Gay",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            }
+          ]
+        },
+        {
+          "bloco": 6,
+          "musicas": [
+            {
+              "titulo": "Toda Forma de Amor / Só Quero Dinheiro",
+              "tom": "A",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Nova York",
+              "tom": "Bm",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            }
+          ]
+        },
+        {
+          "bloco": 7,
+          "musicas": [
+            {
+              "titulo": "Carla",
+              "tom": "Bm",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Ana Júlia",
+              "tom": "E",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            }
+          ]
+        },
+        {
+          "bloco": 8,
+          "musicas": [
+            {
+              "titulo": "The Best",
+              "tom": "E",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "With or Without You",
+              "tom": "D",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Não Sei Viver Sem Ter Você",
+              "tom": "Em",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Do Seu Lado",
+              "tom": "D",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "É Preciso Saber Viver",
+              "tom": "D",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tio_jones_e_bin",
+      "nome": "Tio Jones e Bin",
+      "obs": "Asteriscos mantidos como no original (significado a confirmar).",
+      "blocos": [
+        {
+          "bloco": 1,
+          "musicas": [
+            {
+              "titulo": "Puro Êxtase",
+              "tom": "E",
+              "tom_confirmar": false,
+              "nota": "**",
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Todas as Noites",
+              "tom": "F#m",
+              "tom_confirmar": false,
+              "nota": "*****",
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Será",
+              "tom": "C",
+              "tom_confirmar": false,
+              "nota": "****",
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Exagerado",
+              "tom": "G",
+              "tom_confirmar": false,
+              "nota": "***",
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Outro Lugar",
+              "tom": "Bm",
+              "tom_confirmar": false,
+              "nota": "***",
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Malandragem",
+              "tom": "Dm",
+              "tom_confirmar": false,
+              "nota": "***",
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Eu Amo Mais Você",
+              "tom": "C",
+              "tom_confirmar": false,
+              "nota": "****",
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Pão da Minha Prima",
+              "tom": "A",
+              "tom_confirmar": false,
+              "nota": "****",
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Ana Júlia",
+              "tom": "E",
+              "tom_confirmar": false,
+              "nota": "****",
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Toda Forma de Amor",
+              "tom": "A",
+              "tom_confirmar": false,
+              "nota": "****",
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Whisky a Go Go",
+              "tom": "E7",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            }
+          ]
+        },
+        {
+          "bloco": 2,
+          "musicas": [
+            {
+              "titulo": "Que Vez",
+              "tom": "Am",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Eu Sei",
+              "tom": "D",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Segundo Sol",
+              "tom": "G",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Sem Radar",
+              "tom": "F",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Garotos",
+              "tom": "G",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Jack Tequila",
+              "tom": "C",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Lua Cheia",
+              "tom": "A",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Me Lambe",
+              "tom": "Bm",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Rodo Cotidiano",
+              "tom": "Bm",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            }
+          ]
+        },
+        {
+          "bloco": 3,
+          "musicas": [
+            {
+              "titulo": "Céu Azul",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Só os Loucos Sabem",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Longe de Você",
+              "tom": null,
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Proibida Pra Mim",
+              "tom": "F#",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            }
+          ]
+        },
+        {
+          "bloco": 4,
+          "musicas": [
+            {
+              "titulo": "Me Odeie",
+              "tom": "D",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Por Você",
+              "tom": "E",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Meu Erro",
+              "tom": "A",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Primeiros Erros",
+              "tom": "D",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Psycho Killer",
+              "tom": "Am",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "4x Você",
+              "tom": "Em",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            },
+            {
+              "titulo": "Olhos Fechados",
+              "tom": "Am",
+              "tom_confirmar": false,
+              "nota": null,
+              "secao": null,
+              "bpm": null,
+              "compasso": null,
+              "padrao": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "total_musicas_unicas": 160
+}

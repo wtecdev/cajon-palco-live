@@ -1,0 +1,87 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Dire Straits",
+ "tipo": "catalogo",
+ "artista": "Dire Straits",
+ "musicas": [
+  {
+   "titulo": "Brothers in Arms",
+   "artista": "Dire Straits",
+   "batidaA": "baladaLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 78,
+   "fonte_bpm": "Songsterr, andamento de 3 transcrições (72–79)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de balada no BPM da música; conferir"
+  },
+  {
+   "titulo": "Down to the Waterline",
+   "artista": "Dire Straits",
+   "batidaA": "esqf4bb86Leve",
+   "batidaB": "esqf4bb86Cheio",
+   "bpm": 139,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 30094"
+  },
+  {
+   "titulo": "Lady Writer",
+   "artista": "Dire Straits",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 149,
+   "fonte_bpm": "Songsterr, andamento de 2 transcrições (149–150)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de rock no BPM da música; conferir"
+  },
+  {
+   "titulo": "Money for Nothing",
+   "artista": "Dire Straits",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "estradaLeve",
+   "bpm": 134,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 480492"
+  },
+  {
+   "titulo": "Romeo and Juliet",
+   "artista": "Dire Straits",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "esq00e991Cheio",
+   "bpm": 86,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 23575",
+   "nota": "no verso a caixa é de aro"
+  },
+  {
+   "titulo": "Six Blade Knife",
+   "artista": "Dire Straits",
+   "batidaA": "eDo2Leve",
+   "batidaB": "eDo2Cheio",
+   "bpm": 115,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 415370",
+   "nota": "3 transcrições concordam"
+  },
+  {
+   "titulo": "So Far Away",
+   "artista": "Dire Straits",
+   "batidaA": "esq5aa34bLeve",
+   "batidaB": "esq5aa34bCheio",
+   "bpm": 114,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 30586"
+  },
+  {
+   "titulo": "Sultans of Swing",
+   "artista": "Dire Straits",
+   "batidaA": "esq267737Leve",
+   "batidaB": "esq267737Cheio",
+   "bpm": 148,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 30084"
+  },
+  {
+   "titulo": "Walk of Life",
+   "artista": "Dire Straits",
+   "batidaA": "soulLeve",
+   "batidaB": "popSemiCheio",
+   "bpm": 170,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 23761",
+   "nota": "Songsterr e Cifra Club concordam"
+  }
+ ]
+}

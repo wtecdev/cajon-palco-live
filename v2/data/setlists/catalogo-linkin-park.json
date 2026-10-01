@@ -1,0 +1,96 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Linkin Park",
+ "tipo": "catalogo",
+ "artista": "Linkin Park",
+ "musicas": [
+  {
+   "titulo": "Bleed It Out",
+   "artista": "Linkin Park",
+   "batidaA": "esqce65dbLeve",
+   "batidaB": "esqce65dbCheio",
+   "bpm": 140,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 727701",
+   "nota": "transcrição da versão acústica"
+  },
+  {
+   "titulo": "Crawling",
+   "artista": "Linkin Park",
+   "batidaA": "esq0460fbLeve",
+   "batidaB": "esq0460fbCheio",
+   "bpm": 105,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 443498",
+   "nota": "transcrição da versão acústica"
+  },
+  {
+   "titulo": "Faint",
+   "artista": "Linkin Park",
+   "batidaA": "esq0db6baLeve",
+   "batidaB": "esq0db6baCheio",
+   "bpm": 135,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 479297"
+  },
+  {
+   "titulo": "Given Up",
+   "artista": "Linkin Park",
+   "batidaA": "eDo2e3Leve",
+   "batidaB": "eDo2e3Cheio",
+   "bpm": 200,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 479415"
+  },
+  {
+   "titulo": "In the End",
+   "artista": "Linkin Park",
+   "batidaA": "esqbd3de7Leve",
+   "batidaB": "esqbd3de7Cheio",
+   "bpm": 104,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 536671",
+   "nota": "conferir: na gravação o bumbo tem semicolcheias no 1; aqui fica o bumbo principal. 3 transcrições entre 104 e 106"
+  },
+  {
+   "titulo": "Numb",
+   "artista": "Linkin Park",
+   "batidaA": "eDo2e3Leve",
+   "batidaB": "eDo2e3Cheio",
+   "bpm": 108,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 63013",
+   "nota": "transcrição da versão acústica"
+  },
+  {
+   "titulo": "One Step Closer",
+   "artista": "Linkin Park",
+   "batidaA": "esq2ec75aLeve",
+   "batidaB": "esq2ec75aCheio",
+   "bpm": 95,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 399370",
+   "nota": "transcrição da versão acústica"
+  },
+  {
+   "titulo": "Somewhere I Belong",
+   "artista": "Linkin Park",
+   "batidaA": "esqae9d20Leve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 81,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 569626",
+   "nota": "conferir: o verso da gravação é bem quebrado; aqui a levada do refrão"
+  },
+  {
+   "titulo": "The Emptiness Machine",
+   "artista": "Linkin Park",
+   "batidaA": "esqf4bb86Leve",
+   "batidaB": "esqf4bb86Cheio",
+   "bpm": 184,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 820626",
+   "nota": "3 transcrições concordam"
+  },
+  {
+   "titulo": "What I've Done",
+   "artista": "Linkin Park",
+   "batidaA": "esq3f04f9Leve",
+   "batidaB": "esq3f04f9Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 411232",
+   "nota": "transcrição da versão acústica"
+  }
+ ]
+}

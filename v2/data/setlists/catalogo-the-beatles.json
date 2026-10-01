@@ -1,0 +1,96 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · The Beatles",
+ "tipo": "catalogo",
+ "artista": "The Beatles",
+ "musicas": [
+  {
+   "titulo": "Blackbird",
+   "artista": "The Beatles",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 93,
+   "fonte_bpm": "Songsterr, 3 transcrições (92–95)",
+   "adaptacao": true,
+   "nota": "a gravação não tem bateria e muda de compasso; sem transcrição de bateria que sirva: levada de balada no BPM da música; conferir"
+  },
+  {
+   "titulo": "Come Together",
+   "artista": "The Beatles",
+   "batidaA": "esqae768bLeve",
+   "batidaB": "esqc78fbcCheio",
+   "bpm": 83,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 484828",
+   "nota": "no verso a bateria é tom e bumbo: aqui só grave nos 4 tempos"
+  },
+  {
+   "titulo": "Help!",
+   "artista": "The Beatles",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "popSemiCheio",
+   "bpm": 190,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2625",
+   "nota": "estúdio e ao vivo concordam"
+  },
+  {
+   "titulo": "Here Comes the Sun",
+   "artista": "The Beatles",
+   "batidaA": "eDo2e3Leve",
+   "batidaB": "esqfbb460Cheio",
+   "bpm": 128,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 485425",
+   "nota": "transcrição da versão acústica"
+  },
+  {
+   "titulo": "Hey Jude",
+   "artista": "The Beatles",
+   "batidaA": "baladaLeve",
+   "batidaB": "esqc78fbcCheio",
+   "bpm": 74,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2573"
+  },
+  {
+   "titulo": "In My Life",
+   "artista": "The Beatles",
+   "batidaA": "esq85beadLeve",
+   "batidaB": "esq85beadCheio",
+   "bpm": 103,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2814",
+   "nota": "3 transcrições concordam"
+  },
+  {
+   "titulo": "Let It Be",
+   "artista": "The Beatles",
+   "batidaA": "baladaLeve",
+   "batidaB": "baladaCheia",
+   "bpm": 72,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 88062"
+  },
+  {
+   "titulo": "Something",
+   "artista": "The Beatles",
+   "batidaA": "esq710029Leve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 67,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2629"
+  },
+  {
+   "titulo": "Twist and Shout",
+   "artista": "The Beatles",
+   "batidaA": "twistLeve",
+   "batidaB": "twistCheio",
+   "bpm": 125,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 26412"
+  },
+  {
+   "titulo": "Yesterday",
+   "artista": "The Beatles",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 98,
+   "fonte_bpm": "Songsterr, transcrições a 98 e 100 (uma acústica a 80)",
+   "adaptacao": true,
+   "nota": "a gravação não tem bateria; sem transcrição de bateria que sirva: levada de balada no BPM da música; conferir"
+  }
+ ]
+}

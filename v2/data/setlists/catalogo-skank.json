@@ -1,0 +1,87 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Skank",
+ "tipo": "catalogo",
+ "artista": "Skank",
+ "musicas": [
+  {
+   "titulo": "Acima do Sol",
+   "artista": "Skank",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 92,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 247432",
+   "nota": "a transcrição principal conta em 184 com o slap no 3; aqui em 92 (as outras 2 transcrições)"
+  },
+  {
+   "titulo": "Ainda Gosto Dela",
+   "artista": "Skank",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 122,
+   "fonte_bpm": "Songsterr, 3 transcrições (122–124)",
+   "adaptacao": true,
+   "nota": "a transcrição tem poucos compassos de bateria; sem transcrição de bateria que sirva: levada de pop no BPM da música; conferir"
+  },
+  {
+   "titulo": "Algo Parecido",
+   "artista": "Skank",
+   "batidaA": "baladaLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 84,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2627308"
+  },
+  {
+   "titulo": "Dois Rios",
+   "artista": "Skank",
+   "batidaA": "todoTempo",
+   "batidaB": null,
+   "bpm": 76,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 445398"
+  },
+  {
+   "titulo": "Garota Nacional",
+   "artista": "Skank",
+   "batidaA": "soulLeve",
+   "batidaB": "popSemiCheio",
+   "bpm": 130,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 716072",
+   "nota": "3 transcrições concordam"
+  },
+  {
+   "titulo": "Resposta",
+   "artista": "Skank",
+   "batidaA": "baladaLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 73,
+   "fonte_bpm": "Songsterr id 445399 (73)",
+   "adaptacao": true,
+   "nota": "na transcrição o grave não cai no 1; sem transcrição de bateria que sirva: levada de balada no BPM da música; conferir"
+  },
+  {
+   "titulo": "Sutilmente",
+   "artista": "Skank",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 100,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 705885"
+  },
+  {
+   "titulo": "Vamos Fugir",
+   "artista": "Skank",
+   "batidaA": "esq5aa34bLeve",
+   "batidaB": "esq5aa34bCheio",
+   "bpm": 132,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 18124"
+  },
+  {
+   "titulo": "Vou Deixar",
+   "artista": "Skank",
+   "batidaA": "esqae768bLeve",
+   "batidaB": "twistCheio",
+   "bpm": 142,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 18234",
+   "nota": "B em twist a pedido do Bin (a transcrição mostra grave no 1, & do 2, 3 e & do 3)"
+  }
+ ]
+}

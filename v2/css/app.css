@@ -1,0 +1,488 @@
+/* Cajón Palco Pro — visual de painel de aparelho (grafite com madeira / claro com madeira).
+   Fontes: Archivo (variável, OFL) e DSEG7 Classic (OFL), guardadas em css/assets para funcionar offline. */
+
+@font-face {
+  font-family: 'Archivo';
+  src: url(assets/archivo.woff2) format('woff2-variations'), url(assets/archivo.woff2) format('woff2');
+  font-weight: 100 900; font-stretch: 62% 125%; font-style: normal; font-display: swap;
+}
+@font-face { font-family: 'DSEG7'; src: url(assets/dseg7.woff2) format('woff2'); font-weight: 700; font-display: block; }
+
+/* ---------------------------------------------------------------- temas */
+:root {
+  color-scheme: dark;
+  --fundo: #1c1d1f;          /* chapa do painel */
+  --painel: #242528;         /* áreas elevadas: cartões, barras */
+  --painel2: #2e2f33;        /* realce de linha */
+  --campo: #111214;          /* campos rebaixados */
+  --campo-sombra: inset 0 2px 4px rgba(0,0,0,.45);
+  --linha: #34363b;
+  --sulco: #0c0c0d;
+  --brilho: rgba(255,255,255,.06);
+  --texto: #eeeff1;
+  --fraco: #9a9ca1;
+  --silk: #d2d3d6;           /* legendas "serigrafadas" */
+  --furo: #0b0b0c;           /* rebaixo em volta dos botões */
+  --borracha: radial-gradient(circle at 50% 30%, #3d3d40, #262628 72%, #1c1c1e);
+  --borracha-txt: #ececec;
+  --borracha-sombra: inset 0 -2px 4px rgba(0,0,0,.45), inset 0 1px 1px rgba(255,255,255,.16), 0 2px 4px rgba(0,0,0,.45);
+  --pad: radial-gradient(circle at 50% 32%, #fdfdfd, #e3e3e3 62%, #c8c8c8);
+  --pad-txt: #2a2a2a;
+  --pad-sombra: inset 0 -4px 7px rgba(0,0,0,.2), inset 0 2px 2px rgba(255,255,255,.95), 0 4px 8px rgba(0,0,0,.6);
+  --acento: #19c24f;         /* cor do LED */
+  --acento-txt: #4fe07f;     /* texto de destaque sobre o painel */
+  --acento-esc: rgba(25,194,79,.14);
+  --sobre-acento: #062b12;
+  --led-on: radial-gradient(circle at 38% 32%, #fff 0 10%, #7dff9c 24%, #19c24f 62%, #0b6e2b 100%);
+  --led-off: radial-gradient(circle at 38% 32%, #8a8a8a 0 10%, #26352a 45%, #101612 100%);
+  --led-brilho: rgba(60,255,120,.5);
+  --led-verm: radial-gradient(circle at 38% 32%, #fff 0 10%, #ff9a8a 24%, #f0301f 62%, #7a0d07 100%);
+  --led-verm-brilho: rgba(255,60,40,.55);
+  --led-ambar: radial-gradient(circle at 38% 32%, #fff 0 10%, #ffd38a 24%, #ffa21a 62%, #8a5205 100%);
+  --led-ambar-brilho: rgba(255,170,40,.55);
+  --lcd: #0c1013; --lcd-txt: #e6edf2; --lcd-fraco: #8fa0ac; --lcd-linha: #1f2830;
+  --alerta: #ff6b6b;
+  --azul: #5aa8ff;
+  --raio: 10px;
+  --fonte: 'Archivo', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --madeira: 26px;
+  --largura: 1320px;
+}
+:root[data-tema="claro"] {
+  color-scheme: light;
+  --fundo: #e6e8ea; --painel: #f3f4f5; --painel2: #dcdfe2; --campo: #fff; --campo-sombra: inset 0 2px 3px rgba(0,0,0,.08);
+  --linha: #c9ccd1; --sulco: #c2c5ca; --brilho: rgba(255,255,255,.85);
+  --texto: #16171a; --fraco: #5b5f66; --silk: #2a2c30; --furo: #bec1c6;
+  --borracha-sombra: inset 0 -2px 4px rgba(0,0,0,.45), inset 0 1px 1px rgba(255,255,255,.16), 0 2px 3px rgba(0,0,0,.28);
+  --pad: radial-gradient(circle at 50% 32%, #47484d, #2c2d31 62%, #1d1e21); --pad-txt: #f2f2f3;
+  --pad-sombra: inset 0 -4px 7px rgba(0,0,0,.45), inset 0 2px 2px rgba(255,255,255,.18), 0 4px 7px rgba(0,0,0,.28);
+  --acento-txt: #0d7a33; --acento-esc: rgba(25,194,79,.16);
+  --alerta: #c62828; --azul: #1f6fe0;
+}
+
+/* ---------------------------------------------------------------- base */
+* { box-sizing: border-box; }
+html { background: var(--fundo); }
+html, body { margin: 0; color: var(--texto); }
+body {
+  font: 16px/1.4 var(--fonte);
+  background: var(--fundo) url(assets/ruido.png);
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  -webkit-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+  min-height: 100dvh; display: flex; flex-direction: column;
+}
+body > main { flex: 1 0 auto; width: 100%; }
+/* madeira: faixas em cima e embaixo (em pé) ou laterais (deitado / tablet / monitor) */
+body::before, body::after {
+  content: ''; display: block; height: 14px;
+  background: url(assets/madeira-h.jpg) center / cover;
+}
+body::before { box-shadow: inset 0 1px 0 rgba(255,255,255,.4), inset 0 -2px 3px rgba(0,0,0,.35), 0 2px 3px rgba(0,0,0,.35); }
+body::after { box-shadow: inset 0 1px 0 rgba(255,255,255,.4), inset 0 -2px 3px rgba(0,0,0,.35), 0 -2px 3px rgba(0,0,0,.3); }
+@media (orientation: landscape) {
+  body { padding-left: calc(var(--madeira) + env(safe-area-inset-left)); padding-right: calc(var(--madeira) + env(safe-area-inset-right)); }
+  body::before, body::after { position: fixed; top: 0; bottom: 0; height: auto; width: var(--madeira); z-index: 30; background-image: url(assets/madeira-v.jpg); }
+  body::before { left: 0; box-shadow: inset -1px 0 0 rgba(255,255,255,.3), inset 3px 0 6px rgba(0,0,0,.35), 2px 0 4px rgba(0,0,0,.4); }
+  body::after { right: 0; box-shadow: inset 1px 0 0 rgba(255,255,255,.3), inset -3px 0 6px rgba(0,0,0,.35), -2px 0 4px rgba(0,0,0,.4); }
+}
+
+input, select, textarea { -webkit-user-select: text; user-select: text; }
+button {
+  font: inherit; color: var(--borracha-txt); background: var(--borracha); border: 0; border-radius: var(--raio);
+  padding: 10px 14px; cursor: pointer; touch-action: manipulation;
+  box-shadow: var(--borracha-sombra), 0 0 0 2px var(--furo);
+}
+button:active:not(:disabled) { transform: translateY(1px); box-shadow: inset 0 1px 4px rgba(0,0,0,.6), 0 0 0 2px var(--furo); }
+button:disabled { opacity: .45; cursor: default; }
+button:focus-visible, select:focus-visible, input:focus-visible { outline: 3px solid var(--azul); outline-offset: 3px; }
+h2, .silk {
+  font-weight: 600; font-stretch: 85%; letter-spacing: .12em; text-transform: uppercase; color: var(--silk);
+}
+h2 { font-size: 13px; margin: 24px 0 10px; }
+.silk { font-size: 11px; line-height: 1.25; }
+svg { display: block; }
+
+/* ---------------------------------------------------------------- ligar o áudio */
+.ligar { position: fixed; inset: 0; z-index: 50; display: grid; place-items: center; background: var(--fundo) url(assets/ruido.png); padding: 24px; }
+.ligar.oculto { display: none; }
+.ligar-caixa { text-align: center; max-width: 420px; }
+.ligar h1 { margin: 0 0 6px; font-size: 32px; font-weight: 700; font-stretch: 85%; }
+.ligar .sub { color: var(--fraco); margin: 0 0 30px; }
+.grande { font-size: 20px; font-weight: 700; letter-spacing: .1em; padding: 22px 34px; border-radius: 14px; }
+.primario {
+  color: var(--sobre-acento); font-weight: 700;
+  background: radial-gradient(ellipse at 50% 30%, #4fe07f, #1fb04b 70%, #128a37);
+  box-shadow: inset 0 -3px 5px rgba(0,0,0,.25), inset 0 1px 1px rgba(255,255,255,.5), 0 3px 8px rgba(25,194,79,.3), 0 0 0 2px var(--furo);
+}
+.msg { min-height: 1.5em; color: var(--fraco); margin-top: 16px; white-space: pre-wrap; }
+
+/* ---------------------------------------------------------------- avisos */
+.avisos { position: sticky; top: 0; z-index: 40; }
+.aviso { display: flex; gap: 12px; align-items: center; justify-content: space-between; padding: 12px 16px; background: #5a1717; color: #fff; border-bottom: 1px solid #ff5d5d; font-weight: 700; }
+.aviso.info { background: #14324f; border-color: #5aa8ff; }
+
+/* ---------------------------------------------------------------- abas: teclas com LED */
+.abas { display: flex; gap: 10px; overflow-x: auto; padding: 8px 14px 10px; border-bottom: 1px solid var(--sulco); box-shadow: 0 1px 0 var(--brilho); scrollbar-width: none; }
+.abas::-webkit-scrollbar { display: none; }
+.abas button {
+  flex: 0 0 auto; display: flex; align-items: center; gap: 8px; height: 32px; padding: 0 13px 0 11px;
+  font-size: 12px; font-weight: 600; font-stretch: 85%; letter-spacing: .1em; text-transform: uppercase;
+}
+.abas button::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: var(--led-off); }
+.abas button[aria-selected="true"]::before { background: var(--led-on); box-shadow: 0 0 7px 2px var(--led-brilho); }
+main { padding: 12px 16px 12px; max-width: 980px; margin: 0 auto; }
+.aba { display: none; }
+.aba.ativa { display: block; }
+
+/* ---------------------------------------------------------------- botões do painel */
+.redondo { width: 44px; height: 44px; border-radius: 50%; padding: 0; display: grid; place-items: center; box-shadow: var(--borracha-sombra), 0 0 0 3px var(--furo); }
+.redondo.grande { width: 48px; height: 48px; }
+.pilula { width: 46px; height: 31px; border-radius: 16px; padding: 0; display: grid; place-items: center; box-shadow: var(--borracha-sombra), 0 0 0 3px var(--furo); }
+.comando { display: grid; justify-items: center; align-content: start; gap: 7px; min-width: 0; }
+.comando.largo { justify-items: stretch; text-align: center; }
+
+/* ---------------------------------------------------------------- PALCO */
+#aba-palco.ativa { display: grid; gap: 10px; grid-template-columns: minmax(0, 1fr); grid-template-areas: "topo" "visor" "slots" "tempo" "nav" "pedais"; }
+.p-topo { grid-area: topo; display: grid; gap: 10px; min-width: 0; }
+.fonte-palco { display: flex; width: 100%; }
+.fonte-palco button { flex: 1; padding: 7px 8px; font-size: 15px; }
+.rep-linha { display: grid; grid-template-columns: minmax(0, 1fr) auto auto auto; gap: 12px; align-items: start; }
+.rep-linha > [hidden] { display: none; }
+.rep-palco { min-width: 0; height: 44px; padding: 0 12px; font-weight: 700; }
+
+/* visor (LCD atrás de vidro) — escuro nos dois temas, como num aparelho */
+.visor { grid-area: visor; min-width: 0; border-radius: 12px; padding: 3px; background: linear-gradient(180deg, #050505, #2c2c2c); box-shadow: 0 1px 0 var(--brilho); }
+.visor-vidro {
+  height: 100%; border-radius: 9px; padding: 10px 14px 12px; color: var(--lcd-txt);
+  background: linear-gradient(165deg, rgba(255,255,255,.07) 0%, rgba(255,255,255,0) 38%), var(--lcd);
+  box-shadow: inset 0 2px 8px rgba(0,0,0,.8); display: flex; flex-direction: column; gap: 6px;
+}
+.status-linha { display: flex; justify-content: space-between; align-items: center; gap: 10px; min-height: 20px; }
+.status { display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 700; letter-spacing: .1em; color: var(--lcd-fraco); white-space: nowrap; }
+.status::before { content: ''; width: 8px; height: 8px; border-radius: 50%; background: var(--led-off); flex: none; }
+.status.tocando { color: #7cf3a4; }
+.status.tocando::before { background: var(--led-on); box-shadow: 0 0 7px 2px var(--led-brilho); }
+.status.contagem, .status.intro { color: #ffcf7a; }
+.status.contagem::before, .status.intro::before { background: var(--led-ambar); box-shadow: 0 0 7px 2px var(--led-ambar-brilho); }
+.armado { font-size: 12px; font-weight: 700; letter-spacing: .06em; color: #ffcf7a; text-align: right; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.visor-corpo { flex: 1; min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr); }
+.visor-musica { min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.mus-centro { position: relative; min-width: 0; padding-right: 22px; }
+.mus-centro::after { content: '▾'; position: absolute; right: 2px; top: 6px; color: var(--lcd-fraco); font-size: 16px; }
+.musica-palco { font-weight: 700; font-stretch: 85%; font-size: clamp(26px, 7.4vw, 32px); line-height: 1.08; color: #f4f8fb; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.musica-palco.vazia { color: var(--lcd-fraco); font-size: 22px; }
+.musica-sub { font-size: 15px; color: #b6c3cc; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.musica-sub.alerta { color: #ff9a8a; }
+/* select nativo invisível por cima: toque abre a lista do aparelho */
+select.sobre { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; padding: 0; border: 0; font-size: 16px; }
+.proxima { font-size: 13px; color: var(--lcd-fraco); margin-top: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.proxima:empty { display: none; }
+/* marcação do tempo: blocos grandes numerados, acesos no visor (o 1 em vermelho, virada em âmbar) */
+.pulsos-linha { display: flex; align-items: center; gap: 10px; margin-top: 8px; }
+.pulsos { display: flex; gap: 6px; flex: 1; min-width: 0; }
+.pulso {
+  flex: 1; min-width: 0; height: 34px; border-radius: 5px; display: grid; place-items: center;
+  background: #161f26; color: #4a5a66; font-size: 16px; font-weight: 700; font-variant-numeric: tabular-nums;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.6); transition: background .04s;
+}
+.pulso.aceso { background: #2fd065; color: #04260f; box-shadow: 0 0 14px rgba(60,255,120,.55); }
+.pulso.um.aceso { background: #ff4a32; color: #2a0500; box-shadow: 0 0 14px rgba(255,60,40,.6); }
+.pulso.virada { background: #ffa21a; color: #2a1600; box-shadow: 0 0 14px rgba(255,170,40,.55); }
+.compasso-info { font-size: 17px; font-weight: 700; color: var(--lcd-txt); min-width: 44px; text-align: right; font-variant-numeric: tabular-nums; }
+
+/* botões Batida A / Batida B: grandes, mostram qual está tocando e o nome da batida (toque escolhe a batida) */
+.p-slots { grid-area: slots; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.slot-palco {
+  position: relative; min-width: 0; display: flex; align-items: center; gap: 10px; min-height: 58px; padding: 7px 10px 7px 12px;
+  border-radius: 12px; background: var(--borracha); color: #a9adb3; box-shadow: var(--borracha-sombra), 0 0 0 3px var(--furo);
+}
+.slot-led { width: 9px; height: 9px; border-radius: 50%; background: var(--led-off); flex: none; align-self: flex-start; margin-top: 4px; }
+.slot-palco .letra { font-size: 30px; font-weight: 700; font-stretch: 85%; line-height: 1; color: #8e9298; }
+.slot-txt { flex: 1; min-width: 0; display: grid; gap: 1px; }
+.slot-rot { font-size: 10px; font-weight: 600; font-stretch: 85%; letter-spacing: .12em; text-transform: uppercase; color: #8e9298; }
+.slot-palco .nome { font-size: 15px; font-weight: 600; line-height: 1.15; color: #c4c8cd; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.slot-palco .troca { color: #8e9298; font-size: 13px; }
+.slot-palco.ativo { box-shadow: var(--borracha-sombra), 0 0 0 3px var(--acento), 0 0 14px 2px var(--led-brilho); }
+.slot-palco.ativo .slot-led { background: var(--led-on); box-shadow: 0 0 7px 2px var(--led-brilho); }
+.slot-palco.ativo .letra { color: #7cf3a4; }
+.slot-palco.ativo .slot-rot { color: #7cf3a4; }
+.slot-palco.ativo .nome { color: #fff; }
+.slot-palco.armada { box-shadow: var(--borracha-sombra), 0 0 0 3px #ffa21a, 0 0 14px 2px var(--led-ambar-brilho); }
+.slot-palco.armada .slot-led { background: var(--led-ambar); box-shadow: 0 0 7px 2px var(--led-ambar-brilho); }
+/* lista do repertório no visor: só em tela grande */
+.visor-lado { display: none; }
+.vl-cab { display: flex; justify-content: space-between; gap: 10px; padding: 0 16px 8px; font-size: 13px; color: var(--lcd-fraco); }
+.vl-cab span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.visor-lista { list-style: none; margin: 0; padding: 0; overflow-y: auto; position: absolute; inset: 28px 0 0; scrollbar-width: thin; scrollbar-color: #2b3741 transparent; }
+.vl-item {
+  width: 100%; display: grid; grid-template-columns: 26px minmax(0, 1fr) auto; gap: 10px; align-items: center; text-align: left;
+  padding: 8px 16px; background: none; box-shadow: none; border-radius: 0; color: #d5dee4; font-size: 16px;
+}
+.vl-item:active:not(:disabled) { transform: none; box-shadow: none; background: #16202a; }
+.vl-item:disabled { opacity: 1; color: #4f5d68; }
+.vl-num { text-align: right; color: var(--lcd-fraco); font-size: 14px; }
+.vl-tit { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.vl-bpm { font-variant-numeric: tabular-nums; color: var(--lcd-fraco); font-size: 14px; }
+.vl-item.atual { background: var(--lcd-txt); color: var(--lcd); font-weight: 600; }
+.vl-item.atual .vl-num, .vl-item.atual .vl-bpm { color: var(--lcd); }
+
+/* tempo: BPM em 7 segmentos, setas e TAP */
+.p-tempo { grid-area: tempo; display: grid; grid-template-columns: auto auto minmax(0, 1fr); gap: 14px; align-items: center; }
+.bpm-caixa { display: grid; gap: 6px; }
+.seg7 { position: relative; width: 136px; height: 66px; border-radius: 6px; background: #170505; box-shadow: inset 0 2px 7px rgba(0,0,0,.9), 0 1px 0 var(--brilho); }
+.seg7 > span { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); font: 700 48px/1 'DSEG7', monospace; white-space: nowrap; }
+.seg7-fantasma { color: rgba(255,45,25,.09); }
+.seg7 > .seg7-rot { left: 8px; right: auto; top: 6px; transform: none; font: 700 9px/1 var(--fonte); letter-spacing: .12em; color: rgba(255,80,60,.55); }
+.bpm-num { color: #ff3b22; text-shadow: 0 0 8px rgba(255,50,25,.6); }
+.bpm-setas { display: grid; gap: 8px; }
+.tap {
+  height: 48px; border-radius: 24px; padding: 0; font-size: 15px; font-weight: 700; letter-spacing: .18em;
+  background: var(--pad); color: var(--pad-txt); box-shadow: var(--pad-sombra), 0 0 0 3px var(--furo);
+}
+.tap.pisado { transform: translateY(1px); box-shadow: inset 0 2px 5px rgba(0,0,0,.35), 0 0 0 3px var(--furo); }
+
+/* música anterior/próxima, como começa, parar já */
+.p-nav { grid-area: nav; display: grid; grid-template-columns: auto auto minmax(0, 1fr) auto; gap: 12px; align-items: start; }
+.inicio-btn { height: 48px; padding: 0 10px; display: flex; align-items: center; justify-content: center; gap: 9px; font-size: 13px; font-weight: 700; font-stretch: 85%; letter-spacing: .1em; }
+.inicio-btn::before { content: ''; width: 8px; height: 8px; border-radius: 50%; background: var(--led-off); flex: none; }
+.inicio-btn.marcacao::before { background: var(--led-ambar); box-shadow: 0 0 7px 2px var(--led-ambar-brilho); }
+.panico {
+  height: 48px; padding: 0 14px; font-size: 13px; font-weight: 700; font-stretch: 85%; letter-spacing: .1em; color: #fff;
+  background: radial-gradient(ellipse at 50% 30%, #e0473a, #b9261c 70%, #8f1a12);
+  box-shadow: inset 0 -2px 3px rgba(0,0,0,.35), inset 0 1px 1px rgba(255,255,255,.35), 0 2px 3px rgba(0,0,0,.45), 0 0 0 3px var(--furo);
+}
+
+/* pedais A–D: botões grandes com LED (verde = pisou, âmbar = ação armada para o próximo 1) */
+.pedais { grid-area: pedais; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; padding-top: 10px; border-top: 1px solid var(--sulco); box-shadow: inset 0 1px 0 var(--brilho); }
+.pedal { display: grid; justify-items: center; align-content: start; gap: 8px; padding: 0 0 2px; background: none; box-shadow: none; border-radius: 0; color: var(--silk); min-width: 0; }
+.pedal:active:not(:disabled) { transform: none; box-shadow: none; }
+.pedal::before { content: ''; width: 10px; height: 10px; border-radius: 50%; background: var(--led-off); }
+.pedal b {
+  width: 66px; height: 66px; border-radius: 50%; display: grid; place-items: center;
+  font-size: 25px; font-weight: 700; font-stretch: 85%; background: var(--pad); color: var(--pad-txt);
+  box-shadow: var(--pad-sombra), 0 0 0 4px var(--furo); transition: transform .05s;
+}
+.pedal span { font-size: 11px; font-weight: 600; font-stretch: 85%; letter-spacing: .08em; line-height: 1.3; text-align: center; color: var(--silk); }
+.pedal.armada::before { background: var(--led-ambar); box-shadow: 0 0 8px 2px var(--led-ambar-brilho); }
+.pedal.pisado::before { background: var(--led-on); box-shadow: 0 0 8px 2px var(--led-brilho); }
+.pedal.pisado b { transform: translateY(2px); box-shadow: inset 0 2px 6px rgba(0,0,0,.35), 0 0 0 4px var(--furo); }
+
+/* celular estreito */
+@media (max-width: 360px) {
+  .seg7 { width: 116px; } .seg7 > span { font-size: 42px; }
+  .pedal b { width: 60px; height: 60px; }
+  .p-nav { gap: 8px; }
+  .slot-palco .letra { font-size: 26px; }
+}
+
+/* celular deitado na estante: duas colunas, sem rolar */
+@media (orientation: landscape) and (max-height: 600px) {
+  main { padding: 8px 14px 6px; max-width: none; }
+  .abas { padding: 6px 10px 8px; gap: 8px; }
+  .abas button { height: 30px; }
+  #aba-palco.ativa {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 20px; row-gap: 8px; align-items: start;
+    grid-template-areas: "topo tempo" "visor nav" "visor pedais" "slots pedais";
+  }
+  .rep-linha .silk, .p-nav .silk { display: none; }
+  .rep-linha .comando { gap: 0; }
+  .p-topo { gap: 8px; }
+  .fonte-palco button { padding: 6px; }
+  .rep-palco, .rep-linha .redondo { height: 40px; } .rep-linha .redondo { width: 40px; }
+  .visor-vidro { padding: 8px 12px 10px; gap: 3px; }
+  .musica-palco { font-size: 24px; }
+  .proxima { display: none; }
+  .status-linha { min-height: 16px; }
+  .pulso { height: 30px; font-size: 15px; }
+  .slot-palco { min-height: 50px; padding: 5px 10px; }
+  .slot-palco .letra { font-size: 26px; }
+  .seg7 { width: 118px; height: 58px; } .seg7 > span { font-size: 40px; }
+  .bpm-setas { gap: 6px; } .pilula { height: 26px; }
+  .tap { height: 44px; }
+  .redondo.grande, .inicio-btn, .panico { height: 44px; } .redondo.grande { width: 44px; }
+  .pedais { padding-top: 8px; }
+  .pedal b { width: 54px; height: 54px; font-size: 21px; }
+  .pedal span { font-size: 10px; }
+}
+
+/* tablet em pé */
+@media (min-width: 700px) and (orientation: portrait) {
+  main { padding: 18px 24px 24px; }
+  #aba-palco.ativa { grid-template-rows: auto minmax(0, 1fr) auto auto auto auto; min-height: calc(100dvh - 130px); row-gap: 18px; }
+  .visor-vidro { padding: 16px 0 16px 20px; }
+  .status-linha { padding-right: 20px; }
+  .visor-corpo { grid-template-columns: minmax(0, 1fr) 280px; gap: 18px; }
+  .visor-musica { padding-bottom: 2px; }
+  .visor-lado { display: block; position: relative; border-left: 1px solid var(--lcd-linha); min-height: 260px; }
+  .musica-palco { font-size: 44px; }
+  .musica-sub { font-size: 18px; }
+  .pulsos-linha { margin-top: auto; }
+  .pulso { height: 46px; font-size: 20px; border-radius: 6px; }
+  .compasso-info { font-size: 20px; }
+  .slot-palco { min-height: 76px; padding: 10px 16px; gap: 14px; }
+  .slot-palco .letra { font-size: 40px; }
+  .slot-rot { font-size: 12px; }
+  .slot-palco .nome { font-size: 20px; }
+  .seg7 { width: 200px; height: 100px; } .seg7 > span { right: 16px; font-size: 72px; }
+  .pilula { width: 56px; height: 44px; border-radius: 22px; }
+  .tap { height: 64px; border-radius: 32px; font-size: 17px; }
+  .silk { font-size: 12px; }
+  .redondo.grande { width: 64px; height: 64px; }
+  .inicio-btn, .panico { height: 64px; font-size: 14px; }
+  .pedais { padding-top: 18px; }
+  .pedal b { width: 100px; height: 100px; font-size: 34px; box-shadow: var(--pad-sombra), 0 0 0 5px var(--furo); }
+  .pedal span { font-size: 13px; }
+}
+
+/* tablet deitado e monitor: visor grande com a lista do repertório; A/B, tempo e controles à direita; pedais embaixo */
+@media (min-width: 900px) and (min-height: 601px) {
+  main { max-width: var(--largura); padding: 20px 28px 26px; }
+  .abas { padding-left: max(14px, calc((100% - var(--largura)) / 2 + 28px)); padding-right: max(14px, calc((100% - var(--largura)) / 2 + 28px)); }
+  .aba:not(#aba-palco) { max-width: 980px; margin: 0 auto; }
+  #aba-palco.ativa {
+    grid-template-columns: minmax(0, 1fr) clamp(450px, 28vw, 540px); column-gap: 32px; row-gap: 20px;
+    grid-template-areas: "topo topo" "visor slots" "visor tempo" "visor nav" "pedais pedais";
+    grid-template-rows: auto auto minmax(0, 1fr) auto auto; min-height: calc(100dvh - 150px);
+  }
+  .p-topo { grid-template-columns: 380px minmax(0, 1fr); align-items: start; gap: 24px; }
+  .rep-palco { font-size: 17px; }
+  .visor { border-radius: 14px; padding: 4px; }
+  .visor-vidro { padding: 16px 0 16px 22px; border-radius: 10px; }
+  .status-linha { padding-right: 22px; }
+  .visor-corpo { grid-template-columns: minmax(0, 1fr) clamp(260px, 18vw, 320px); gap: 20px; }
+  .visor-musica { padding-top: 6px; padding-bottom: 2px; }
+  .musica-palco { font-size: clamp(40px, 3.6vw, 72px); white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+  .musica-sub { font-size: clamp(18px, 1.4vw, 26px); }
+  .proxima { font-size: clamp(14px, 1.05vw, 18px); }
+  .pulsos-linha { margin-top: auto; padding-top: 14px; }
+  .pulso { height: clamp(44px, 3.4vw, 60px); font-size: clamp(18px, 1.4vw, 24px); border-radius: 6px; }
+  .compasso-info { font-size: clamp(18px, 1.4vw, 24px); min-width: 56px; }
+  .visor-lado { display: block; position: relative; border-left: 1px solid var(--lcd-linha); min-height: 260px; }
+  .p-slots { gap: 16px; }
+  .slot-palco { min-height: 84px; padding: 10px 16px; gap: 14px; }
+  .slot-palco .letra { font-size: 42px; }
+  .slot-rot { font-size: 12px; }
+  .slot-palco .nome { font-size: clamp(17px, 1.2vw, 21px); }
+  .p-tempo { align-self: center; gap: 18px; }
+  .seg7 { width: clamp(200px, 13vw, 260px); height: auto; aspect-ratio: 248 / 128; border-radius: 8px; } .seg7 > span { right: 7%; font-size: clamp(72px, 4.85vw, 97px); }
+  .seg7 > .seg7-rot { font-size: 11px; left: 10px; top: 8px; right: auto; }
+  .pilula { width: 56px; height: 42px; border-radius: 21px; }
+  .tap { height: 64px; border-radius: 32px; font-size: 17px; }
+  .silk { font-size: 12px; }
+  .p-nav { gap: 18px; align-self: end; }
+  .redondo.grande { width: 64px; height: 64px; }
+  .inicio-btn, .panico { height: 64px; font-size: 14px; }
+  .pedais { padding-top: 20px; gap: 24px; }
+  .pedal { grid-template-columns: auto auto; grid-template-areas: "pad led" "pad rot"; justify-content: center; align-items: center; column-gap: 18px; row-gap: 8px; text-align: left; }
+  .pedal::before { grid-area: led; align-self: end; }
+  .pedal b { grid-area: pad; width: 96px; height: 96px; font-size: 32px; box-shadow: var(--pad-sombra), 0 0 0 5px var(--furo); }
+  .pedal span { grid-area: rot; align-self: start; text-align: left; font-size: 13px; max-width: 150px; }
+}
+
+@media (min-width: 1600px) and (min-height: 601px) { :root { --largura: 1560px; } }
+
+/* ---------------------------------------------------------------- busca em tela cheia */
+.busca-tela { position: fixed; inset: 0; z-index: 45; background: var(--fundo) url(assets/ruido.png); display: flex; flex-direction: column;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); }
+.busca-tela[hidden] { display: none; }
+.busca-topo { display: grid; grid-template-columns: 52px 1fr; gap: 12px; align-items: center; padding: 12px 14px; background: var(--painel); border-bottom: 1px solid var(--sulco); }
+.busca-fechar { width: 48px; height: 48px; border-radius: 50%; padding: 0; font-size: 20px; font-weight: 700; box-shadow: var(--borracha-sombra), 0 0 0 3px var(--furo); }
+#buscaTexto { font-size: 20px; font-weight: 600; }
+#buscaTexto:focus { border-color: var(--acento); outline: none; }
+.busca-letras { display: flex; gap: 8px; overflow-x: auto; padding: 10px 14px; scrollbar-width: none; border-bottom: 1px solid var(--linha); }
+.busca-letras:empty { display: none; }
+.busca-letras button { flex: 0 0 auto; min-width: 40px; padding: 8px 0; font-weight: 700; }
+.busca-res { flex: 1; overflow-y: auto; padding: 4px 14px 40px; -webkit-overflow-scrolling: touch; }
+.busca-sec { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; font-stretch: 85%; color: var(--fraco); margin: 18px 2px 6px; font-weight: 700; }
+.busca-linha { display: flex; align-items: center; border-bottom: 1px solid var(--linha); }
+.busca-item { flex: 1; min-width: 0; display: grid; grid-template-columns: 44px 1fr auto; gap: 12px; align-items: center; text-align: left; background: transparent; box-shadow: none; color: var(--texto); border-radius: 0; padding: 10px 2px; min-height: 60px; }
+.busca-item:active:not(:disabled) { transform: none; box-shadow: none; background: var(--painel2); }
+.busca-mais { flex: 0 0 auto; width: 46px; height: 46px; margin: 0 4px 0 8px; padding: 0; display: grid; place-items: center; border-radius: 50%; box-shadow: var(--borracha-sombra), 0 0 0 3px var(--furo); }
+.busca-mais.on { box-shadow: var(--borracha-sombra), 0 0 0 3px var(--acento), 0 0 10px var(--led-brilho); }
+.ico-salvar { display: block; }
+.busca-ico { width: 44px; height: 44px; border-radius: 8px; background: var(--painel2); display: grid; place-items: center; font-weight: 700; color: var(--acento-txt); font-size: 18px; }
+.busca-item.artista .busca-ico { border-radius: 50%; }
+.busca-item.incluida .busca-ico { background: var(--acento); color: var(--sobre-acento); }
+.busca-item.sem-leve .busca-tit { color: var(--fraco); }
+.busca-tit { font-weight: 700; font-size: 18px; line-height: 1.15; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.busca-sub { color: var(--fraco); font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.busca-dir { color: var(--fraco); font-weight: 700; font-size: 14px; }
+.busca-item.sem { opacity: .45; }
+.busca-item.atual .busca-tit { color: var(--acento-txt); }
+.busca-voltar { margin: 12px 0 4px; font-weight: 700; }
+.busca-vazio { color: var(--fraco); padding: 24px 4px; text-align: center; }
+.busca-modo { padding: 10px 14px; background: var(--acento-esc); color: var(--acento-txt); font-weight: 700; border-bottom: 1px solid var(--acento); }
+.busca-modo[hidden] { display: none; }
+
+/* ---------------------------------------------------------------- editar meus repertórios */
+#editQual { font-size: 18px; font-weight: 700; min-width: 0; }
+.edit-nome-linha { display: grid; grid-template-columns: auto 1fr; gap: 10px; align-items: center; padding: 12px 14px 0; }
+.edit-nome-linha label { color: var(--fraco); font-weight: 600; }
+#editNome { font-size: 18px; font-weight: 700; }
+.edit-acoes { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 14px; border-bottom: 1px solid var(--linha); }
+.edit-acoes button { font-weight: 700; min-height: 48px; }
+.perigo { color: #ff8a80; }
+.edit-linha { display: grid; grid-template-columns: 30px 1fr 46px 46px 46px; gap: 8px; align-items: center; border-bottom: 1px solid var(--linha); padding: 8px 0; min-height: 60px; }
+.edit-linha.sem .busca-tit { color: var(--fraco); }
+.edit-num { color: var(--fraco); font-weight: 700; text-align: right; }
+.edit-btn { height: 46px; padding: 0; font-size: 17px; font-weight: 700; }
+.edit-rodape { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; padding: 12px 14px; border-top: 1px solid var(--sulco); background: var(--painel); color: var(--fraco); font-size: 14px; }
+.edit-rodape span { flex: 1 1 100%; }
+.edit-rodape button { flex: 1; font-weight: 700; }
+
+/* ---------------------------------------------------------------- escolher repertório (salvar) */
+.escolha-tela { position: fixed; inset: 0; z-index: 48; background: rgba(5,6,8,.72); display: flex; align-items: flex-end; justify-content: center; }
+.escolha-tela[hidden] { display: none; }
+.escolha-caixa { width: 100%; max-width: 520px; max-height: 85vh; overflow-y: auto; background: var(--fundo) url(assets/ruido.png); border-top: 1px solid var(--brilho); border-radius: 16px 16px 0 0; padding: 18px 16px calc(18px + env(safe-area-inset-bottom)); box-shadow: 0 -8px 30px rgba(0,0,0,.4); }
+.escolha-tit { font-weight: 700; font-size: 18px; margin-bottom: 14px; }
+.escolha-lista { display: grid; gap: 12px; }
+.escolha-item { text-align: left; font-weight: 700; min-height: 52px; }
+.escolha-item.on { box-shadow: var(--borracha-sombra), 0 0 0 2px var(--acento), 0 0 10px var(--led-brilho); }
+.escolha-novo { display: grid; grid-template-columns: 1fr auto; gap: 12px; margin-top: 16px; }
+.escolha-cancelar { width: 100%; margin-top: 14px; min-height: 48px; }
+
+.toast { position: fixed; left: 50%; bottom: calc(28px + env(safe-area-inset-bottom)); transform: translateX(-50%); z-index: 60; background: var(--lcd); color: var(--lcd-txt); font-weight: 700; padding: 12px 18px; border-radius: 10px; max-width: calc(100% - 32px); box-shadow: 0 0 0 1px #2c3640, 0 8px 24px rgba(0,0,0,.45); }
+.toast[hidden] { display: none; }
+
+/* ---------------------------------------------------------------- formulários (demais abas) */
+.campo { margin: 16px 0; }
+.campo > label { display: flex; justify-content: space-between; font-weight: 600; margin-bottom: 8px; }
+.campo output { color: var(--acento-txt); font-variant-numeric: tabular-nums; font-weight: 700; }
+input[type="range"] { width: 100%; accent-color: var(--acento); height: 32px; }
+input[type="search"], input[type="text"], select {
+  width: 100%; font: inherit; color: var(--texto); background: var(--campo); border: 1px solid var(--linha);
+  border-radius: 8px; padding: 12px; box-shadow: var(--campo-sombra); min-width: 0;
+}
+.dupla { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+@media (max-width: 520px) { .dupla { grid-template-columns: 1fr; } }
+.linha { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin: 12px 0; }
+.chk { display: flex; gap: 10px; align-items: center; font-weight: 500; padding: 8px 0; }
+.chk input { width: 22px; height: 22px; accent-color: var(--acento); }
+/* seletor de várias posições: teclas lado a lado, a escolhida com anel de LED */
+.seg { display: inline-flex; flex-wrap: wrap; gap: 10px; }
+.seg button { padding: 10px 14px; font-weight: 600; font-size: 14px; }
+.seg button.on { color: #fff; box-shadow: var(--borracha-sombra), 0 0 0 2px var(--acento), 0 0 10px var(--led-brilho); }
+.ajuda { color: var(--fraco); font-size: 14px; }
+.cartao { background: var(--painel); border-radius: 12px; padding: 16px; margin: 16px 0; box-shadow: 0 0 0 1px var(--sulco), inset 0 1px 0 var(--brilho); }
+.cartao h2 { margin-top: 0; }
+.grade, .saida {
+  background: var(--lcd); color: var(--lcd-txt); border-radius: 8px; padding: 12px; overflow-x: auto;
+  font: 14px/1.5 ui-monospace, 'SF Mono', Menlo, Consolas, monospace; white-space: pre; -webkit-user-select: text; user-select: text; min-height: 1.5em;
+  box-shadow: inset 0 2px 6px rgba(0,0,0,.6), 0 1px 0 var(--brilho);
+}
+.saida { white-space: pre-wrap; }
+.saida:empty { display: none; }
+.medio { font-weight: 700; padding: 12px 16px; }
+.volumes { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 0 20px; }
+.mapa { width: 100%; border-collapse: collapse; margin: 10px 0; }
+.mapa th, .mapa td { text-align: left; padding: 10px 6px; border-bottom: 1px solid var(--linha); vertical-align: middle; }
+.mapa th { font-size: 12px; font-stretch: 85%; letter-spacing: .1em; text-transform: uppercase; color: var(--silk); font-weight: 600; }
+.mapa td b { font-size: 22px; }
+.mapa .sinal { font-family: ui-monospace, Menlo, monospace; font-size: 13px; display: block; margin-bottom: 6px; color: var(--acento-txt); }
+.mapa button { padding: 6px 10px; font-size: 13px; margin: 2px 4px 2px 0; }
+.mapa button.aprendendo { color: #fff; box-shadow: var(--borracha-sombra), 0 0 0 2px #5aa8ff, 0 0 10px rgba(90,168,255,.5); }
+.mapa select { padding: 6px 8px; font-size: 13px; width: auto; }
+.log { font: 13px/1.6 ui-monospace, Menlo, monospace; color: var(--fraco); padding-left: 22px; }
+.barra { height: 10px; background: var(--campo); border-radius: 6px; overflow: hidden; margin: 10px 0; box-shadow: var(--campo-sombra); }
+.barra > div { height: 100%; width: 0; background: var(--acento); }

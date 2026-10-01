@@ -1,0 +1,95 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Pearl Jam",
+ "tipo": "catalogo",
+ "artista": "Pearl Jam",
+ "musicas": [
+  {
+   "titulo": "Alive",
+   "artista": "Pearl Jam",
+   "batidaA": "baladaSincopada",
+   "batidaB": "esq5eff78Cheio",
+   "bpm": 76,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1434285",
+   "nota": "conferir: as transcrições são carregadas; simplifiquei"
+  },
+  {
+   "titulo": "Better Man",
+   "artista": "Pearl Jam",
+   "batidaA": "eDo2e3Leve",
+   "batidaB": "esqce98c2Cheio",
+   "bpm": 128,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 4845465"
+  },
+  {
+   "titulo": "Black",
+   "artista": "Pearl Jam",
+   "batidaA": "baladaLeve",
+   "batidaB": "baladaCheia",
+   "bpm": 77,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 15712",
+   "nota": "transcrição com grade mista; esqueleto simplificado"
+  },
+  {
+   "titulo": "Daughter",
+   "artista": "Pearl Jam",
+   "batidaA": "esq835668Leve",
+   "batidaB": "esq4d8100Cheio",
+   "bpm": 97,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 166"
+  },
+  {
+   "titulo": "Even Flow",
+   "artista": "Pearl Jam",
+   "batidaA": "esq835668Leve",
+   "batidaB": "esqe9b002Cheio",
+   "bpm": 100,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 4542807",
+   "nota": "transcrição do MTV Unplugged"
+  },
+  {
+   "titulo": "Jeremy",
+   "artista": "Pearl Jam",
+   "batidaA": "esqfbb460Leve",
+   "batidaB": "estradaCheio",
+   "bpm": 104,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1626375",
+   "nota": "transcrição do MTV Unplugged"
+  },
+  {
+   "titulo": "Just Breathe",
+   "artista": "Pearl Jam",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 110,
+   "fonte_bpm": "Songsterr, 2 transcrições (110)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de balada no BPM da música; conferir"
+  },
+  {
+   "titulo": "Last Kiss",
+   "artista": "Pearl Jam",
+   "batidaA": "twistBaladaLeve",
+   "batidaB": "twistBaladaCheio",
+   "bpm": 112,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 454"
+  },
+  {
+   "titulo": "Soldier of Love",
+   "artista": "Pearl Jam",
+   "batidaA": "twistBaladaLeve",
+   "batidaB": "twistBaladaCheio",
+   "bpm": 112,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6532351",
+   "nota": "mesma levada de Last Kiss"
+  },
+  {
+   "titulo": "Yellow Ledbetter",
+   "artista": "Pearl Jam",
+   "batidaA": "baladaLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 70,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 195"
+  }
+ ]
+}

@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="theme-color" content="#1c1d1f">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Cajón Pro">
+  <title>Cajón Palco Pro</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <script>try{if(localStorage.getItem('cpp2:tema')==='claro')document.documentElement.dataset.tema='claro';}catch(e){}</script>
+  <!-- iOS exige um toque antes de liberar áudio -->
+  <div id="ligar" class="ligar" role="dialog" aria-modal="true" aria-labelledby="ligarTitulo">
+    <div class="ligar-caixa">
+      <h1 id="ligarTitulo">Cajón Palco Pro</h1>
+      <p class="sub">Toque para ligar o som</p>
+      <button id="btnLigar" class="grande primario">LIGAR ÁUDIO</button>
+      <p id="ligarMsg" class="msg" role="status"></p>
+    </div>
+  </div>
+
+  <div id="avisos" class="avisos" aria-live="polite"></div>
+
+  <nav class="abas" role="tablist">
+    <button role="tab" data-aba="palco" aria-selected="true">Palco</button>
+    <button role="tab" data-aba="padroes">Padrões</button>
+    <button role="tab" data-aba="groove">Groove</button>
+    <button role="tab" data-aba="som">Som</button>
+    <button role="tab" data-aba="pedal">Pedal</button>
+    <button role="tab" data-aba="testes">Testes</button>
+    <button role="tab" data-aba="sistema">Sistema</button>
+  </nav>
+
+  <main>
+    <!-- PALCO: painel de aparelho (visor, BPM em 7 segmentos, LEDs, pedais) -->
+    <section id="aba-palco" class="aba ativa" role="tabpanel">
+      <div class="p-topo">
+        <div class="seg fonte-palco" id="palcoFonte" role="group" aria-label="De onde vem a música"><button data-v="cat">Catálogo A–Z</button><button data-v="rep">Meus repertórios</button></div>
+        <div class="rep-linha">
+          <select id="palcoRep" class="rep-palco" aria-label="Meu repertório"></select>
+          <div class="comando"><button id="btnPor" class="redondo" aria-label="Salvar a música atual num repertório" title="Salvar a música atual num repertório"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M4 3h13l3 3v15H4z"/><path d="M7 3v6h9V3"/><rect x="7" y="13" width="10" height="8" rx="1"/></svg></button><span class="silk" aria-hidden="true">Salvar</span></div>
+          <div class="comando"><button id="btnEditar" class="redondo" aria-label="Editar meus repertórios" title="Editar meus repertórios"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><path d="M4 20h4L19 9l-4-4L4 16z"/><path d="M13.5 6.5l4 4"/></svg></button><span class="silk" aria-hidden="true">Editar</span></div>
+          <div class="comando"><button id="btnBusca" class="redondo" aria-label="Buscar música ou artista" title="Buscar música ou artista"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button><span class="silk" aria-hidden="true">Buscar</span></div>
+        </div>
+      </div>
+
+      <div class="p-visor visor">
+        <div class="visor-vidro">
+          <div class="status-linha">
+            <span id="stStatus" class="status">PARADO</span>
+            <span id="stArmado" class="armado"></span>
+          </div>
+          <div class="visor-corpo">
+            <div class="visor-musica">
+              <div class="mus-centro">
+                <div id="stMusica" class="musica-palco">—</div>
+                <div id="stMusicaSub" class="musica-sub"></div>
+                <select id="palcoMusica" class="sobre" aria-label="Escolher música do repertório"></select>
+              </div>
+              <div id="stProxima" class="proxima"></div>
+              <div class="pulsos-linha">
+                <div id="pulsos" class="pulsos" aria-hidden="true"></div>
+                <span id="compassoInfo" class="compasso-info" title="Compasso da frase">—</span>
+              </div>
+            </div>
+            <div class="visor-lado">
+              <div class="vl-cab"><span id="vlNome"></span><span>BPM</span></div>
+              <ol id="visorLista" class="visor-lista" aria-label="Músicas do repertório"></ol>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="p-slots slots-palco">
+        <div id="slotA" class="slot-palco ativo"><span class="slot-led" aria-hidden="true"></span><span class="letra">A</span><span class="slot-txt"><span class="slot-rot">Batida A</span><span id="slotANome" class="nome">—</span></span><span class="troca" aria-hidden="true">▾</span><select id="palcoSelA" class="sobre" aria-label="Batida A"></select></div>
+        <div id="slotB" class="slot-palco"><span class="slot-led" aria-hidden="true"></span><span class="letra">B</span><span class="slot-txt"><span class="slot-rot">Batida B</span><span id="slotBNome" class="nome">—</span></span><span class="troca" aria-hidden="true">▾</span><select id="palcoSelB" class="sobre" aria-label="Batida B"></select></div>
+      </div>
+
+      <div class="p-tempo">
+        <div class="bpm-caixa">
+          <div class="seg7"><span class="seg7-rot" aria-hidden="true">BPM</span><span class="seg7-fantasma" aria-hidden="true">888</span><span id="bpmValor" class="bpm-num">120</span></div>
+        </div>
+        <div class="bpm-setas">
+          <button id="bpmMais" class="pilula" aria-label="Aumentar BPM"><svg width="13" height="13" viewBox="0 0 12 12" aria-hidden="true"><path d="M6 2l5 7H1z" fill="currentColor"/></svg></button>
+          <button id="bpmMenos" class="pilula" aria-label="Diminuir BPM"><svg width="13" height="13" viewBox="0 0 12 12" aria-hidden="true"><path d="M6 10L1 3h10z" fill="currentColor"/></svg></button>
+        </div>
+        <button id="btnTap" class="tap">TAP</button>
+      </div>
+
+      <div class="p-nav">
+        <div class="comando"><button id="musAnt" class="redondo grande" aria-label="Música anterior"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17 5v14L6 12z"/></svg></button><span class="silk" aria-hidden="true">Anterior</span></div>
+        <div class="comando"><button id="musProx" class="redondo grande" aria-label="Próxima música"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 5v14l11-7z"/></svg></button><span class="silk" aria-hidden="true">Próxima</span></div>
+        <div class="comando largo"><button id="btnInicio" class="inicio-btn" aria-live="polite">CONTAGEM</button><span class="silk" aria-hidden="true">Como começa</span></div>
+        <div class="comando"><button id="btnPanico" class="panico">PARAR JÁ</button><span class="silk" aria-hidden="true">Sem final</span></div>
+      </div>
+
+      <div class="p-pedais pedais">
+        <button class="pedal" data-letra="A"><b>A</b><span id="rotA">PLAY</span></button>
+        <button class="pedal" data-letra="B"><b>B</b><span id="rotB">SÓ GRAVE · 2× LEVE</span></button>
+        <button class="pedal" data-letra="C"><b>C</b><span id="rotC">VIRADA</span></button>
+        <button class="pedal" data-letra="D"><b>D</b><span id="rotD">TROCA A↔B</span></button>
+      </div>
+    </section>
+
+    <!-- PADRÕES -->
+    <section id="aba-padroes" class="aba" role="tabpanel">
+      <div class="cartao">
+        <h2>Repertório</h2>
+        <div class="dupla">
+          <div class="campo"><label for="repSel">Repertório</label><select id="repSel"></select></div>
+          <div class="campo"><label for="musicaSel">Música</label><select id="musicaSel"></select></div>
+        </div>
+        <p id="musicaInfo" class="ajuda" role="status"></p>
+      </div>
+      <h2>Batidas</h2>
+      <div class="campo"><label for="busca">Buscar</label><input id="busca" type="search" placeholder="estilo: balada, shuffle, rock…" autocomplete="off"></div>
+      <div class="dupla">
+        <div class="campo"><label for="selA">Batida A</label><select id="selA"></select></div>
+        <div class="campo"><label for="selB">Batida B</label><select id="selB"></select></div>
+      </div>
+      <div class="campo">
+        <label for="verSlot">Ver grade de</label>
+        <div class="seg" id="verSlot"><button data-v="A" class="on">A</button><button data-v="B">B</button></div>
+      </div>
+      <div id="padraoInfo" class="cartao"></div>
+      <pre id="grade" class="grade" aria-label="Grade do padrão"></pre>
+    </section>
+
+    <!-- GROOVE -->
+    <section id="aba-groove" class="aba" role="tabpanel">
+      <div class="campo">
+        <label for="swing">Swing <output id="swingOut"></output></label>
+        <input id="swing" type="range" min="50" max="75" step="0.5">
+        <div class="linha"><label class="chk"><input id="swingPadrao" type="checkbox"> usar o do padrão</label>
+          <div class="seg" id="swingNivel"><button data-v="8">colcheia</button><button data-v="16">semicolcheia</button></div></div>
+        <p class="ajuda">50 = reto · 66,7 = tercina. Em padrões com grade de tercina o swing não se aplica.</p>
+      </div>
+      <div class="campo"><label for="humMs">Humanização do tempo <output id="humMsOut"></output></label><input id="humMs" type="range" min="0" max="10" step="0.5"></div>
+      <div class="campo"><label for="humVel">Humanização da intensidade <output id="humVelOut"></output></label><input id="humVel" type="range" min="0" max="20" step="1"></div>
+      <div class="dupla">
+        <div class="campo"><label>Como começar</label><div class="seg" id="inicio"><button data-v="contagem">contagem</button><button data-v="marcacao">marcação leve</button></div>
+          <p class="ajuda">Marcação leve: ghost nos tempos, no compasso da música, até você pisar em A. Aí entra a batida no próximo 1.</p></div>
+        <div class="campo"><label>Contagem</label><div class="seg" id="contagem"><button data-v="0">sem</button><button data-v="1">1 comp.</button><button data-v="2">2 comp.</button></div></div>
+        <div class="campo"><label>Virada automática</label><div class="seg" id="autoVirada"><button data-v="0">desl.</button><button data-v="4">a cada 4</button><button data-v="8">a cada 8</button></div></div>
+      </div>
+      <div class="dupla">
+        <div class="campo"><label for="estiloVirada">Estilo da virada (C, D, parar)</label><select id="estiloVirada"></select></div>
+        <div class="campo"><label for="estiloAuto">Estilo da virada automática</label><select id="estiloAuto"></select></div>
+      </div>
+      <div class="linha">
+        <label class="chk"><input id="trilhaH" type="checkbox"> Chimbal (condução)</label>
+        <label class="chk"><input id="trilhaP" type="checkbox"> Pandeirola</label>
+      </div>
+      <p class="ajuda">Viradas, contagem e marcação vieram da v1: adaptação, validar de ouvido.</p>
+    </section>
+
+    <!-- SOM -->
+    <section id="aba-som" class="aba" role="tabpanel">
+      <h2>Volume por golpe</h2>
+      <div id="volumes" class="volumes"></div>
+      <h2>Equalizador</h2>
+      <div class="campo"><label for="eqGrave">Grave (140 Hz) <output id="eqGraveOut"></output></label><input id="eqGrave" type="range" min="-12" max="12" step="1"></div>
+      <div class="campo"><label for="eqMedio">Médio (950 Hz) <output id="eqMedioOut"></output></label><input id="eqMedio" type="range" min="-12" max="12" step="1"></div>
+      <div class="campo"><label for="eqAgudo">Agudo (3,5 kHz) <output id="eqAgudoOut"></output></label><input id="eqAgudo" type="range" min="-12" max="12" step="1"></div>
+      <h2>Dinâmica</h2>
+      <label class="chk"><input id="compLigado" type="checkbox"> Compressor (ajuste da v1: −8 dB, 10:1; deixa o som mais "apertado")</label>
+      <label class="chk"><input id="limLigado" type="checkbox"> Limitador de saída (−3 dB)</label>
+      <div class="campo"><label for="master">Volume geral <output id="masterOut"></output></label><input id="master" type="range" min="0" max="1.5" step="0.01"></div>
+      <div class="cartao" id="kitInfo"></div>
+    </section>
+
+    <!-- PEDAL -->
+    <section id="aba-pedal" class="aba" role="tabpanel">
+      <div class="cartao">
+        <p><b>Modo teclado (HID):</b> funciona em todos os aparelhos. <b>MIDI:</b> só Android/Chrome.</p>
+        <button id="btnMidi" class="medio">Conectar MIDI</button>
+        <span id="midiStatus" class="ajuda"></span>
+      </div>
+      <table class="mapa">
+        <thead><tr><th>Pedal</th><th>Ação (Etapa 1)</th><th>Tecla</th><th>MIDI</th></tr></thead>
+        <tbody id="mapaCorpo"></tbody>
+      </table>
+      <p class="ajuda">Toque em "aprender" e pise no pedal. Esc cancela. Na Etapa 3 as ações passam a ser configuráveis.</p>
+      <h2>Últimos sinais recebidos</h2>
+      <ol id="pedalLog" class="log"></ol>
+    </section>
+
+    <!-- TESTES -->
+    <section id="aba-testes" class="aba" role="tabpanel">
+      <div class="cartao">
+        <h2>Latência pedal → som</h2>
+        <p class="ajuda">Ligue o teste e pise no pedal (ou use as teclas mapeadas) umas 20 vezes. Cada pisada toca um slap na hora. Com a música parada.</p>
+        <div class="linha"><button id="btnLat" class="medio">Iniciar teste</button><button id="btnLatCopiar" class="medio" disabled>Copiar relatório</button></div>
+        <pre id="latSaida" class="saida"></pre>
+      </div>
+      <div class="cartao">
+        <h2>Estabilidade do tempo</h2>
+        <p class="ajuda">Toca a batida A sem parar e confere a grade compasso a compasso. Não mexa em BPM nem troque padrão durante o teste. Deixe a tela como no palco.</p>
+        <div class="linha">
+          <div class="seg" id="stabMin"><button data-v="1">1 min</button><button data-v="10" class="on">10 min</button></div>
+          <button id="btnStab" class="medio">Iniciar</button>
+          <button id="btnStabCopiar" class="medio" disabled>Copiar resultado</button>
+        </div>
+        <div class="barra"><div id="stabBarra"></div></div>
+        <pre id="stabSaida" class="saida"></pre>
+      </div>
+    </section>
+
+    <!-- SISTEMA -->
+    <section id="aba-sistema" class="aba" role="tabpanel">
+      <div class="cartao">
+        <h2>Aparência</h2>
+        <div class="seg" id="tema" role="group" aria-label="Tema da tela"><button data-v="escuro">Escuro</button><button data-v="claro">Claro</button></div>
+        <p class="ajuda">Escuro (grafite) é o melhor para palco com pouca luz. Claro (painel branco) ajuda sob sol ou luz forte. Fica salvo neste aparelho.</p>
+      </div>
+      <pre id="sisInfo" class="saida"></pre>
+      <div class="linha"><button id="btnVerificarCache" class="medio">Verificar arquivos offline</button><button id="btnAtualizar" class="medio" hidden>Atualizar agora</button></div>
+      <pre id="cacheInfo" class="saida"></pre>
+    </section>
+  </main>
+
+  <!-- BUSCA (tela cheia, estilo Spotify): artista ou música, catálogo em ordem alfabética -->
+  <div id="buscaTela" class="busca-tela" hidden role="dialog" aria-modal="true" aria-label="Buscar música ou artista">
+    <div class="busca-topo">
+      <button id="buscaFechar" class="busca-fechar" aria-label="Fechar a busca">✕</button>
+      <input id="buscaTexto" type="search" placeholder="Artista ou música" autocomplete="off" autocorrect="off" spellcheck="false" enterkeyhint="search" aria-label="Artista ou música">
+    </div>
+    <div id="buscaModo" class="busca-modo" hidden></div>
+    <div id="buscaLetras" class="busca-letras" aria-label="Pular para a letra"></div>
+    <div id="buscaRes" class="busca-res" role="list"></div>
+  </div>
+
+  <!-- "+" da busca: escolher em qual dos meus repertórios pôr a música -->
+  <div id="escolhaTela" class="escolha-tela" hidden role="dialog" aria-modal="true" aria-labelledby="escolhaTitulo">
+    <div class="escolha-caixa">
+      <div id="escolhaTitulo" class="escolha-tit"></div>
+      <div id="escolhaLista" class="escolha-lista"></div>
+      <div class="escolha-novo">
+        <input id="escolhaNome" type="text" placeholder="Nome do novo repertório" autocomplete="off" aria-label="Nome do novo repertório">
+        <button id="escolhaCriar" class="primario">Criar e salvar</button>
+      </div>
+      <button id="escolhaFechar" class="escolha-cancelar">Cancelar</button>
+    </div>
+  </div>
+
+  <!-- editar meus repertórios (gravados no aparelho; exportar/importar arquivo para levar a outro aparelho) -->
+  <div id="editTela" class="busca-tela" hidden role="dialog" aria-modal="true" aria-label="Editar meus repertórios">
+    <div class="busca-topo">
+      <button id="editFechar" class="busca-fechar" aria-label="Fechar">✕</button>
+      <select id="editQual" aria-label="Qual repertório editar"></select>
+    </div>
+    <div class="edit-nome-linha">
+      <label for="editNome">Nome</label>
+      <input id="editNome" type="text" autocomplete="off">
+    </div>
+    <div class="edit-acoes">
+      <button id="editAdd" class="primario">+ Adicionar músicas</button>
+      <button id="editTocar">Usar no palco</button>
+      <button id="editNovo">Novo repertório</button>
+      <button id="editApagar" class="perigo">Apagar</button>
+    </div>
+    <div id="editLista" class="busca-res" role="list"></div>
+    <div class="edit-rodape">
+      <span>Fica salvo neste aparelho. Para levar a outro:</span>
+      <button id="editExportar">Exportar arquivo</button>
+      <button id="editImportar">Importar arquivo</button>
+      <input id="editArquivo" type="file" accept=".json,application/json" hidden>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" hidden role="status" aria-live="polite"></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

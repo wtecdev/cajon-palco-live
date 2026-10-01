@@ -1,0 +1,84 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Aerosmith",
+ "tipo": "catalogo",
+ "artista": "Aerosmith",
+ "musicas": [
+  {
+   "titulo": "Amazing",
+   "artista": "Aerosmith",
+   "batidaA": "eDo2Leve",
+   "batidaB": "eDo2Cheio",
+   "bpm": 70,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 24755"
+  },
+  {
+   "titulo": "Angel",
+   "artista": "Aerosmith",
+   "batidaA": "eDo2Leve",
+   "batidaB": "eDo2Cheio",
+   "bpm": 86,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 896"
+  },
+  {
+   "titulo": "Crazy",
+   "artista": "Aerosmith",
+   "batidaA": "esq2d091dLeve",
+   "batidaB": "esq2d091dCheio",
+   "bpm": 54,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 986",
+   "nota": "conferir andamento: 6/8, transcrição a 81 (semínima); aqui o pulso é a semínima pontuada = 54"
+  },
+  {
+   "titulo": "Cryin'",
+   "artista": "Aerosmith",
+   "batidaA": "shuffleLentoLeve",
+   "batidaB": null,
+   "bpm": 71,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 944",
+   "nota": "conferir andamento: 12/8, transcrição a 106 (semínima); aqui o pulso é a semínima pontuada = 71"
+  },
+  {
+   "titulo": "Dream On",
+   "artista": "Aerosmith",
+   "batidaA": "eDo2Leve",
+   "batidaB": "esq267737Cheio",
+   "bpm": 78,
+   "fonte_bpm": "Cifra Club (tab de bateria); BPM da transcrição do Songsterr id 286"
+  },
+  {
+   "titulo": "Dude (Looks Like a Lady)",
+   "artista": "Aerosmith",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 126,
+   "fonte_bpm": "Songsterr id 3313903 (126, transcrição com só 7 compassos de bateria)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de rock no BPM da música; conferir"
+  },
+  {
+   "titulo": "I Don't Want to Miss a Thing",
+   "artista": "Aerosmith",
+   "batidaA": "eDo2Leve",
+   "batidaB": "esq267737Cheio",
+   "bpm": 61,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 23626"
+  },
+  {
+   "titulo": "Sweet Emotion",
+   "artista": "Aerosmith",
+   "batidaA": "esqf4bb86Leve",
+   "batidaB": "esqf4bb86Cheio",
+   "bpm": 98,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 23326"
+  },
+  {
+   "titulo": "Walk This Way",
+   "artista": "Aerosmith",
+   "batidaA": "esq2441b1Leve",
+   "batidaB": "esq2441b1Cheio",
+   "bpm": 107,
+   "fonte_bpm": "Cifra Club (tab de bateria); BPM de 3 transcrições do Songsterr (107–109)"
+  }
+ ]
+}

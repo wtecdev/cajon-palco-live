@@ -1,0 +1,265 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Tio Jones e Bin",
+ "musicas": [
+  {
+   "titulo": "Puro Êxtase",
+   "artista": "Barão Vermelho",
+   "batidaA": "esqf9ce71Leve",
+   "batidaB": "esqf9ce71Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6128834"
+  },
+  {
+   "titulo": "Todas as Noites",
+   "artista": "Capital Inicial",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 110,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 27890",
+   "nota": "transcrição do Acústico MTV (Fê Lemos)"
+  },
+  {
+   "titulo": "Será",
+   "artista": "Legião Urbana",
+   "batidaA": "esq69368dLeve",
+   "batidaB": "esq883019Cheio",
+   "bpm": 97,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 34046"
+  },
+  {
+   "titulo": "Exagerado",
+   "artista": "Cazuza",
+   "batidaA": "esq23c6a6Leve",
+   "batidaB": "esqd03c2fCheio",
+   "bpm": 70,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 86219",
+   "nota": "escrita em 70 com slap em todo contratempo (sente como 140)"
+  },
+  {
+   "titulo": "Outro Lugar",
+   "artista": "Detonautas",
+   "batidaA": "esq844169Leve",
+   "batidaB": "esq844169Cheio",
+   "bpm": 115,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 5552"
+  },
+  {
+   "titulo": "Malandragem",
+   "artista": "Cássia Eller",
+   "batidaA": "esq72a469Leve",
+   "batidaB": "esq72a469Cheio",
+   "bpm": 65,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 172732",
+   "nota": "transcrição curta (6 compassos com bateria)"
+  },
+  {
+   "titulo": "Eu Amo Mais Você",
+   "artista": null,
+   "batidaA": null,
+   "batidaB": null,
+   "bpm": null,
+   "fonte_bpm": null,
+   "nota": "Não sei de quem é: me diga o artista."
+  },
+  {
+   "titulo": "Pão da Minha Prima",
+   "artista": "Raimundos",
+   "batidaA": "esqf4bb86Leve",
+   "batidaB": "twistBaladaCheio",
+   "bpm": 116,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 238214",
+   "nota": "as 3 transcrições (ids 51367, 238214, 1511809) concordam: grave no 1, & do 3 e & do 4; no refrão slap também no & do 2"
+  },
+  {
+   "titulo": "Ana Júlia",
+   "artista": "Los Hermanos",
+   "batidaA": "eDo2e3Leve",
+   "batidaB": "twistCheio",
+   "bpm": 148,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 11967",
+   "nota": "B em twist a pedido do Bin (a transcrição não mostra o slap no & do 2)"
+  },
+  {
+   "titulo": "Toda Forma de Amor",
+   "artista": "Lulu Santos",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 137,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1653405"
+  },
+  {
+   "titulo": "Whisky a Go Go",
+   "artista": "Roupa Nova",
+   "batidaA": "soulLeve",
+   "batidaB": "soulCheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 396134"
+  },
+  {
+   "titulo": "Que Vez",
+   "artista": null,
+   "batidaA": null,
+   "batidaB": null,
+   "bpm": null,
+   "fonte_bpm": null,
+   "nota": "Não sei de quem é: me diga o artista."
+  },
+  {
+   "titulo": "Eu Sei",
+   "artista": "Legião Urbana",
+   "batidaA": "esq1d9f2cLeve",
+   "batidaB": "esq621794Cheio",
+   "bpm": 94,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 4537894",
+   "nota": "transcrição curta"
+  },
+  {
+   "titulo": "Segundo Sol",
+   "artista": "Cássia Eller",
+   "batidaA": "esq933e99Leve",
+   "batidaB": "esq933e99Cheio",
+   "bpm": 75,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 382712"
+  },
+  {
+   "titulo": "Sem Radar",
+   "artista": "LS Jack",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esq00cab2Cheio",
+   "bpm": 76,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2203819"
+  },
+  {
+   "titulo": "Garotos",
+   "artista": "Kid Abelha",
+   "batidaA": "esq5aa34bLeve",
+   "batidaB": "esq5aa34bCheio",
+   "bpm": 119,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2952262"
+  },
+  {
+   "titulo": "Jack Tequila",
+   "artista": "Skank (Jackie Tequila)",
+   "batidaA": "reggaeAbertoLeve",
+   "batidaB": "reggaeAbertoCheio",
+   "bpm": 74,
+   "fonte_bpm": "SongBPM 148 (meio-tempo 74); reggae aberto do Armandinho a pedido do Bin",
+   "nota": "reggae aberto (jeito Armandinho) contado em 74, metade de 148"
+  },
+  {
+   "titulo": "Lua Cheia",
+   "artista": "Armandinho",
+   "batidaA": "esq835668Leve",
+   "batidaB": "esq835668Cheio",
+   "bpm": 98,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2701132"
+  },
+  {
+   "titulo": "Me Lambe",
+   "artista": "Raimundos",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 140,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 4200051"
+  },
+  {
+   "titulo": "Rodo Cotidiano",
+   "artista": "O Rappa",
+   "batidaA": "esqae9d20Leve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 107,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 439046"
+  },
+  {
+   "titulo": "Céu Azul",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "esqf4bb86Leve",
+   "batidaB": "esqf4bb86Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 383836",
+   "nota": "na gravação o slap é aro (rimshot)"
+  },
+  {
+   "titulo": "Só os Loucos Sabem",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "esq6118fcLeve",
+   "batidaB": "esq4a323aCheio",
+   "bpm": 102,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 173307"
+  },
+  {
+   "titulo": "Longe de Você",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "eDo2Leve",
+   "batidaB": "eDo2Cheio",
+   "bpm": 108,
+   "fonte_bpm": "Tunebat 108; sem transcrição de bateria da versão do Charlie Brown Jr.",
+   "adaptacao": true
+  },
+  {
+   "titulo": "Proibida Pra Mim",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 164,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 28081"
+  },
+  {
+   "titulo": "Me Odeie",
+   "artista": "Reação em Cadeia (confirmar)",
+   "batidaA": "esqf4bb86Leve",
+   "batidaB": "esqf4bb86Cheio",
+   "bpm": 130,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 547279"
+  },
+  {
+   "titulo": "Por Você",
+   "artista": "Barão Vermelho",
+   "batidaA": "esqbd3de7Leve",
+   "batidaB": "esqbd3de7Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 169145"
+  },
+  {
+   "titulo": "Meu Erro",
+   "artista": "Paralamas do Sucesso",
+   "batidaA": "esq84fa51Leve",
+   "batidaB": "esq479856Cheio",
+   "bpm": 105,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 813012"
+  },
+  {
+   "titulo": "Primeiros Erros",
+   "artista": "Capital Inicial",
+   "batidaA": "slapADo2Leve",
+   "batidaB": "slapADo2Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 618627"
+  },
+  {
+   "titulo": "Psycho Killer",
+   "artista": "Talking Heads",
+   "batidaA": "todoTempo",
+   "batidaB": "esq794654Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 55473"
+  },
+  {
+   "titulo": "4x Você",
+   "artista": "Capital Inicial (Quatro Vezes Você)",
+   "batidaA": "eDo2e3Leve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 150,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 27893"
+  },
+  {
+   "titulo": "Olhos Fechados",
+   "artista": "Sujismundos (confirmar)",
+   "batidaA": "esqbd3de7Leve",
+   "batidaB": "esqbd3de7Cheio",
+   "bpm": 190,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 4512135"
+  }
+ ]
+}

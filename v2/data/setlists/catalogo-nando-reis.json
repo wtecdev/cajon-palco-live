@@ -1,0 +1,93 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Nando Reis",
+ "tipo": "catalogo",
+ "artista": "Nando Reis",
+ "musicas": [
+  {
+   "titulo": "All Star",
+   "artista": "Nando Reis",
+   "batidaA": "esq92c183Leve",
+   "batidaB": "esq92c183Cheio",
+   "bpm": 135,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 229101",
+   "nota": "meio-tempo: o slap cai no 3"
+  },
+  {
+   "titulo": "De Janeiro a Janeiro",
+   "artista": "Nando Reis",
+   "batidaA": "baladaLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 80,
+   "fonte_bpm": "Songsterr id 5036847 (80)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de balada no BPM da música; conferir"
+  },
+  {
+   "titulo": "Espatódea",
+   "artista": null,
+   "batidaA": null,
+   "batidaB": null,
+   "bpm": null,
+   "fonte_bpm": null,
+   "nota": "Não achei transcrição nem BPM (o GetSongBPM tem a página, mas sem andamento)."
+  },
+  {
+   "titulo": "Muito Estranho (Cuida Bem de Mim)",
+   "artista": "Nando Reis",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 107,
+   "fonte_bpm": "GetSongBPM 107 (gravação original do Dalto)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de balada no BPM da música; conferir andamento (é o da gravação do Dalto)"
+  },
+  {
+   "titulo": "N",
+   "artista": "Nando Reis",
+   "batidaA": "esqd9359aLeve",
+   "batidaB": "esq226bdaCheio",
+   "bpm": 148,
+   "fonte_bpm": "Songsterr id 6100215 (sem bateria, 148)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de meio-tempo (sente-se a 74) no BPM da música; conferir"
+  },
+  {
+   "titulo": "Onde Você Mora – Nando Reis",
+   "artista": "Nando Reis",
+   "batidaA": "baladaLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 76,
+   "fonte_bpm": "GetSongBPM 76, 4/4",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de balada no BPM da música; conferir"
+  },
+  {
+   "titulo": "Por Onde Andei",
+   "artista": "Nando Reis",
+   "batidaA": "esqf7d557Leve",
+   "batidaB": "esq771bcfCheio",
+   "bpm": 168,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 5857109",
+   "nota": "meio-tempo: o slap cai no 3"
+  },
+  {
+   "titulo": "Pra Você Guardei o Amor",
+   "artista": "Nando Reis",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 86,
+   "fonte_bpm": "Songsterr id 2065942 (86)",
+   "adaptacao": true,
+   "nota": "a transcrição tem poucos compassos de bateria; sem transcrição de bateria que sirva: levada de balada no BPM da música; conferir"
+  },
+  {
+   "titulo": "Relicário",
+   "artista": "Nando Reis / Cássia Eller",
+   "batidaA": "baladaMinimaLeve",
+   "batidaB": "baladaMinimaCheia",
+   "bpm": 82,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 5603921"
+  }
+ ]
+}

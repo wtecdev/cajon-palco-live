@@ -1,0 +1,98 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Evanescence",
+ "tipo": "catalogo",
+ "artista": "Evanescence",
+ "musicas": [
+  {
+   "titulo": "Afterlife",
+   "artista": "Evanescence",
+   "batidaA": "esq86c6d7Leve",
+   "batidaB": "esq86c6d7Cheio",
+   "bpm": 130,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1212072",
+   "nota": "meio-tempo: o slap cai no 3"
+  },
+  {
+   "titulo": "Bring Me to Life",
+   "artista": "Evanescence",
+   "batidaA": "estradaCheio",
+   "batidaB": "esq427134Cheio",
+   "bpm": 96,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6928",
+   "nota": "transcrição da versão acústica"
+  },
+  {
+   "titulo": "Call Me When You're Sober",
+   "artista": "Evanescence",
+   "batidaA": "esq6118fcLeve",
+   "batidaB": "esq6118fcCheio",
+   "bpm": 94,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2205436",
+   "nota": "conferir: levada carregada, simplifiquei o fim do compasso"
+  },
+  {
+   "titulo": "Everybody's Fool",
+   "artista": "Evanescence",
+   "batidaA": "esqa71abaLeve",
+   "batidaB": "esqa71abaCheio",
+   "bpm": 95,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 687561"
+  },
+  {
+   "titulo": "Going Under",
+   "artista": "Evanescence",
+   "batidaA": "esq4a49deLeve",
+   "batidaB": "esq4a49deCheio",
+   "bpm": 88,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 7098"
+  },
+  {
+   "titulo": "Good Enough",
+   "artista": "Evanescence",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 112,
+   "fonte_bpm": "Songsterr id 34519 (112)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de balada no BPM da música; conferir"
+  },
+  {
+   "titulo": "Lithium – Evanescence",
+   "artista": "Evanescence",
+   "batidaA": "esq61655fLeve",
+   "batidaB": "esq61655fCheio",
+   "bpm": 114,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 22154",
+   "nota": "meio-tempo: o slap cai no 3"
+  },
+  {
+   "titulo": "My Immortal",
+   "artista": "Evanescence",
+   "batidaA": "baladaLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 78,
+   "fonte_bpm": "Songsterr, 3 transcrições (75–80)",
+   "adaptacao": true,
+   "nota": "a gravação quase não tem bateria; sem transcrição de bateria que sirva: levada de balada no BPM da música; conferir"
+  },
+  {
+   "titulo": "Sweet Sacrifice",
+   "artista": "Evanescence",
+   "batidaA": "esq6118fcLeve",
+   "batidaB": "esq6118fcCheio",
+   "bpm": 97,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3643200",
+   "nota": "conferir: levada carregada, simplifiquei o fim do compasso"
+  },
+  {
+   "titulo": "Tourniquet",
+   "artista": "Evanescence",
+   "batidaA": "esq731adbLeve",
+   "batidaB": "esq731adbCheio",
+   "bpm": 102,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 7260",
+   "nota": "conferir: levada carregada; usei a versão mais simples das duas partes"
+  }
+ ]
+}

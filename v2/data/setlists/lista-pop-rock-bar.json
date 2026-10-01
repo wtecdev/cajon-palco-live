@@ -1,0 +1,278 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Pop-rock de bar",
+ "musicas": [
+  {
+   "titulo": "Mulher de Fases",
+   "artista": "Raimundos",
+   "batidaA": "esq23c6a6Leve",
+   "batidaB": "esq33049bCheio",
+   "bpm": 135,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 17199"
+  },
+  {
+   "titulo": "Exagerado",
+   "artista": "Cazuza",
+   "batidaA": "esq23c6a6Leve",
+   "batidaB": "esqd03c2fCheio",
+   "bpm": 70,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 86219",
+   "nota": "escrita em 70 com slap em todo contratempo (sente como 140)"
+  },
+  {
+   "titulo": "Vou Deixar",
+   "artista": "Skank",
+   "batidaA": "esqae768bLeve",
+   "batidaB": "twistCheio",
+   "bpm": 142,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 18234",
+   "nota": "B em twist a pedido do Bin (a transcrição mostra grave no 1, & do 2, 3 e & do 3)"
+  },
+  {
+   "titulo": "Além do Horizonte",
+   "artista": "Jota Quest",
+   "batidaA": "esq36b3e2Leve",
+   "batidaB": "esq36b3e2Cheio",
+   "bpm": 140,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1892196"
+  },
+  {
+   "titulo": "Será",
+   "artista": "Legião Urbana",
+   "batidaA": "esq69368dLeve",
+   "batidaB": "esq883019Cheio",
+   "bpm": 97,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 34046"
+  },
+  {
+   "titulo": "O Sol",
+   "artista": "Jota Quest",
+   "batidaA": "esq4a91f1Leve",
+   "batidaB": "esqe7dae5Cheio",
+   "bpm": 80,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 72141",
+   "nota": "transcrição com grade mista; esqueleto simplificado"
+  },
+  {
+   "titulo": "Vento Ventania",
+   "artista": "Biquini Cavadão",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "estradaCheio",
+   "bpm": 98,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2910666"
+  },
+  {
+   "titulo": "A Sua Maneira",
+   "artista": "Capital Inicial",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqf48825Cheio",
+   "bpm": 110,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 27897"
+  },
+  {
+   "titulo": "Rádio Pirata",
+   "artista": "RPM",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 153,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 91356"
+  },
+  {
+   "titulo": "Outro Lugar",
+   "artista": "Detonautas",
+   "batidaA": "esq844169Leve",
+   "batidaB": "esq844169Cheio",
+   "bpm": 115,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 5552"
+  },
+  {
+   "titulo": "Proibida Pra Mim",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 164,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 28081"
+  },
+  {
+   "titulo": "A Cera",
+   "artista": "O Surto",
+   "batidaA": "esqa11b25Leve",
+   "batidaB": "meioTempoCheio",
+   "bpm": 132,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 519263",
+   "nota": "meio-tempo: o slap cai no 3"
+  },
+  {
+   "titulo": "Seven Nation Army",
+   "artista": "The White Stripes",
+   "batidaA": "esqae768bLeve",
+   "batidaB": "todoTempo",
+   "bpm": 124,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 265"
+  },
+  {
+   "titulo": "Beggin",
+   "artista": "Måneskin",
+   "batidaA": "esqbd3de7Leve",
+   "batidaB": "esq933e99Cheio",
+   "bpm": 134,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 488615"
+  },
+  {
+   "titulo": "Bad Moon Rising",
+   "artista": "Creedence",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 178,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 4232"
+  },
+  {
+   "titulo": "Proud Mary",
+   "artista": "Creedence",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 115,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 23318"
+  },
+  {
+   "titulo": "Have You Ever",
+   "artista": "Creedence (Have You Ever Seen the Rain)",
+   "batidaA": "eDo2Leve",
+   "batidaB": "esq267737Cheio",
+   "bpm": 113,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 351",
+   "nota": "confirmar: pode ser outra \"Have You Ever\""
+  },
+  {
+   "titulo": "Whisky a Go Go",
+   "artista": "Roupa Nova",
+   "batidaA": "soulLeve",
+   "batidaB": "soulCheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 396134"
+  },
+  {
+   "titulo": "I Want to Break Free",
+   "artista": "Queen",
+   "batidaA": "eDo2Leve",
+   "batidaB": "esq267737Cheio",
+   "bpm": 105,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 31667"
+  },
+  {
+   "titulo": "La Bamba / Twist and Shout",
+   "artista": "The Beatles (Twist and Shout) + La Bamba",
+   "batidaA": "twistLeve",
+   "batidaB": "twistCheio",
+   "bpm": 125,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 26412",
+   "nota": "medley tocado inteiro no twist do Twist and Shout (Ringo Starr, id 26412); 125 BPM (Tunebat 125, GetSongBPM 124)"
+  },
+  {
+   "titulo": "O Mundo Animal",
+   "artista": "Mamonas Assassinas",
+   "batidaA": "esq835668Leve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 140,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 12157"
+  },
+  {
+   "titulo": "Chopis Centis",
+   "artista": "Mamonas Assassinas",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esq844169Cheio",
+   "bpm": 121,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 422889"
+  },
+  {
+   "titulo": "Vira Vira",
+   "artista": "Mamonas Assassinas",
+   "batidaA": "esq267737Leve",
+   "batidaB": "esq267737Cheio",
+   "bpm": 102,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 42478"
+  },
+  {
+   "titulo": "Robocop Gay",
+   "artista": "Mamonas Assassinas",
+   "batidaA": "eDo2e3Leve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 142,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 42479"
+  },
+  {
+   "titulo": "Toda Forma de Amor / Só Quero Dinheiro",
+   "artista": "Lulu Santos",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 137,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1653405"
+  },
+  {
+   "titulo": "Nova York",
+   "artista": null,
+   "batidaA": null,
+   "batidaB": null,
+   "bpm": null,
+   "fonte_bpm": null,
+   "nota": "Papas da Língua: não achei transcrição nem BPM publicado (Songsterr, Cifra Club e GetSongBPM)."
+  },
+  {
+   "titulo": "Carla",
+   "artista": "LS Jack",
+   "batidaA": "popMedioLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 130,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 357407"
+  },
+  {
+   "titulo": "Ana Júlia",
+   "artista": "Los Hermanos",
+   "batidaA": "eDo2e3Leve",
+   "batidaB": "twistCheio",
+   "bpm": 148,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 11967",
+   "nota": "B em twist a pedido do Bin (a transcrição não mostra o slap no & do 2)"
+  },
+  {
+   "titulo": "The Best",
+   "artista": "Tina Turner",
+   "batidaA": "esqae768bLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 108,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 56711"
+  },
+  {
+   "titulo": "With or Without You",
+   "artista": "U2",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "todoTempo",
+   "bpm": 110,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 8711"
+  },
+  {
+   "titulo": "Não Sei Viver Sem Ter Você",
+   "artista": "CPM 22",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 180,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 687138"
+  },
+  {
+   "titulo": "Do Seu Lado",
+   "artista": "Jota Quest",
+   "batidaA": "esq0497fbLeve",
+   "batidaB": "esq0497fbCheio",
+   "bpm": 145,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 39974"
+  },
+  {
+   "titulo": "É Preciso Saber Viver",
+   "artista": "Titãs",
+   "batidaA": "esq933e99Leve",
+   "batidaB": "esqa11dbeCheio",
+   "bpm": 89,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 845770"
+  }
+ ]
+}

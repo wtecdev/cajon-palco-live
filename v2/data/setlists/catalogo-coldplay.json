@@ -1,0 +1,96 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Coldplay",
+ "tipo": "catalogo",
+ "artista": "Coldplay",
+ "musicas": [
+  {
+   "titulo": "A Sky Full of Stars",
+   "artista": "Coldplay",
+   "batidaA": "todoTempo",
+   "batidaB": null,
+   "bpm": 125,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6974399",
+   "nota": "grave em todo tempo, slap junto no 2 e no 4"
+  },
+  {
+   "titulo": "Adventure of a Lifetime",
+   "artista": "Coldplay",
+   "batidaA": "todoTempo",
+   "batidaB": null,
+   "bpm": 112,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 416524"
+  },
+  {
+   "titulo": "Clocks",
+   "artista": "Coldplay",
+   "batidaA": "esq04dea5Leve",
+   "batidaB": "esq04dea5Cheio",
+   "bpm": 131,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 64435",
+   "nota": "conferir: levada sincopada da gravação, com slap no 1"
+  },
+  {
+   "titulo": "Fix You",
+   "artista": "Coldplay",
+   "batidaA": "baladaLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 70,
+   "fonte_bpm": "Songsterr, 2 transcrições (68–70)",
+   "adaptacao": true,
+   "nota": "na gravação a bateria só entra no final; sem transcrição de bateria que sirva: levada de balada no BPM da música; conferir"
+  },
+  {
+   "titulo": "Hymn for the Weekend",
+   "artista": "Coldplay",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 90,
+   "fonte_bpm": "Songsterr, 3 transcrições (90)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de pop no BPM da música; conferir"
+  },
+  {
+   "titulo": "Something Just Like This",
+   "artista": "Coldplay",
+   "batidaA": "esqae768bLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 103,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1385457"
+  },
+  {
+   "titulo": "Sparks",
+   "artista": "Coldplay",
+   "batidaA": "esq1342e7Leve",
+   "batidaB": "esq1342e7Cheio",
+   "bpm": 46,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 28497",
+   "nota": "conferir andamento: 6/8, transcrição a 69 (semínima); aqui o pulso é a semínima pontuada = 46"
+  },
+  {
+   "titulo": "The Scientist",
+   "artista": "Coldplay",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 73,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 529"
+  },
+  {
+   "titulo": "Viva La Vida",
+   "artista": "Coldplay",
+   "batidaA": "esqae768bLeve",
+   "batidaB": "esqae768bCheio",
+   "bpm": 138,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 10136",
+   "nota": "na gravação é só bumbo (e tímpano) em todo tempo"
+  },
+  {
+   "titulo": "Yellow",
+   "artista": "Coldplay",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 87,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 434"
+  }
+ ]
+}

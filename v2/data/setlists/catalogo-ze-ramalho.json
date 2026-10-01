@@ -1,0 +1,93 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Zé Ramalho",
+ "tipo": "catalogo",
+ "artista": "Zé Ramalho",
+ "musicas": [
+  {
+   "titulo": "Admirável Gado Novo",
+   "artista": "Zé Ramalho",
+   "batidaA": "esqa9d123Leve",
+   "batidaB": "esqa9d123Cheio",
+   "bpm": 164,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2932746",
+   "nota": "meio-tempo: o slap cai no 3 (sente-se a 82)"
+  },
+  {
+   "titulo": "Ai Que Saudade D'Ocê",
+   "artista": null,
+   "batidaA": null,
+   "batidaB": null,
+   "bpm": null,
+   "fonte_bpm": null,
+   "nota": "Não achei transcrição nem BPM (Songsterr, Cifra Club e GetSongBPM)."
+  },
+  {
+   "titulo": "Batendo na Porta do Céu",
+   "artista": "Zé Ramalho",
+   "batidaA": "esqd9359aLeve",
+   "batidaB": "esq226bdaCheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, 2 transcrições sem bateria (120); o GetSongBPM dá 143",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de meio-tempo (sente-se a 60) no BPM da música; conferir andamento"
+  },
+  {
+   "titulo": "Chão de Giz",
+   "artista": "Zé Ramalho",
+   "batidaA": "esqa6efedLeve",
+   "batidaB": "esqa6efedCheio",
+   "bpm": 142,
+   "fonte_bpm": "Songsterr (3 transcrições sem bateria, 140–148, em 3/4) e GetSongBPM (143, 3/4)",
+   "adaptacao": true,
+   "nota": "música em 3/4: grave no 1, slap no 2 e no 3; sem transcrição de bateria que sirva: levada de valsa no BPM da música; conferir"
+  },
+  {
+   "titulo": "Coração Bobo",
+   "artista": "Zé Ramalho",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 111,
+   "fonte_bpm": "GetSongBPM 111 (versão com Alceu Valença), 4/4",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de pop no BPM da música; conferir"
+  },
+  {
+   "titulo": "Entre a Serpente e a Estrela",
+   "artista": "Zé Ramalho",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "soulCheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 4716468",
+   "nota": "a caixa é de aro"
+  },
+  {
+   "titulo": "Kryptônia",
+   "artista": "Zé Ramalho",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 127,
+   "fonte_bpm": "GetSongBPM 127, 4/4",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de rock no BPM da música; conferir"
+  },
+  {
+   "titulo": "Mistérios da Meia-Noite",
+   "artista": "Zé Ramalho",
+   "batidaA": "popMedioLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 95,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2943633",
+   "nota": "no verso a transcrição só tem bumbo; aqui a levada do refrão"
+  },
+  {
+   "titulo": "Sinônimos",
+   "artista": "Zé Ramalho",
+   "batidaA": "esq5e0842Leve",
+   "batidaB": "esq5e0842Cheio",
+   "bpm": 91,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 5880626",
+   "nota": "conferir: 12/8 com o slap no 3; transcrição a 137 (semínima), aqui o pulso é a semínima pontuada = 91"
+  }
+ ]
+}

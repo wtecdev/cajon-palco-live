@@ -1,0 +1,95 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Radiohead",
+ "tipo": "catalogo",
+ "artista": "Radiohead",
+ "musicas": [
+  {
+   "titulo": "All I Need",
+   "artista": "Radiohead",
+   "batidaA": "esq30947aLeve",
+   "batidaB": "esq30947aCheio",
+   "bpm": 88,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 591622",
+   "nota": "transcrição da versão acústica"
+  },
+  {
+   "titulo": "Creep – Radiohead",
+   "artista": "Radiohead",
+   "batidaA": "esq72a469Leve",
+   "batidaB": "esq6a6528Cheio",
+   "bpm": 92,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 97"
+  },
+  {
+   "titulo": "Exit Music (For a Film)",
+   "artista": "Radiohead",
+   "batidaA": "esqb2f5cbLeve",
+   "batidaB": "esqb2f5cbCheio",
+   "bpm": 60,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1673467",
+   "nota": "conferir: a bateria só entra no final da música"
+  },
+  {
+   "titulo": "Fake Plastic Trees",
+   "artista": "Radiohead",
+   "batidaA": "popMedioLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 77,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 440378",
+   "nota": "a bateria só entra na segunda metade"
+  },
+  {
+   "titulo": "High and Dry",
+   "artista": "Radiohead",
+   "batidaA": "esq2441b1Leve",
+   "batidaB": "esq0497fbCheio",
+   "bpm": 86,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 84996"
+  },
+  {
+   "titulo": "Jigsaw Falling Into Place",
+   "artista": "Radiohead",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 165,
+   "fonte_bpm": "Songsterr, 3 transcrições (164–166)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de rock no BPM da música; conferir"
+  },
+  {
+   "titulo": "Karma Police",
+   "artista": "Radiohead",
+   "batidaA": "popMedioLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 75,
+   "fonte_bpm": "Cifra Club (tab de bateria); BPM de 3 transcrições do Songsterr (75–76)"
+  },
+  {
+   "titulo": "Let Down",
+   "artista": "Radiohead",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 105,
+   "fonte_bpm": "Songsterr id 9548 (105)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de pop-rock no BPM da música; conferir"
+  },
+  {
+   "titulo": "No Surprises",
+   "artista": "Radiohead",
+   "batidaA": "popMedioLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 76,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1404373"
+  },
+  {
+   "titulo": "Weird Fishes/Arpeggi",
+   "artista": "Radiohead",
+   "batidaA": "esq6b4508Leve",
+   "batidaB": "esq6b4508Cheio",
+   "bpm": 153,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 51262"
+  }
+ ]
+}

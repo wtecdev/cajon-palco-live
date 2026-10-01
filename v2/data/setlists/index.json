@@ -1,0 +1,352 @@
+{
+ "repertorios": [
+  {
+   "arquivo": "data/setlists/the-house.json",
+   "nome": "The House — Acústico",
+   "tipo": "lista"
+  },
+  {
+   "arquivo": "data/setlists/the-grunge-geral.json",
+   "nome": "The Grunge — Geral",
+   "tipo": "lista"
+  },
+  {
+   "arquivo": "data/setlists/lista-raul-legiao.json",
+   "nome": "Raul Seixas / Legião Urbana",
+   "tipo": "lista"
+  },
+  {
+   "arquivo": "data/setlists/lista-charlie-brown.json",
+   "nome": "Charlie Brown Jr.",
+   "tipo": "lista"
+  },
+  {
+   "arquivo": "data/setlists/lista-pop-rock-bar.json",
+   "nome": "Pop-rock de bar",
+   "tipo": "lista"
+  },
+  {
+   "arquivo": "data/setlists/tio-jones-e-bin.json",
+   "nome": "Tio Jones e Bin",
+   "tipo": "lista"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-3-doors-down.json",
+   "nome": "Catálogo · 3 Doors Down",
+   "tipo": "catalogo",
+   "artista": "3 Doors Down"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-ac-dc.json",
+   "nome": "Catálogo · AC/DC",
+   "tipo": "catalogo",
+   "artista": "AC/DC"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-aerosmith.json",
+   "nome": "Catálogo · Aerosmith",
+   "tipo": "catalogo",
+   "artista": "Aerosmith"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-barao-vermelho.json",
+   "nome": "Catálogo · Barão Vermelho",
+   "tipo": "catalogo",
+   "artista": "Barão Vermelho"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-the-beatles.json",
+   "nome": "Catálogo · The Beatles",
+   "tipo": "catalogo",
+   "artista": "The Beatles"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-biquini-cavadao.json",
+   "nome": "Catálogo · Biquini Cavadão",
+   "tipo": "catalogo",
+   "artista": "Biquini Cavadão"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-bon-jovi.json",
+   "nome": "Catálogo · Bon Jovi",
+   "tipo": "catalogo",
+   "artista": "Bon Jovi"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-capital-inicial.json",
+   "nome": "Catálogo · Capital Inicial",
+   "tipo": "catalogo",
+   "artista": "Capital Inicial"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-cazuza.json",
+   "nome": "Catálogo · Cazuza",
+   "tipo": "catalogo",
+   "artista": "Cazuza"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-charlie-brown-jr.json",
+   "nome": "Catálogo · Charlie Brown Jr.",
+   "tipo": "catalogo",
+   "artista": "Charlie Brown Jr."
+  },
+  {
+   "arquivo": "data/setlists/catalogo-cidade-negra.json",
+   "nome": "Catálogo · Cidade Negra",
+   "tipo": "catalogo",
+   "artista": "Cidade Negra"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-coldplay.json",
+   "nome": "Catálogo · Coldplay",
+   "tipo": "catalogo",
+   "artista": "Coldplay"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-the-cranberries.json",
+   "nome": "Catálogo · The Cranberries",
+   "tipo": "catalogo",
+   "artista": "The Cranberries"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-creed.json",
+   "nome": "Catálogo · Creed",
+   "tipo": "catalogo",
+   "artista": "Creed"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-creedence-clearwater-revival.json",
+   "nome": "Catálogo · Creedence Clearwater Revival",
+   "tipo": "catalogo",
+   "artista": "Creedence Clearwater Revival"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-deep-purple.json",
+   "nome": "Catálogo · Deep Purple",
+   "tipo": "catalogo",
+   "artista": "Deep Purple"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-dire-straits.json",
+   "nome": "Catálogo · Dire Straits",
+   "tipo": "catalogo",
+   "artista": "Dire Straits"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-the-doors.json",
+   "nome": "Catálogo · The Doors",
+   "tipo": "catalogo",
+   "artista": "The Doors"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-eagles.json",
+   "nome": "Catálogo · Eagles",
+   "tipo": "catalogo",
+   "artista": "Eagles"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-engenheiros-do-hawaii.json",
+   "nome": "Catálogo · Engenheiros do Hawaii",
+   "tipo": "catalogo",
+   "artista": "Engenheiros do Hawaii"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-evanescence.json",
+   "nome": "Catálogo · Evanescence",
+   "tipo": "catalogo",
+   "artista": "Evanescence"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-foo-fighters.json",
+   "nome": "Catálogo · Foo Fighters",
+   "tipo": "catalogo",
+   "artista": "Foo Fighters"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-goo-goo-dolls.json",
+   "nome": "Catálogo · Goo Goo Dolls",
+   "tipo": "catalogo",
+   "artista": "Goo Goo Dolls"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-green-day.json",
+   "nome": "Catálogo · Green Day",
+   "tipo": "catalogo",
+   "artista": "Green Day"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-guns-n-roses.json",
+   "nome": "Catálogo · Guns N' Roses",
+   "tipo": "catalogo",
+   "artista": "Guns N' Roses"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-ira.json",
+   "nome": "Catálogo · Ira!",
+   "tipo": "catalogo",
+   "artista": "Ira!"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-jota-quest.json",
+   "nome": "Catálogo · Jota Quest",
+   "tipo": "catalogo",
+   "artista": "Jota Quest"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-kid-abelha.json",
+   "nome": "Catálogo · Kid Abelha",
+   "tipo": "catalogo",
+   "artista": "Kid Abelha"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-led-zeppelin.json",
+   "nome": "Catálogo · Led Zeppelin",
+   "tipo": "catalogo",
+   "artista": "Led Zeppelin"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-legiao-urbana.json",
+   "nome": "Catálogo · Legião Urbana",
+   "tipo": "catalogo",
+   "artista": "Legião Urbana"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-linkin-park.json",
+   "nome": "Catálogo · Linkin Park",
+   "tipo": "catalogo",
+   "artista": "Linkin Park"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-lulu-santos.json",
+   "nome": "Catálogo · Lulu Santos",
+   "tipo": "catalogo",
+   "artista": "Lulu Santos"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-lynyrd-skynyrd.json",
+   "nome": "Catálogo · Lynyrd Skynyrd",
+   "tipo": "catalogo",
+   "artista": "Lynyrd Skynyrd"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-metallica.json",
+   "nome": "Catálogo · Metallica",
+   "tipo": "catalogo",
+   "artista": "Metallica"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-nando-reis.json",
+   "nome": "Catálogo · Nando Reis",
+   "tipo": "catalogo",
+   "artista": "Nando Reis"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-nickelback.json",
+   "nome": "Catálogo · Nickelback",
+   "tipo": "catalogo",
+   "artista": "Nickelback"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-nirvana.json",
+   "nome": "Catálogo · Nirvana",
+   "tipo": "catalogo",
+   "artista": "Nirvana"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-o-rappa.json",
+   "nome": "Catálogo · O Rappa",
+   "tipo": "catalogo",
+   "artista": "O Rappa"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-oasis.json",
+   "nome": "Catálogo · Oasis",
+   "tipo": "catalogo",
+   "artista": "Oasis"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-os-paralamas-do-sucesso.json",
+   "nome": "Catálogo · Os Paralamas do Sucesso",
+   "tipo": "catalogo",
+   "artista": "Os Paralamas do Sucesso"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-pearl-jam.json",
+   "nome": "Catálogo · Pearl Jam",
+   "tipo": "catalogo",
+   "artista": "Pearl Jam"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-pink-floyd.json",
+   "nome": "Catálogo · Pink Floyd",
+   "tipo": "catalogo",
+   "artista": "Pink Floyd"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-queen.json",
+   "nome": "Catálogo · Queen",
+   "tipo": "catalogo",
+   "artista": "Queen"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-radiohead.json",
+   "nome": "Catálogo · Radiohead",
+   "tipo": "catalogo",
+   "artista": "Radiohead"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-raul-seixas.json",
+   "nome": "Catálogo · Raul Seixas",
+   "tipo": "catalogo",
+   "artista": "Raul Seixas"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-red-hot-chili-peppers.json",
+   "nome": "Catálogo · Red Hot Chili Peppers",
+   "tipo": "catalogo",
+   "artista": "Red Hot Chili Peppers"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-the-rolling-stones.json",
+   "nome": "Catálogo · The Rolling Stones",
+   "tipo": "catalogo",
+   "artista": "The Rolling Stones"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-scorpions.json",
+   "nome": "Catálogo · Scorpions",
+   "tipo": "catalogo",
+   "artista": "Scorpions"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-skank.json",
+   "nome": "Catálogo · Skank",
+   "tipo": "catalogo",
+   "artista": "Skank"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-tim-maia.json",
+   "nome": "Catálogo · Tim Maia",
+   "tipo": "catalogo",
+   "artista": "Tim Maia"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-titas.json",
+   "nome": "Catálogo · Titãs",
+   "tipo": "catalogo",
+   "artista": "Titãs"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-u2.json",
+   "nome": "Catálogo · U2",
+   "tipo": "catalogo",
+   "artista": "U2"
+  },
+  {
+   "arquivo": "data/setlists/catalogo-ze-ramalho.json",
+   "nome": "Catálogo · Zé Ramalho",
+   "tipo": "catalogo",
+   "artista": "Zé Ramalho"
+  }
+ ]
+}

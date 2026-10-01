@@ -1,0 +1,94 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · The Doors",
+ "tipo": "catalogo",
+ "artista": "The Doors",
+ "musicas": [
+  {
+   "titulo": "Break on Through",
+   "artista": "The Doors",
+   "batidaA": "esqc3dffaLeve",
+   "batidaB": "esqc3dffaCheio",
+   "bpm": 184,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3831774",
+   "nota": "conferir: a bateria é uma bossa rápida; aqui só o esqueleto. Transcrições em 92 e 180–187"
+  },
+  {
+   "titulo": "L.A. Woman",
+   "artista": "The Doors",
+   "batidaA": "todoTempo",
+   "batidaB": null,
+   "bpm": 174,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 5593"
+  },
+  {
+   "titulo": "Light My Fire",
+   "artista": "The Doors",
+   "batidaA": "estradaLeve",
+   "batidaB": "esq267737Cheio",
+   "bpm": 126,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 5400",
+   "nota": "3 transcrições concordam; B do Cifra Club"
+  },
+  {
+   "titulo": "Love Her Madly",
+   "artista": "The Doors",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 147,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 23889"
+  },
+  {
+   "titulo": "Love Me Two Times",
+   "artista": "The Doors",
+   "batidaA": "esqdb3426Leve",
+   "batidaB": "esqdb3426Cheio",
+   "bpm": 132,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 121",
+   "nota": "conferir: shuffle"
+  },
+  {
+   "titulo": "People Are Strange",
+   "artista": "The Doors",
+   "batidaA": "esqd20b57Leve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 119,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6261"
+  },
+  {
+   "titulo": "Riders on the Storm",
+   "artista": "The Doors",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 104,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 23399"
+  },
+  {
+   "titulo": "Roadhouse Blues",
+   "artista": "The Doors",
+   "batidaA": "esq1dfbf1Leve",
+   "batidaB": "esq1dfbf1Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Cifra Club (tab de bateria); BPM de 3 transcrições do Songsterr (120)",
+   "nota": "conferir: na gravação é um boogie com swing"
+  },
+  {
+   "titulo": "Soul Kitchen",
+   "artista": "The Doors",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 115,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6038"
+  },
+  {
+   "titulo": "Touch Me",
+   "artista": "The Doors",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 110,
+   "fonte_bpm": "Songsterr id 59805 (110)",
+   "adaptacao": true,
+   "nota": "a transcrição é muito carregada; sem transcrição de bateria que sirva: levada de pop-rock no BPM da música; conferir"
+  }
+ ]
+}

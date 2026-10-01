@@ -1,0 +1,95 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Goo Goo Dolls",
+ "tipo": "catalogo",
+ "artista": "Goo Goo Dolls",
+ "musicas": [
+  {
+   "titulo": "Better Days",
+   "artista": "Goo Goo Dolls",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 116,
+   "fonte_bpm": "Songsterr id 69753 (116)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de pop-rock no BPM da música; conferir"
+  },
+  {
+   "titulo": "Black Balloon",
+   "artista": "Goo Goo Dolls",
+   "batidaA": "esqce0b36Leve",
+   "batidaB": "esq835668Cheio",
+   "bpm": 98,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6274755"
+  },
+  {
+   "titulo": "Broadway",
+   "artista": "Goo Goo Dolls",
+   "batidaA": "popMedioLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 136,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 8479",
+   "nota": "3 transcrições entre 134 e 136"
+  },
+  {
+   "titulo": "Give a Little Bit",
+   "artista": "Goo Goo Dolls",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "esqa28997Cheio",
+   "bpm": 94,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 4121515"
+  },
+  {
+   "titulo": "Here Is Gone",
+   "artista": "Goo Goo Dolls",
+   "batidaA": "esqbd3de7Leve",
+   "batidaB": "esq36b3e2Cheio",
+   "bpm": 105,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 36690"
+  },
+  {
+   "titulo": "Iris",
+   "artista": "Goo Goo Dolls",
+   "batidaA": "esq1342e7Leve",
+   "batidaB": "esq1342e7Cheio",
+   "bpm": 52,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 297",
+   "nota": "conferir andamento: 6/8, transcrição a 78 (semínima); aqui o pulso é a semínima pontuada = 52"
+  },
+  {
+   "titulo": "Let Love In",
+   "artista": "Goo Goo Dolls",
+   "batidaA": "esq36b3e2Leve",
+   "batidaB": "esq36b3e2Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 36703"
+  },
+  {
+   "titulo": "Name",
+   "artista": "Goo Goo Dolls",
+   "batidaA": "esqd9359aLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 150,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 8050",
+   "nota": "A em meio-tempo (slap no 3)"
+  },
+  {
+   "titulo": "Slide",
+   "artista": "Goo Goo Dolls",
+   "batidaA": "esq36b3e2Leve",
+   "batidaB": "esqa0b8b9Cheio",
+   "bpm": 114,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 8569"
+  },
+  {
+   "titulo": "Sympathy",
+   "artista": "Goo Goo Dolls",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr id 8024 (120; outra transcrição dá 131)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de rock no BPM da música; conferir andamento"
+  }
+ ]
+}

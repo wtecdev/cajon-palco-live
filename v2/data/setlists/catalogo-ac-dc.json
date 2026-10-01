@@ -1,0 +1,96 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · AC/DC",
+ "tipo": "catalogo",
+ "artista": "AC/DC",
+ "musicas": [
+  {
+   "titulo": "Back in Black",
+   "artista": "AC/DC",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "esq267737Cheio",
+   "bpm": 94,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1024",
+   "nota": "3 transcrições e o Cifra Club concordam"
+  },
+  {
+   "titulo": "Dirty Deeds Done Dirt Cheap",
+   "artista": "AC/DC",
+   "batidaA": "popMedioLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 134,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 8625",
+   "nota": "3 transcrições concordam"
+  },
+  {
+   "titulo": "Hells Bells",
+   "artista": "AC/DC",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "esqc78fbcCheio",
+   "bpm": 108,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 205",
+   "nota": "Songsterr e Cifra Club concordam"
+  },
+  {
+   "titulo": "Highway to Hell",
+   "artista": "AC/DC",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "estradaLeve",
+   "bpm": 116,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 289",
+   "nota": "Songsterr e Cifra Club concordam"
+  },
+  {
+   "titulo": "It's a Long Way to the Top",
+   "artista": "AC/DC",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 133,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6115657"
+  },
+  {
+   "titulo": "Rock N Roll Train",
+   "artista": "AC/DC",
+   "batidaA": "todoTempo",
+   "batidaB": null,
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 22097"
+  },
+  {
+   "titulo": "Shoot to Thrill",
+   "artista": "AC/DC",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 141,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 569",
+   "nota": "3 transcrições e o Cifra Club concordam"
+  },
+  {
+   "titulo": "T.N.T.",
+   "artista": "AC/DC",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 127,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 83553",
+   "nota": "Songsterr e Cifra Club concordam"
+  },
+  {
+   "titulo": "Thunderstruck",
+   "artista": "AC/DC",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 134,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1352",
+   "nota": "3 transcrições concordam"
+  },
+  {
+   "titulo": "You Shook Me All Night Long",
+   "artista": "AC/DC",
+   "batidaA": "esqbd3de7Leve",
+   "batidaB": "popMedioCheio",
+   "bpm": 130,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 63275",
+   "nota": "Songsterr e Cifra Club concordam"
+  }
+ ]
+}

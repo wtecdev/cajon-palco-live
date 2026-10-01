@@ -1,0 +1,96 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Raul Seixas",
+ "tipo": "catalogo",
+ "artista": "Raul Seixas",
+ "musicas": [
+  {
+   "titulo": "Cowboy Fora da Lei",
+   "artista": "Raul Seixas",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 172,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 438839",
+   "nota": "transcrição com a caixa deslocada; esqueleto simplificado para 1-2-3-4"
+  },
+  {
+   "titulo": "Eu Nasci Há Dez Mil Anos Atrás",
+   "artista": "Raul Seixas",
+   "batidaA": "esq97939aLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6524260"
+  },
+  {
+   "titulo": "Gita",
+   "artista": "Raul Seixas",
+   "batidaA": "esqfbb460Leve",
+   "batidaB": "esq267737Cheio",
+   "bpm": 108,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 439745"
+  },
+  {
+   "titulo": "Maluco Beleza",
+   "artista": "Raul Seixas",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 93,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 79092"
+  },
+  {
+   "titulo": "Medo da Chuva",
+   "artista": "Raul Seixas",
+   "batidaA": "esq85beadLeve",
+   "batidaB": "esq46f992Cheio",
+   "bpm": 110,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 439744",
+   "nota": "no verso o slap é aro"
+  },
+  {
+   "titulo": "Metamorfose Ambulante",
+   "artista": "Raul Seixas",
+   "batidaA": "esq944ad0Leve",
+   "batidaB": "esq664461Cheio",
+   "bpm": 137,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 79091",
+   "nota": "meio-tempo: o slap cai no 3"
+  },
+  {
+   "titulo": "Meu Amigo Pedro",
+   "artista": "Raul Seixas",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 135,
+   "fonte_bpm": "SongBPM 135, 4/4; a transcrição do Songsterr está incoerente",
+   "adaptacao": true
+  },
+  {
+   "titulo": "O Dia em que a Terra Parou",
+   "artista": "Raul Seixas",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 113,
+   "fonte_bpm": "GetSongBPM 113, 4/4",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de rock no BPM da música; conferir"
+  },
+  {
+   "titulo": "Ouro de Tolo",
+   "artista": "Raul Seixas",
+   "batidaA": "esq226bdaLeve",
+   "batidaB": "esq226bdaCheio",
+   "bpm": 100,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 268716",
+   "nota": "transcrição em 2/4; dois compassos de 2/4 viram um de 4/4"
+  },
+  {
+   "titulo": "Tente Outra Vez – Raul Seixas",
+   "artista": "Raul Seixas",
+   "batidaA": "esq226bdaLeve",
+   "batidaB": "esq226bdaCheio",
+   "bpm": 134,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 238817",
+   "nota": "meio-tempo: o slap cai no 3"
+  }
+ ]
+}

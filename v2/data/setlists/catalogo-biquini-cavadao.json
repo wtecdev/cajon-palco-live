@@ -1,0 +1,75 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Biquini Cavadão",
+ "tipo": "catalogo",
+ "artista": "Biquini Cavadão",
+ "musicas": [
+  {
+   "titulo": "Dani",
+   "artista": "Biquini Cavadão",
+   "batidaA": "eDo2Leve",
+   "batidaB": "eDo2Cheio",
+   "bpm": 105,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 62286"
+  },
+  {
+   "titulo": "Janaína",
+   "artista": "Biquini Cavadão",
+   "batidaA": "esqb2f5cbLeve",
+   "batidaB": "esqfbb04aCheio",
+   "bpm": 88,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6666138",
+   "nota": "transcrição da versão acústica"
+  },
+  {
+   "titulo": "Múmias",
+   "artista": "Biquini Cavadão",
+   "batidaA": "esqb2f5cbLeve",
+   "batidaB": "esqb2f5cbCheio",
+   "bpm": 90,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1009160"
+  },
+  {
+   "titulo": "Quando Eu Te Encontrar",
+   "artista": "Biquini Cavadão",
+   "batidaA": "esq933e99Leve",
+   "batidaB": "esqb2f5cbCheio",
+   "bpm": 100,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2910688"
+  },
+  {
+   "titulo": "Tédio",
+   "artista": "Biquini Cavadão",
+   "batidaA": "esq461f5eLeve",
+   "batidaB": "esq461f5eCheio",
+   "bpm": 144,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 83618"
+  },
+  {
+   "titulo": "Timidez",
+   "artista": "Biquini Cavadão",
+   "batidaA": "soulLeve",
+   "batidaB": "popSemiCheio",
+   "bpm": 128,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 445405"
+  },
+  {
+   "titulo": "Vento Ventania",
+   "artista": "Biquini Cavadão",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "estradaCheio",
+   "bpm": 98,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2910666"
+  },
+  {
+   "titulo": "Zé Ninguém",
+   "artista": "Biquini Cavadão",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 130,
+   "fonte_bpm": "Songsterr, 3 transcrições (125–130)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de rock no BPM da música; conferir"
+  }
+ ]
+}

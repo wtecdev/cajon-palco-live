@@ -1,0 +1,99 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · 3 Doors Down",
+ "tipo": "catalogo",
+ "artista": "3 Doors Down",
+ "musicas": [
+  {
+   "titulo": "Away from the Sun",
+   "artista": "3 Doors Down",
+   "batidaA": "esqd9359aLeve",
+   "batidaB": "esq226bdaCheio",
+   "bpm": 130,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 647",
+   "nota": "meio-tempo: o slap cai no 3"
+  },
+  {
+   "titulo": "Be Like That",
+   "artista": "3 Doors Down",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 96,
+   "fonte_bpm": "Songsterr id 676 (96)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de pop-rock no BPM da música; conferir"
+  },
+  {
+   "titulo": "Duck and Run",
+   "artista": "3 Doors Down",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 86,
+   "fonte_bpm": "Songsterr, 2 transcrições (86–88)",
+   "adaptacao": true,
+   "nota": "a transcrição é muito carregada; sem transcrição de bateria que sirva: levada de rock no BPM da música; conferir"
+  },
+  {
+   "titulo": "Here Without You",
+   "artista": "3 Doors Down",
+   "batidaA": "esq226bdaLeve",
+   "batidaB": "esq226bdaCheio",
+   "bpm": 144,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 324",
+   "nota": "meio-tempo: o slap cai no 3"
+  },
+  {
+   "titulo": "It's Not My Time",
+   "artista": "3 Doors Down",
+   "batidaA": "esq475dc5Leve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 128,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 4439009"
+  },
+  {
+   "titulo": "Kryptonite",
+   "artista": "3 Doors Down",
+   "batidaA": "esq1f16e9Leve",
+   "batidaB": "esq1f16e9Cheio",
+   "bpm": 99,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 629",
+   "nota": "conferir: na transcrição a caixa cai no contratempo"
+  },
+  {
+   "titulo": "Let Me Go",
+   "artista": "3 Doors Down",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 92,
+   "fonte_bpm": "Songsterr id 661 (92)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de pop-rock no BPM da música; conferir"
+  },
+  {
+   "titulo": "Loser",
+   "artista": "3 Doors Down",
+   "batidaA": "esq3e24f7Leve",
+   "batidaB": "esq3e24f7Cheio",
+   "bpm": 74,
+   "fonte_bpm": "Cifra Club (tab de bateria); BPM da transcrição do Songsterr id 665 (74)",
+   "nota": "conferir: a tab está em tercinas (shuffle); outra transcrição dá 120"
+  },
+  {
+   "titulo": "The Road I'm On",
+   "artista": "3 Doors Down",
+   "batidaA": "esq835668Leve",
+   "batidaB": "esq835668Cheio",
+   "bpm": 87,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 618"
+  },
+  {
+   "titulo": "When I'm Gone",
+   "artista": "3 Doors Down",
+   "batidaA": "esq226bdaLeve",
+   "batidaB": "esq75012eCheio",
+   "bpm": 150,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 522415",
+   "nota": "meio-tempo: o slap cai no 3"
+  }
+ ]
+}

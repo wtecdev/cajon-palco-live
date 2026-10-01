@@ -1,0 +1,96 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Pink Floyd",
+ "tipo": "catalogo",
+ "artista": "Pink Floyd",
+ "musicas": [
+  {
+   "titulo": "Another Brick in the Wall, Pt. 2",
+   "artista": "Pink Floyd",
+   "batidaA": "todoTempo",
+   "batidaB": null,
+   "bpm": 103,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 387930",
+   "nota": "grave em todo tempo, slap junto no 2 e no 4"
+  },
+  {
+   "titulo": "Breathe (In the Air)",
+   "artista": "Pink Floyd",
+   "batidaA": "popMedioLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 62,
+   "fonte_bpm": "Cifra Club (tab de bateria); BPM de 3 transcrições do Songsterr (62–63)"
+  },
+  {
+   "titulo": "Comfortably Numb",
+   "artista": "Pink Floyd",
+   "batidaA": "esqa60333Leve",
+   "batidaB": "esqa60333Cheio",
+   "bpm": 64,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 271",
+   "nota": "Songsterr e Cifra Club concordam"
+  },
+  {
+   "titulo": "Have a Cigar",
+   "artista": "Pink Floyd",
+   "batidaA": "esq61655fLeve",
+   "batidaB": "esq226bdaCheio",
+   "bpm": 121,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 350",
+   "nota": "meio-tempo: o slap cai no 3"
+  },
+  {
+   "titulo": "Hey You",
+   "artista": "Pink Floyd",
+   "batidaA": "baladaRockAntecipada",
+   "batidaB": null,
+   "bpm": 56,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 15557",
+   "nota": "Songsterr (56) e Cifra Club (contado em 112, meio-tempo) dão o mesmo desenho"
+  },
+  {
+   "titulo": "Money",
+   "artista": null,
+   "batidaA": null,
+   "batidaB": null,
+   "bpm": null,
+   "fonte_bpm": null,
+   "nota": "Música em 7/4."
+  },
+  {
+   "titulo": "Shine On You Crazy Diamond",
+   "artista": "Pink Floyd",
+   "batidaA": "esq841328Leve",
+   "batidaB": "esq841328Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1364553",
+   "nota": "conferir: na transcrição a caixa cai só no 4"
+  },
+  {
+   "titulo": "The Great Gig in the Sky",
+   "artista": null,
+   "batidaA": null,
+   "batidaB": null,
+   "bpm": null,
+   "fonte_bpm": null,
+   "nota": "Quase sem bateria, em 12/8 carregado."
+  },
+  {
+   "titulo": "Time",
+   "artista": "Pink Floyd",
+   "batidaA": "esqd9359aLeve",
+   "batidaB": "esqd9359aCheio",
+   "bpm": 122,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 15873",
+   "nota": "meio-tempo: o slap cai no 3 (sente-se a 61); conferir"
+  },
+  {
+   "titulo": "Wish You Were Here",
+   "artista": "Pink Floyd",
+   "batidaA": "esq72a469Leve",
+   "batidaB": "esq9c68e4Cheio",
+   "bpm": 61,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 153"
+  }
+ ]
+}

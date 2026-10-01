@@ -1,0 +1,237 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Raul Seixas / Legião Urbana",
+ "musicas": [
+  {
+   "titulo": "Será",
+   "artista": "Legião Urbana",
+   "batidaA": "esq69368dLeve",
+   "batidaB": "esq883019Cheio",
+   "bpm": 97,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 34046"
+  },
+  {
+   "titulo": "Metamorfose Ambulante",
+   "artista": "Raul Seixas",
+   "batidaA": "esq944ad0Leve",
+   "batidaB": "esq664461Cheio",
+   "bpm": 137,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 79091",
+   "nota": "meio-tempo: o slap cai no 3"
+  },
+  {
+   "titulo": "Quase Sem Querer",
+   "artista": "Legião Urbana",
+   "batidaA": "eDo2e3Leve",
+   "batidaB": "eDo2e3Cheio",
+   "bpm": 170,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 212108"
+  },
+  {
+   "titulo": "Como Vovó Já Dizia",
+   "artista": "Raul Seixas",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 146,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 715993"
+  },
+  {
+   "titulo": "Sereníssima",
+   "artista": "Legião Urbana",
+   "batidaA": "esqd9359aLeve",
+   "batidaB": "esqd11efeCheio",
+   "bpm": 174,
+   "fonte_bpm": "GetSongBPM 174, 4/4; sem transcrição de bateria",
+   "adaptacao": true,
+   "nota": "levada do estilo: meio-tempo (sente-se a 87 com o slap no 3); conferir"
+  },
+  {
+   "titulo": "Ouro de Tolo",
+   "artista": "Raul Seixas",
+   "batidaA": "esq226bdaLeve",
+   "batidaB": "esq226bdaCheio",
+   "bpm": 100,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 268716",
+   "nota": "transcrição em 2/4; dois compassos de 2/4 viram um de 4/4"
+  },
+  {
+   "titulo": "Ainda é Cedo",
+   "artista": "Legião Urbana",
+   "batidaA": "esq23c6a6Leve",
+   "batidaB": "esq883019Cheio",
+   "bpm": 73,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 34040"
+  },
+  {
+   "titulo": "Sociedade Alternativa",
+   "artista": "Raul Seixas",
+   "batidaA": "esq99cc2eLeve",
+   "batidaB": "esq99cc2eCheio",
+   "bpm": 107,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 440309"
+  },
+  {
+   "titulo": "Teatro dos Vampiros",
+   "artista": "Legião Urbana",
+   "batidaA": "conducaoLeve",
+   "batidaB": "conducaoCheia",
+   "bpm": 113,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 34047",
+   "nota": "a transcrição só tem chimbal e chocalho"
+  },
+  {
+   "titulo": "Há Tempos",
+   "artista": "Legião Urbana",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 158,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1782374"
+  },
+  {
+   "titulo": "Al Capone",
+   "artista": "Raul Seixas",
+   "batidaA": "shuffleLentoCheio",
+   "batidaB": "shuffleLentoCheio",
+   "bpm": 155,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 378686"
+  },
+  {
+   "titulo": "Hoje a Noite Não Tem Luar",
+   "artista": null,
+   "batidaA": null,
+   "batidaB": null,
+   "bpm": null,
+   "fonte_bpm": null,
+   "nota": "Legião Urbana: não achei transcrição nem BPM publicado (Songsterr, Cifra Club e GetSongBPM)."
+  },
+  {
+   "titulo": "Eduardo e Mônica",
+   "artista": "Legião Urbana",
+   "batidaA": "esqd50de0Leve",
+   "batidaB": "esqd50de0Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 34041",
+   "nota": "o bumbo do 4 cai na última tercina: balanço de shuffle"
+  },
+  {
+   "titulo": "Monte Castelo",
+   "artista": "Legião Urbana",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 95,
+   "fonte_bpm": "Songsterr, andamento de 2 transcrições sem bateria (ids 4250873 e 5971604): 95",
+   "adaptacao": true,
+   "nota": "levada de balada no BPM da música; conferir"
+  },
+  {
+   "titulo": "Capim Guiné",
+   "artista": "Raul Seixas",
+   "batidaA": "esq7a4d2cLeve",
+   "batidaB": "esq7a4d2cCheio",
+   "bpm": 108,
+   "fonte_bpm": "Tunebat 108; a transcrição do Songsterr está incoerente",
+   "adaptacao": true,
+   "nota": "baião: grave no 1 e no \"a\" do 1, slap no 2 (adaptação)"
+  },
+  {
+   "titulo": "Medo da Chuva",
+   "artista": "Raul Seixas",
+   "batidaA": "esq85beadLeve",
+   "batidaB": "esq46f992Cheio",
+   "bpm": 110,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 439744",
+   "nota": "no verso o slap é aro"
+  },
+  {
+   "titulo": "Eu Sei",
+   "artista": "Legião Urbana",
+   "batidaA": "esq1d9f2cLeve",
+   "batidaB": "esq621794Cheio",
+   "bpm": 94,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 4537894",
+   "nota": "transcrição curta"
+  },
+  {
+   "titulo": "Eu Também Vou Reclamar",
+   "artista": "Raul Seixas",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "eDo2e3Cheio",
+   "bpm": 170,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1855333"
+  },
+  {
+   "titulo": "Meninos e Meninas",
+   "artista": "Legião Urbana",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 163,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1432767"
+  },
+  {
+   "titulo": "Meu Amigo Pedro",
+   "artista": "Raul Seixas",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 135,
+   "fonte_bpm": "SongBPM 135, 4/4; a transcrição do Songsterr está incoerente",
+   "adaptacao": true
+  },
+  {
+   "titulo": "Faroeste Caboclo",
+   "artista": "Legião Urbana",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 163,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 542520"
+  },
+  {
+   "titulo": "Cowboy Fora da Lei",
+   "artista": "Raul Seixas",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 172,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 438839",
+   "nota": "transcrição com a caixa deslocada; esqueleto simplificado para 1-2-3-4"
+  },
+  {
+   "titulo": "Pais e Filhos",
+   "artista": "Legião Urbana",
+   "batidaA": "popMedioLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 89,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1195551"
+  },
+  {
+   "titulo": "Eu Nasci Há Dez Mil Anos Atrás",
+   "artista": "Raul Seixas",
+   "batidaA": "esq97939aLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6524260"
+  },
+  {
+   "titulo": "Dezesseis",
+   "artista": "Legião Urbana",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 148,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 376163"
+  },
+  {
+   "titulo": "Gita",
+   "artista": "Raul Seixas",
+   "batidaA": "esqfbb460Leve",
+   "batidaB": "esq267737Cheio",
+   "bpm": 108,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 439745"
+  },
+  {
+   "titulo": "Maluco Beleza",
+   "artista": "Raul Seixas",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 93,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 79092"
+  }
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Guns N' Roses",
+ "tipo": "catalogo",
+ "artista": "Guns N' Roses",
+ "musicas": [
+  {
+   "titulo": "Civil War",
+   "artista": "Guns N' Roses",
+   "batidaA": "esq61655fLeve",
+   "batidaB": "esqd9359aCheio",
+   "bpm": 140,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 4057847",
+   "nota": "meio-tempo: o slap cai no 3"
+  },
+  {
+   "titulo": "Don't Cry",
+   "artista": "Guns N' Roses",
+   "batidaA": "esq3d6264Leve",
+   "batidaB": "esq3d6264Cheio",
+   "bpm": 62,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2089925",
+   "nota": "conferir: só achei transcrição simplificada"
+  },
+  {
+   "titulo": "Knockin' on Heaven's Door",
+   "artista": "Guns N' Roses",
+   "batidaA": "popMedioLeve",
+   "batidaB": "baladaRockAntecipada",
+   "bpm": 63,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 481 (Matt Sorum)"
+  },
+  {
+   "titulo": "Live and Let Die",
+   "artista": "Guns N' Roses",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqc78fbcCheio",
+   "bpm": 152,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 22292",
+   "nota": "conferir: a música alterna partes lentas (70) e rápidas (152)"
+  },
+  {
+   "titulo": "November Rain",
+   "artista": "Guns N' Roses",
+   "batidaA": "esq475dc5Leve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 75,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 8057"
+  },
+  {
+   "titulo": "Paradise City",
+   "artista": "Guns N' Roses",
+   "batidaA": "esq475dc5Leve",
+   "batidaB": "estradaCheio",
+   "bpm": 98,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 543226",
+   "nota": "a parte final acelera; aqui fica o andamento principal"
+  },
+  {
+   "titulo": "Patience",
+   "artista": "Guns N' Roses",
+   "batidaA": "baladaLeve",
+   "batidaB": "baladaCheia",
+   "bpm": 60,
+   "fonte_bpm": "GetSongBPM 58 / partitura Musicnotes ~60 (gravação sem bateria)"
+  },
+  {
+   "titulo": "Sweet Child O' Mine",
+   "artista": "Guns N' Roses",
+   "batidaA": "eDo2e3Leve",
+   "batidaB": "esq267737Cheio",
+   "bpm": 125,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 23"
+  },
+  {
+   "titulo": "Welcome to the Jungle",
+   "artista": "Guns N' Roses",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "estradaLeve",
+   "bpm": 124,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1469276"
+  },
+  {
+   "titulo": "You Could Be Mine",
+   "artista": "Guns N' Roses",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 158,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 22096"
+  }
+ ]
+}

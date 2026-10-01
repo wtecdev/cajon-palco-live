@@ -1,0 +1,96 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Cazuza",
+ "tipo": "catalogo",
+ "artista": "Cazuza",
+ "musicas": [
+  {
+   "titulo": "Boa Vida",
+   "artista": "Cazuza",
+   "batidaA": "esqd9359aLeve",
+   "batidaB": "esqd9359aCheio",
+   "bpm": 160,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2449241",
+   "nota": "conferir: meio-tempo; a transcrição mistura partes em shuffle"
+  },
+  {
+   "titulo": "Codinome Beija-Flor",
+   "artista": "Cazuza",
+   "batidaA": "baladaLeve",
+   "batidaB": "esq3225d8Cheio",
+   "bpm": 70,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 438843",
+   "nota": "transcrição curta (10 compassos com bateria)"
+  },
+  {
+   "titulo": "Exagerado",
+   "artista": "Cazuza",
+   "batidaA": "esq23c6a6Leve",
+   "batidaB": "esqd03c2fCheio",
+   "bpm": 70,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 86219",
+   "nota": "escrita em 70 com slap em todo contratempo (sente como 140)"
+  },
+  {
+   "titulo": "Faz Parte do Meu Show",
+   "artista": "Cazuza",
+   "batidaA": "baladaLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 67,
+   "fonte_bpm": "Songsterr id 438848 (sem bateria, 67); o GetSongBPM dá 144 (o dobro)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de balada no BPM da música; conferir"
+  },
+  {
+   "titulo": "Ideologia",
+   "artista": "Cazuza",
+   "batidaA": "esq5aa34bLeve",
+   "batidaB": "esq5aa34bCheio",
+   "bpm": 138,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2237295"
+  },
+  {
+   "titulo": "O Mundo É um Moinho",
+   "artista": null,
+   "batidaA": null,
+   "batidaB": null,
+   "bpm": null,
+   "fonte_bpm": null,
+   "nota": "Não achei transcrição nem BPM da versão do Cazuza."
+  },
+  {
+   "titulo": "O Nosso Amor a Gente Inventa",
+   "artista": "Cazuza",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2877113"
+  },
+  {
+   "titulo": "O Tempo Não Para",
+   "artista": "Cazuza",
+   "batidaA": "esq0396f5Leve",
+   "batidaB": "popSemiLeve",
+   "bpm": 80,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6960033"
+  },
+  {
+   "titulo": "Preciso Dizer Que Te Amo",
+   "artista": null,
+   "batidaA": null,
+   "batidaB": null,
+   "bpm": null,
+   "fonte_bpm": null,
+   "nota": "Não achei transcrição nem BPM da versão do Cazuza."
+  },
+  {
+   "titulo": "Todo o Amor Que Houver Nessa Vida",
+   "artista": "Barão Vermelho",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 158,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 5197621",
+   "nota": "transcrição curta"
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Legião Urbana",
+ "tipo": "catalogo",
+ "artista": "Legião Urbana",
+ "musicas": [
+  {
+   "titulo": "Ainda é Cedo",
+   "artista": "Legião Urbana",
+   "batidaA": "esq23c6a6Leve",
+   "batidaB": "esq883019Cheio",
+   "bpm": 73,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 34040"
+  },
+  {
+   "titulo": "Eduardo e Mônica",
+   "artista": "Legião Urbana",
+   "batidaA": "esqd50de0Leve",
+   "batidaB": "esqd50de0Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 34041",
+   "nota": "o bumbo do 4 cai na última tercina: balanço de shuffle"
+  },
+  {
+   "titulo": "Faroeste Caboclo",
+   "artista": "Legião Urbana",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 163,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 542520"
+  },
+  {
+   "titulo": "Índios",
+   "artista": "Legião Urbana",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 148,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 34043"
+  },
+  {
+   "titulo": "Pais e Filhos",
+   "artista": "Legião Urbana",
+   "batidaA": "popMedioLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 89,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1195551"
+  },
+  {
+   "titulo": "Quase Sem Querer",
+   "artista": "Legião Urbana",
+   "batidaA": "eDo2e3Leve",
+   "batidaB": "eDo2e3Cheio",
+   "bpm": 170,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 212108"
+  },
+  {
+   "titulo": "Que País É Este",
+   "artista": "Legião Urbana",
+   "batidaA": "esq475dc5Leve",
+   "batidaB": "estradaCheio",
+   "bpm": 145,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 4383165"
+  },
+  {
+   "titulo": "Será",
+   "artista": "Legião Urbana",
+   "batidaA": "esq69368dLeve",
+   "batidaB": "esq883019Cheio",
+   "bpm": 97,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 34046"
+  },
+  {
+   "titulo": "Tempo Perdido",
+   "artista": "Legião Urbana",
+   "batidaA": "eDo2e3Leve",
+   "batidaB": "popMedioCheio",
+   "bpm": 180,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 11464 (179–186)"
+  },
+  {
+   "titulo": "Vento no Litoral",
+   "artista": "Legião Urbana",
+   "batidaA": "esqf2cdf9Leve",
+   "batidaB": "esqf2cdf9Cheio",
+   "bpm": 62,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 34048",
+   "nota": "uma transcrição só"
+  }
+ ]
+}

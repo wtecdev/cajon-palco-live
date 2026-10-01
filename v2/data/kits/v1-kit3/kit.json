@@ -1,0 +1,34 @@
+{
+  "formato": "kit_v2",
+  "id": "v1-kit3",
+  "nome": "Kit provisório (amostras da v1)",
+  "origem": "Amostras que estavam embutidas em base64 no index.html da v1 (cajon-palco-live@60d246e). A v1 não documenta quem gravou nem a licença. Substituir pelas suas gravações.",
+  "observacoes": [
+    "Só 1 amostra de grave (B) e nenhuma camada de intensidade: é a principal causa do som repetitivo.",
+    "Não existe amostra de tom (T) nem de rufo (r). Os dois usam as amostras de slap, como a v1 fazia nas viradas.",
+    "Ganhos (trim) calibrados para reproduzir o volume da v1: cajón ×2 (KIT3_GAIN), ghost ×3,6 (2 × 1,8), chimbal e pandeirola ×1."
+  ],
+  "golpes": {
+    "B": { "trim": 2, "camadas": [ { "ate": 127, "amostras": [ { "arquivo": "kit3_bumbo11.wav", "ganho": 1 } ] } ] },
+    "S": { "trim": 2, "camadas": [ { "ate": 127, "amostras": [
+      { "arquivo": "kit3_caixa_aguda_A.wav", "ganho": 1.02 },
+      { "arquivo": "kit3_caixa_aguda_B.wav", "ganho": 0.97 },
+      { "arquivo": "kit3_caixa_reaper.wav", "ganho": 1.01 },
+      { "arquivo": "kit3_caixa_spki.wav", "ganho": 1.05 } ] } ] },
+    "T": { "trim": 2, "usa": "S" },
+    "r": { "trim": 2, "usa": "S" },
+    "g": { "trim": 3.6, "camadas": [ { "ate": 127, "amostras": [
+      { "arquivo": "kit3_ghost_1.wav", "ganho": 1.36 },
+      { "arquivo": "kit3_ghost_2.wav", "ganho": 0.85 },
+      { "arquivo": "kit3_ghost_3.wav", "ganho": 1.0 },
+      { "arquivo": "kit3_ghost_4.wav", "ganho": 0.87 },
+      { "arquivo": "kit3_ghost_5.wav", "ganho": 1.24 },
+      { "arquivo": "kit3_ghost_6.wav", "ganho": 0.97 } ] } ] },
+    "H": { "trim": 1, "camadas": [ { "ate": 127, "amostras": [ { "arquivo": "hihatClosed.wav", "ganho": 1 } ] } ] },
+    "P": { "trim": 1, "variacoes": {
+      "acento": { "camadas": [ { "ate": 127, "amostras": [ { "arquivo": "tambAccent.wav", "ganho": 1 } ] } ] },
+      "cabeca": { "camadas": [ { "ate": 127, "amostras": [ { "arquivo": "tambDown.wav", "ganho": 1 } ] } ] },
+      "contra": { "camadas": [ { "ate": 127, "amostras": [ { "arquivo": "tambUp.wav", "ganho": 1 } ] } ] }
+    } }
+  }
+}

@@ -1,0 +1,101 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Creed",
+ "tipo": "catalogo",
+ "artista": "Creed",
+ "musicas": [
+  {
+   "titulo": "Don't Stop Dancing",
+   "artista": "Creed",
+   "batidaA": "esq933e99Leve",
+   "batidaB": "esq933e99Cheio",
+   "bpm": 68,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3968"
+  },
+  {
+   "titulo": "Higher",
+   "artista": "Creed",
+   "batidaA": "esq61655fLeve",
+   "batidaB": "esq61655fCheio",
+   "bpm": 156,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 742984",
+   "nota": "meio-tempo: o slap cai no 3"
+  },
+  {
+   "titulo": "My Own Prison",
+   "artista": "Creed",
+   "batidaA": "esq36b3e2Leve",
+   "batidaB": "esq36b3e2Cheio",
+   "bpm": 67,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6090911",
+   "nota": "transcrição da versão acústica"
+  },
+  {
+   "titulo": "My Sacrifice",
+   "artista": "Creed",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 73,
+   "fonte_bpm": "Songsterr, 2 transcrições (72–74)",
+   "adaptacao": true,
+   "nota": "as transcrições (Songsterr e Cifra Club) são muito carregadas; sem transcrição de bateria que sirva: levada de rock no BPM da música; conferir"
+  },
+  {
+   "titulo": "One",
+   "artista": "Creed",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 111,
+   "fonte_bpm": "Songsterr, 2 transcrições (111–112)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de rock no BPM da música; conferir"
+  },
+  {
+   "titulo": "One Last Breath",
+   "artista": "Creed",
+   "batidaA": "esqd9359aLeve",
+   "batidaB": "esq226bdaCheio",
+   "bpm": 129,
+   "fonte_bpm": "Songsterr, 3 transcrições (124–129)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de meio-tempo (sente-se a 64) no BPM da música; conferir"
+  },
+  {
+   "titulo": "Torn",
+   "artista": "Creed",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 146,
+   "fonte_bpm": "Songsterr id 4882 (146)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de rock no BPM da música; conferir"
+  },
+  {
+   "titulo": "Weathered",
+   "artista": "Creed",
+   "batidaA": "esq5aa34bLeve",
+   "batidaB": "esq5aa34bCheio",
+   "bpm": 72,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 4015"
+  },
+  {
+   "titulo": "What If",
+   "artista": "Creed",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 74,
+   "fonte_bpm": "Songsterr, 2 transcrições (74)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de rock no BPM da música; conferir"
+  },
+  {
+   "titulo": "With Arms Wide Open",
+   "artista": "Creed",
+   "batidaA": "esq61655fLeve",
+   "batidaB": "esq61655fCheio",
+   "bpm": 140,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 5681885",
+   "nota": "meio-tempo; transcrição da versão acústica"
+  }
+ ]
+}

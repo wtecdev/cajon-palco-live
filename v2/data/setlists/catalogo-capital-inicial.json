@@ -1,0 +1,91 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Capital Inicial",
+ "tipo": "catalogo",
+ "artista": "Capital Inicial",
+ "musicas": [
+  {
+   "titulo": "À Sua Maneira",
+   "artista": "Capital Inicial",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqf48825Cheio",
+   "bpm": 110,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 27897"
+  },
+  {
+   "titulo": "Fátima",
+   "artista": "Capital Inicial",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 128,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3164044"
+  },
+  {
+   "titulo": "Fogo",
+   "artista": "Capital Inicial",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "esqd6799dCheio",
+   "bpm": 86,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3629530",
+   "nota": "conferir: só existe transcrição gerada por IA (versão acústica)"
+  },
+  {
+   "titulo": "Independência",
+   "artista": "Capital Inicial",
+   "batidaA": "esq475dc5Leve",
+   "batidaB": "estradaCheio",
+   "bpm": 134,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 955144",
+   "nota": "andamento do Acústico MTV (134, transcrição id 778348, que só tem violões e baixo); o desenho da batida vem da versão ao vivo (148)"
+  },
+  {
+   "titulo": "Música Urbana",
+   "artista": "Capital Inicial",
+   "batidaA": "shuffleRapidoLeve",
+   "batidaB": "shuffleRapidoB",
+   "bpm": 162,
+   "fonte_bpm": "Shuffle a 162, como na versão aprovada pelo Bin no app antigo; a transcrição do Songsterr (id 1111082) também tem trechos em shuffle"
+  },
+  {
+   "titulo": "Não Olhe pra Trás",
+   "artista": "Capital Inicial",
+   "batidaA": "popMedioLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 110,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 27898"
+  },
+  {
+   "titulo": "Natasha",
+   "artista": "Capital Inicial",
+   "batidaA": "eDo2e3Leve",
+   "batidaB": "eDo2e3Cheio",
+   "bpm": 150,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6474997",
+   "nota": "transcrição do Acústico MTV"
+  },
+  {
+   "titulo": "O Passageiro",
+   "artista": "Capital Inicial",
+   "batidaA": "popSemiLeve",
+   "batidaB": "esq7b00f2Cheio",
+   "bpm": 130,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 27894"
+  },
+  {
+   "titulo": "Primeiros Erros (Chove)",
+   "artista": "Capital Inicial",
+   "batidaA": "slapADo2Leve",
+   "batidaB": "slapADo2Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 618627"
+  },
+  {
+   "titulo": "Tudo Que Vai",
+   "artista": "Capital Inicial",
+   "batidaA": "esq729b1aLeve",
+   "batidaB": "esq729b1aCheio",
+   "bpm": 110,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 4507"
+  }
+ ]
+}

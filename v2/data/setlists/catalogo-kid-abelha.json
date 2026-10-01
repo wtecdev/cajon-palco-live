@@ -1,0 +1,94 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Kid Abelha",
+ "tipo": "catalogo",
+ "artista": "Kid Abelha",
+ "musicas": [
+  {
+   "titulo": "Como Eu Quero",
+   "artista": "Kid Abelha",
+   "batidaA": "esqee6ed1Leve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 124,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6474839",
+   "nota": "na gravação o slap é aro; 2 transcrições concordam"
+  },
+  {
+   "titulo": "Fixação",
+   "artista": "Kid Abelha",
+   "batidaA": "esq85beadLeve",
+   "batidaB": "soulCheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2460426",
+   "nota": "A do Acústico MTV (aro), B da versão de estúdio"
+  },
+  {
+   "titulo": "Garotos",
+   "artista": "Kid Abelha",
+   "batidaA": "esq5aa34bLeve",
+   "batidaB": "esq5aa34bCheio",
+   "bpm": 119,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2952262"
+  },
+  {
+   "titulo": "Grand' Hotel",
+   "artista": "Kid Abelha",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 100,
+   "fonte_bpm": "Songsterr id 445408 (sem bateria, 100)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de pop no BPM da música; conferir"
+  },
+  {
+   "titulo": "Lágrimas e Chuva",
+   "artista": "Kid Abelha",
+   "batidaA": "soulLeve",
+   "batidaB": "esq267737Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1896122"
+  },
+  {
+   "titulo": "Na Rua, na Chuva, na Fazenda",
+   "artista": "Kid Abelha",
+   "batidaA": "esq6b7bc7Leve",
+   "batidaB": "esq4d6269Cheio",
+   "bpm": 140,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 5492259",
+   "nota": "3 transcrições concordam"
+  },
+  {
+   "titulo": "Nada Sei",
+   "artista": "Kid Abelha",
+   "batidaA": "popMedioLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 209319"
+  },
+  {
+   "titulo": "Pintura Íntima",
+   "artista": "Kid Abelha",
+   "batidaA": "soulLeve",
+   "batidaB": "esq267737Cheio",
+   "bpm": 135,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 209323"
+  },
+  {
+   "titulo": "Por Que Não Eu?",
+   "artista": null,
+   "batidaA": null,
+   "batidaB": null,
+   "bpm": null,
+   "fonte_bpm": null,
+   "nota": "Kid Abelha: não achei transcrição de bateria."
+  },
+  {
+   "titulo": "Quero Te Encontrar",
+   "artista": "Kid Abelha",
+   "batidaA": "reggaeTramandaLeve",
+   "batidaB": "reggaeTramandaCheio",
+   "bpm": 92,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6611013"
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Lynyrd Skynyrd",
+ "tipo": "catalogo",
+ "artista": "Lynyrd Skynyrd",
+ "musicas": [
+  {
+   "titulo": "Call Me the Breeze",
+   "artista": "Lynyrd Skynyrd",
+   "batidaA": "esqbda048Leve",
+   "batidaB": "esqbda048Cheio",
+   "bpm": 186,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 11735",
+   "nota": "conferir: shuffle rápido; transcrições entre 184 e 190"
+  },
+  {
+   "titulo": "Free Bird",
+   "artista": null,
+   "batidaA": null,
+   "batidaB": null,
+   "bpm": null,
+   "fonte_bpm": null,
+   "nota": "Duas partes muito diferentes (balada lenta e solo rápido a 150)."
+  },
+  {
+   "titulo": "Gimme Three Steps",
+   "artista": "Lynyrd Skynyrd",
+   "batidaA": "esq475dc5Leve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 132,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 11907",
+   "nota": "conferir: a levada principal da gravação tem caixa em todo tempo; aqui a do refrão"
+  },
+  {
+   "titulo": "I Need You",
+   "artista": null,
+   "batidaA": null,
+   "batidaB": null,
+   "bpm": null,
+   "fonte_bpm": null,
+   "nota": "Transcrição em 3/4 quebrada."
+  },
+  {
+   "titulo": "On the Hunt",
+   "artista": null,
+   "batidaA": null,
+   "batidaB": null,
+   "bpm": null,
+   "fonte_bpm": null,
+   "nota": "Transcrição muito carregada e andamentos que não batem (63 e 128)."
+  },
+  {
+   "titulo": "Simple Man",
+   "artista": "Lynyrd Skynyrd",
+   "batidaA": "baladaSincopada",
+   "batidaB": null,
+   "bpm": 60,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 88906"
+  },
+  {
+   "titulo": "Sweet Home Alabama",
+   "artista": "Lynyrd Skynyrd",
+   "batidaA": "esqae9d20Leve",
+   "batidaB": "esq81d7f8Cheio",
+   "bpm": 100,
+   "fonte_bpm": "Cifra Club (tab de bateria); BPM da transcrição do Songsterr id 58984",
+   "nota": "B da transcrição do Songsterr"
+  },
+  {
+   "titulo": "That Smell",
+   "artista": "Lynyrd Skynyrd",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 114,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 23804",
+   "nota": "conferir: simplifiquei a puxada antes do 3"
+  },
+  {
+   "titulo": "The Ballad of Curtis Loew",
+   "artista": "Lynyrd Skynyrd",
+   "batidaA": "esq0f2437Leve",
+   "batidaB": "esq0f2437Cheio",
+   "bpm": 72,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 11841",
+   "nota": "conferir"
+  },
+  {
+   "titulo": "Tuesday's Gone",
+   "artista": "Lynyrd Skynyrd",
+   "batidaA": "esqbda048Leve",
+   "batidaB": "esqbda048Cheio",
+   "bpm": 49,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 11687",
+   "nota": "conferir andamento: 12/8, transcrição a 73 (semínima); aqui o pulso é a semínima pontuada = 49"
+  }
+ ]
+}

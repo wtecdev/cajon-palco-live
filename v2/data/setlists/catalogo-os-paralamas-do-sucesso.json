@@ -1,0 +1,91 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Os Paralamas do Sucesso",
+ "tipo": "catalogo",
+ "artista": "Os Paralamas do Sucesso",
+ "musicas": [
+  {
+   "titulo": "Aonde Quer Que Eu Vá",
+   "artista": "Paralamas do Sucesso",
+   "batidaA": "esq933e99Leve",
+   "batidaB": "esq3d6264Cheio",
+   "bpm": 80,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 233570"
+  },
+  {
+   "titulo": "Caleidoscópio",
+   "artista": "Paralamas do Sucesso",
+   "batidaA": "esq475dc5Leve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 96,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1466142",
+   "nota": "versão ao vivo"
+  },
+  {
+   "titulo": "Cuide Bem do Seu Amor",
+   "artista": "Paralamas do Sucesso",
+   "batidaA": "esq669558Leve",
+   "batidaB": "esqfbb460Cheio",
+   "bpm": 104,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3358604"
+  },
+  {
+   "titulo": "Ela Disse Adeus",
+   "artista": "Paralamas do Sucesso",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 125,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1439082"
+  },
+  {
+   "titulo": "Lanterna dos Afogados",
+   "artista": "Paralamas do Sucesso",
+   "batidaA": "esq267737Leve",
+   "batidaB": "esq267737Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1541005",
+   "nota": "3 transcrições concordam"
+  },
+  {
+   "titulo": "Meu Erro",
+   "artista": "Paralamas do Sucesso",
+   "batidaA": "esq84fa51Leve",
+   "batidaB": "esq479856Cheio",
+   "bpm": 105,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 813012"
+  },
+  {
+   "titulo": "Óculos",
+   "artista": "Paralamas do Sucesso",
+   "batidaA": "esqe765beLeve",
+   "batidaB": "esq6691eaCheio",
+   "bpm": 95,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1439047"
+  },
+  {
+   "titulo": "Tendo a Lua",
+   "artista": "Paralamas do Sucesso",
+   "batidaA": "meioTempoLeve",
+   "batidaB": "meioTempoCheio",
+   "bpm": 162,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2738911"
+  },
+  {
+   "titulo": "Uma Brasileira",
+   "artista": "Paralamas do Sucesso",
+   "batidaA": "estradaLeve",
+   "batidaB": "reggaeAbertoLeve",
+   "bpm": 93,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1698898"
+  },
+  {
+   "titulo": "Vital e Sua Moto",
+   "artista": "Paralamas do Sucesso",
+   "batidaA": "esqae768bLeve",
+   "batidaB": "estradaCheio",
+   "bpm": 152,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 702777",
+   "nota": "verso só grave nos 4 tempos"
+  }
+ ]
+}

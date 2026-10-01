@@ -1,0 +1,249 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "The House — Acústico",
+ "musicas": [
+  {
+   "titulo": "Música Urbana",
+   "artista": "Capital Inicial",
+   "batidaA": "shuffleRapidoLeve",
+   "batidaB": "shuffleRapidoB",
+   "bpm": 162,
+   "fonte_bpm": "Shuffle a 162, como na versão aprovada pelo Bin no app antigo; a transcrição do Songsterr (id 1111082) também tem trechos em shuffle"
+  },
+  {
+   "titulo": "Quando o Sol Bater",
+   "artista": "Legião Urbana",
+   "batidaA": "popMedioLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 132,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3358594"
+  },
+  {
+   "titulo": "O Mundo",
+   "artista": "Capital Inicial",
+   "batidaA": "popMedioLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 113,
+   "fonte_bpm": "SongBPM, versão ao vivo (sem transcrição de bateria encontrada)"
+  },
+  {
+   "titulo": "Depois de Nós",
+   "artista": "Engenheiros do Hawaii",
+   "batidaA": "contratempoLeve",
+   "batidaB": "contratempoCheio",
+   "bpm": 100,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 5590212"
+  },
+  {
+   "titulo": "Stand By Me",
+   "artista": "Ben E. King",
+   "batidaA": "soulLeve",
+   "batidaB": "soulCheio",
+   "bpm": 119,
+   "fonte_bpm": "SongBPM 119; a transcrição do Songsterr (id 61064) só tem percussão esparsa"
+  },
+  {
+   "titulo": "Sereníssima",
+   "artista": "Legião Urbana",
+   "batidaA": "esqd9359aLeve",
+   "batidaB": "esqd11efeCheio",
+   "bpm": 174,
+   "fonte_bpm": "GetSongBPM 174, 4/4; sem transcrição de bateria",
+   "nota": "levada do estilo: meio-tempo (sente-se a 87 com o slap no 3); conferir",
+   "adaptacao": true
+  },
+  {
+   "titulo": "O Nosso Amor a Gente Inventa",
+   "artista": "Cazuza",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2877113"
+  },
+  {
+   "titulo": "Por Enquanto",
+   "artista": "Legião Urbana",
+   "batidaA": "slapE3Leve",
+   "batidaB": "slapE3Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 441388"
+  },
+  {
+   "titulo": "Relicário",
+   "artista": "Nando Reis / Cássia Eller",
+   "batidaA": "baladaMinimaLeve",
+   "batidaB": "baladaMinimaCheia",
+   "bpm": 82,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 5603921"
+  },
+  {
+   "titulo": "Patience",
+   "artista": "Guns N' Roses",
+   "batidaA": "baladaLeve",
+   "batidaB": "baladaCheia",
+   "bpm": 60,
+   "fonte_bpm": "GetSongBPM 58 / partitura Musicnotes ~60 (gravação sem bateria)"
+  },
+  {
+   "titulo": "Layla",
+   "artista": "Eric Clapton (Unplugged)",
+   "batidaA": "shuffleLentoLeve",
+   "batidaB": "shuffleLentoCheio",
+   "bpm": 92,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3616691 (Unplugged); SongBPM 94"
+  },
+  {
+   "titulo": "Nada Sei",
+   "artista": "Kid Abelha",
+   "batidaA": "popMedioLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 209319"
+  },
+  {
+   "titulo": "O Teatro dos Vampiros",
+   "artista": "Legião Urbana",
+   "batidaA": "conducaoLeve",
+   "batidaB": "conducaoCheia",
+   "bpm": 113,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 34047 (só chimbal e chocalho)"
+  },
+  {
+   "titulo": "Tendo a Lua",
+   "artista": "Paralamas do Sucesso",
+   "batidaA": "meioTempoLeve",
+   "batidaB": "meioTempoCheio",
+   "bpm": 162,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2738911"
+  },
+  {
+   "titulo": "Olhos Vermelhos",
+   "artista": "Capital Inicial",
+   "batidaA": "popMedioLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 67,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 5636293"
+  },
+  {
+   "titulo": "Linger",
+   "artista": "The Cranberries",
+   "batidaA": "baladaGhosts",
+   "batidaB": null,
+   "bpm": 95,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 22422 (andamento do corpo da música)"
+  },
+  {
+   "titulo": "Simple Man",
+   "artista": "Lynyrd Skynyrd",
+   "batidaA": "baladaSincopada",
+   "batidaB": null,
+   "bpm": 60,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 88906"
+  },
+  {
+   "titulo": "Tempo Perdido",
+   "artista": "Legião Urbana",
+   "batidaA": "eDo2e3Leve",
+   "batidaB": "popMedioCheio",
+   "bpm": 180,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 11464 (179–186)"
+  },
+  {
+   "titulo": "Runaway Train",
+   "artista": "Soul Asylum",
+   "batidaA": "eDo2Leve",
+   "batidaB": "eDo2Cheio",
+   "bpm": 112,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 55368"
+  },
+  {
+   "titulo": "Hard Luck",
+   "artista": "KISS (Hard Luck Woman)",
+   "batidaA": "todoTempo",
+   "batidaB": "eDo2Leve",
+   "bpm": 123,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 395157"
+  },
+  {
+   "titulo": "Primeiros Erros",
+   "artista": "Capital Inicial",
+   "batidaA": "slapADo2Leve",
+   "batidaB": "slapADo2Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 618627"
+  },
+  {
+   "titulo": "It's a Heartache",
+   "artista": "Bonnie Tyler",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "eDo2Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 288417"
+  },
+  {
+   "titulo": "Infinita Highway",
+   "artista": "Engenheiros do Hawaii",
+   "batidaA": "estradaLeve",
+   "batidaB": "estradaCheio",
+   "bpm": 139,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 89825"
+  },
+  {
+   "titulo": "Ovelha Negra",
+   "artista": "Rita Lee",
+   "batidaA": "meioTempoPopLeve",
+   "batidaB": "meioTempoPopCheio",
+   "bpm": 128,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2480011"
+  },
+  {
+   "titulo": "Flerte Fatal",
+   "artista": "Ira!",
+   "batidaA": "esqb11450Leve",
+   "batidaB": "esqb11450Cheio",
+   "bpm": 86,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2877546",
+   "nota": "transcrição incompleta (5 compassos com bateria)"
+  },
+  {
+   "titulo": "Armas Químicas",
+   "artista": "Engenheiros do Hawaii",
+   "batidaA": "eDo2e3Leve",
+   "batidaB": "eDo2e3Cheio",
+   "bpm": 146,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6010237"
+  },
+  {
+   "titulo": "Anjos",
+   "artista": "O Rappa (Anjos — Pra Quem Tem Fé) — confirmar se é esta",
+   "batidaA": "aDo3Leve",
+   "batidaB": "aDo3Cheio",
+   "bpm": 105,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 933786"
+  },
+  {
+   "titulo": "Epitáfio",
+   "artista": "Titãs",
+   "batidaA": "pop80Leve",
+   "batidaB": "pop80Cheio",
+   "bpm": 112,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 758004"
+  },
+  {
+   "titulo": "Garganta",
+   "artista": "Ana Carolina",
+   "batidaA": "slapNo4Leve",
+   "batidaB": "slapNo4Cheio",
+   "bpm": 127,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 68575"
+  },
+  {
+   "titulo": "Knockin' on Heaven's Door",
+   "artista": "Guns N' Roses",
+   "batidaA": "popMedioLeve",
+   "batidaB": "baladaRockAntecipada",
+   "bpm": 63,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 481 (Matt Sorum)"
+  }
+ ]
+}

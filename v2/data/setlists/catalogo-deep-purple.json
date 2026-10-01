@@ -1,0 +1,94 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Deep Purple",
+ "tipo": "catalogo",
+ "artista": "Deep Purple",
+ "musicas": [
+  {
+   "titulo": "Black Night",
+   "artista": "Deep Purple",
+   "batidaA": "esq475dc5Leve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 136,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 23516"
+  },
+  {
+   "titulo": "Burn",
+   "artista": "Deep Purple",
+   "batidaA": "eDo2e3Leve",
+   "batidaB": "eDo2e3Cheio",
+   "bpm": 188,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6383",
+   "nota": "3 transcrições concordam"
+  },
+  {
+   "titulo": "Child in Time",
+   "artista": null,
+   "batidaA": null,
+   "batidaB": null,
+   "bpm": null,
+   "fonte_bpm": null,
+   "nota": "Música longa com várias partes, em 12/8 rápido."
+  },
+  {
+   "titulo": "Highway Star",
+   "artista": "Deep Purple",
+   "batidaA": "popMedioLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 171,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 490"
+  },
+  {
+   "titulo": "Hush",
+   "artista": "Deep Purple",
+   "batidaA": "esqbee8b0Leve",
+   "batidaB": "esqbee8b0Cheio",
+   "bpm": 109,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6134",
+   "nota": "conferir: levada carregada, mas 2 transcrições concordam"
+  },
+  {
+   "titulo": "Perfect Strangers",
+   "artista": "Deep Purple",
+   "batidaA": "estradaLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 98,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 22502",
+   "nota": "Songsterr e Cifra Club concordam"
+  },
+  {
+   "titulo": "Smoke on the Water",
+   "artista": "Deep Purple",
+   "batidaA": "esqae9d20Leve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 115,
+   "fonte_bpm": "Cifra Club (tab de bateria); BPM da transcrição do Songsterr id 329",
+   "nota": "a introdução da gravação é só chimbal e caixa; aqui a levada do verso"
+  },
+  {
+   "titulo": "Soldier of Fortune",
+   "artista": "Deep Purple",
+   "batidaA": "baladaLeve",
+   "batidaB": "esq72a469Cheio",
+   "bpm": 66,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 5746"
+  },
+  {
+   "titulo": "Space Truckin'",
+   "artista": null,
+   "batidaA": null,
+   "batidaB": null,
+   "bpm": null,
+   "fonte_bpm": null,
+   "nota": "Transcrição incompleta (só 16 compassos de bateria, quebrados)."
+  },
+  {
+   "titulo": "When a Blind Man Cries",
+   "artista": "Deep Purple",
+   "batidaA": "baladaLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 64,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 29188"
+  }
+ ]
+}

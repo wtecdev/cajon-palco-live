@@ -1,0 +1,93 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Barão Vermelho",
+ "tipo": "catalogo",
+ "artista": "Barão Vermelho",
+ "musicas": [
+  {
+   "titulo": "Amor Meu Grande Amor",
+   "artista": "Barão Vermelho",
+   "batidaA": "esq669558Leve",
+   "batidaB": "eDo2Cheio",
+   "bpm": 104,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6114827",
+   "nota": "conferir: as duas transcrições discordam"
+  },
+  {
+   "titulo": "Bete Balanço",
+   "artista": "Barão Vermelho",
+   "batidaA": "soulLeve",
+   "batidaB": "esq267737Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 90275"
+  },
+  {
+   "titulo": "Codinome Beija-Flor",
+   "artista": "Cazuza",
+   "batidaA": "baladaLeve",
+   "batidaB": "esq3225d8Cheio",
+   "bpm": 70,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 438843",
+   "nota": "transcrição curta (10 compassos com bateria)"
+  },
+  {
+   "titulo": "Maior Abandonado",
+   "artista": "Barão Vermelho",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 144,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 4604368"
+  },
+  {
+   "titulo": "O Tempo Não Para",
+   "artista": "Cazuza",
+   "batidaA": "esq0396f5Leve",
+   "batidaB": "popSemiLeve",
+   "bpm": 80,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6960033"
+  },
+  {
+   "titulo": "Por Você",
+   "artista": "Barão Vermelho",
+   "batidaA": "esqbd3de7Leve",
+   "batidaB": "esqbd3de7Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 169145"
+  },
+  {
+   "titulo": "Pro Dia Nascer Feliz",
+   "artista": "Barão Vermelho",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 142,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 4802808",
+   "nota": "3 transcrições concordam"
+  },
+  {
+   "titulo": "Puro Êxtase",
+   "artista": "Barão Vermelho",
+   "batidaA": "esqf9ce71Leve",
+   "batidaB": "esqf9ce71Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6128834"
+  },
+  {
+   "titulo": "Tente Outra Vez",
+   "artista": "Barão Vermelho",
+   "batidaA": "esqd9359aLeve",
+   "batidaB": "meioTempoPopLeve",
+   "bpm": 140,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2599559",
+   "nota": "meio-tempo: o slap cai no 3"
+  },
+  {
+   "titulo": "Todo Amor Que Houver Nessa Vida",
+   "artista": "Barão Vermelho",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 158,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 5197621",
+   "nota": "transcrição curta"
+  }
+ ]
+}

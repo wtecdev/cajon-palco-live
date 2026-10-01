@@ -1,0 +1,97 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Green Day",
+ "tipo": "catalogo",
+ "artista": "Green Day",
+ "musicas": [
+  {
+   "titulo": "21 Guns",
+   "artista": "Green Day",
+   "batidaA": "popMedioLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 80,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3331491"
+  },
+  {
+   "titulo": "American Idiot",
+   "artista": "Green Day",
+   "batidaA": "esq475dc5Leve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 186,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 23970",
+   "nota": "transcrição da versão acústica; outras entre 180 e 190"
+  },
+  {
+   "titulo": "Basket Case",
+   "artista": "Green Day",
+   "batidaA": "esq475dc5Leve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 175,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1401",
+   "nota": "3 transcrições concordam"
+  },
+  {
+   "titulo": "Boulevard of Broken Dreams",
+   "artista": "Green Day",
+   "batidaA": "esqa11b25Leve",
+   "batidaB": "todoTempo",
+   "bpm": 167,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 479504",
+   "nota": "meio-tempo: transcrição a 167, sente-se a 84 com o slap no 3"
+  },
+  {
+   "titulo": "Brain Stew",
+   "artista": "Green Day",
+   "batidaA": "esq60daf6Leve",
+   "batidaB": "esq60daf6Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1705606"
+  },
+  {
+   "titulo": "Good Riddance (Time of Your Life)",
+   "artista": "Green Day",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 95,
+   "fonte_bpm": "Songsterr, 3 transcrições (95)",
+   "adaptacao": true,
+   "nota": "a gravação não tem bateria; sem transcrição de bateria que sirva: levada de pop no BPM da música; conferir"
+  },
+  {
+   "titulo": "Holiday",
+   "artista": "Green Day",
+   "batidaA": "todoTempo",
+   "batidaB": null,
+   "bpm": 146,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 499",
+   "nota": "grave em todo tempo, slap junto no 2 e no 4"
+  },
+  {
+   "titulo": "Last Night on Earth",
+   "artista": "Green Day",
+   "batidaA": "baladaLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 60,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 24099"
+  },
+  {
+   "titulo": "Wake Me Up When September Ends",
+   "artista": "Green Day",
+   "batidaA": "esqb10984Leve",
+   "batidaB": "esqb10984Cheio",
+   "bpm": 105,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2213266",
+   "nota": "transcrição da versão acústica"
+  },
+  {
+   "titulo": "When I Come Around",
+   "artista": "Green Day",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 98,
+   "fonte_bpm": "Songsterr, 2 transcrições (98–100)",
+   "adaptacao": true,
+   "nota": "as transcrições (Songsterr e Cifra Club) são muito carregadas; sem transcrição de bateria que sirva: levada de pop-rock no BPM da música; conferir"
+  }
+ ]
+}

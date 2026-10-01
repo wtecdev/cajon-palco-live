@@ -1,0 +1,96 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Nirvana",
+ "tipo": "catalogo",
+ "artista": "Nirvana",
+ "musicas": [
+  {
+   "titulo": "About a Girl",
+   "artista": "Nirvana",
+   "batidaA": "popMedioLeve",
+   "batidaB": "soulCheio",
+   "bpm": 119,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 486558",
+   "nota": "transcrição do MTV Unplugged"
+  },
+  {
+   "titulo": "All Apologies",
+   "artista": "Nirvana",
+   "batidaA": "esqce0b36Leve",
+   "batidaB": "esqce98c2Cheio",
+   "bpm": 109,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 572324",
+   "nota": "transcrição do MTV Unplugged"
+  },
+  {
+   "titulo": "Come As You Are",
+   "artista": "Nirvana",
+   "batidaA": "esqae9d20Leve",
+   "batidaB": "esqce98c2Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 487823",
+   "nota": "transcrição do MTV Unplugged"
+  },
+  {
+   "titulo": "Drain You",
+   "artista": "Nirvana",
+   "batidaA": "estradaCheio",
+   "batidaB": "esqe25d93Cheio",
+   "bpm": 134,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 11402"
+  },
+  {
+   "titulo": "Heart-Shaped Box",
+   "artista": "Nirvana",
+   "batidaA": "esqae9d20Leve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 99,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 460134",
+   "nota": "transcrição da versão acústica"
+  },
+  {
+   "titulo": "In Bloom",
+   "artista": "Nirvana",
+   "batidaA": "esq60daf6Leve",
+   "batidaB": "esq924200Cheio",
+   "bpm": 70,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 487598",
+   "nota": "A da versão acústica (70); B da ao vivo"
+  },
+  {
+   "titulo": "Lithium",
+   "artista": "Nirvana",
+   "batidaA": "esqa1990aLeve",
+   "batidaB": "esq267737Cheio",
+   "bpm": 123,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 993422",
+   "nota": "A do Unplugged (aro), B da versão ao vivo"
+  },
+  {
+   "titulo": "Smells Like Teen Spirit",
+   "artista": "Nirvana",
+   "batidaA": "esqae9d20Leve",
+   "batidaB": "estradaCheio",
+   "bpm": 117,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 269",
+   "nota": "o refrão original é mais carregado; simplifiquei"
+  },
+  {
+   "titulo": "Something in the Way",
+   "artista": "Nirvana",
+   "batidaA": "esq226bdaLeve",
+   "batidaB": "esq226bdaCheio",
+   "bpm": 108,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 487827",
+   "nota": "meio-tempo: o slap cai no 3"
+  },
+  {
+   "titulo": "The Man Who Sold the World",
+   "artista": "Nirvana",
+   "batidaA": "esqf4bb86Leve",
+   "batidaB": "estradaCheio",
+   "bpm": 114,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 7346"
+  }
+ ]
+}

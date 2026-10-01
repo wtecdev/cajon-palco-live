@@ -1,0 +1,98 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Eagles",
+ "tipo": "catalogo",
+ "artista": "Eagles",
+ "musicas": [
+  {
+   "titulo": "Desperado",
+   "artista": "Eagles",
+   "batidaA": "baladaLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 60,
+   "fonte_bpm": "Songsterr id 7044 (60)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de balada no BPM da música; conferir"
+  },
+  {
+   "titulo": "Hotel California",
+   "artista": "Eagles",
+   "batidaA": "esqa60333Leve",
+   "batidaB": "esq0aef3eCheio",
+   "bpm": 75,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 438329",
+   "nota": "transcrição ao vivo"
+  },
+  {
+   "titulo": "Life in the Fast Lane",
+   "artista": "Eagles",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "todoTempo",
+   "bpm": 110,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 341"
+  },
+  {
+   "titulo": "Love Will Keep Us Alive",
+   "artista": "Eagles",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 98,
+   "fonte_bpm": "Songsterr, 3 transcrições acústicas (97–99)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de balada no BPM da música; conferir"
+  },
+  {
+   "titulo": "Lyin' Eyes",
+   "artista": "Eagles",
+   "batidaA": "soulLeve",
+   "batidaB": "popSemiCheio",
+   "bpm": 132,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 7123",
+   "nota": "na gravação o slap é aro"
+  },
+  {
+   "titulo": "New Kid in Town",
+   "artista": "Eagles",
+   "batidaA": "eDo2Leve",
+   "batidaB": "eDo2Cheio",
+   "bpm": 108,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 708698",
+   "nota": "3 transcrições concordam"
+  },
+  {
+   "titulo": "One of These Nights",
+   "artista": "Eagles",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "todoTempo",
+   "bpm": 107,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 675469"
+  },
+  {
+   "titulo": "Peaceful Easy Feeling",
+   "artista": "Eagles",
+   "batidaA": "soulLeve",
+   "batidaB": "esq267737Cheio",
+   "bpm": 140,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 33620",
+   "nota": "na gravação o slap é aro"
+  },
+  {
+   "titulo": "Take It Easy",
+   "artista": "Eagles",
+   "batidaA": "soulLeve",
+   "batidaB": "popSemiCheio",
+   "bpm": 138,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 675467",
+   "nota": "3 transcrições concordam"
+  },
+  {
+   "titulo": "Tequila Sunrise",
+   "artista": "Eagles",
+   "batidaA": "eDo2Leve",
+   "batidaB": "eDo2Cheio",
+   "bpm": 112,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2085142",
+   "nota": "na gravação o slap é aro"
+  }
+ ]
+}

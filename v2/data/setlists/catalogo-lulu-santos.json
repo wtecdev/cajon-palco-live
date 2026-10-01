@@ -1,0 +1,88 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Lulu Santos",
+ "tipo": "catalogo",
+ "artista": "Lulu Santos",
+ "musicas": [
+  {
+   "titulo": "Apenas Mais uma de Amor",
+   "artista": "Lulu Santos",
+   "batidaA": "esq6b4508Leve",
+   "batidaB": "esq6b4508Cheio",
+   "bpm": 84,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 214976",
+   "nota": "a caixa é de aro"
+  },
+  {
+   "titulo": "Cabelo de Anjo",
+   "artista": null,
+   "batidaA": null,
+   "batidaB": null,
+   "bpm": null,
+   "fonte_bpm": null,
+   "nota": "Não achei transcrição nem BPM (Songsterr, Cifra Club e GetSongBPM)."
+  },
+  {
+   "titulo": "Como uma Onda",
+   "artista": "Lulu Santos",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 117,
+   "fonte_bpm": "Songsterr, 3 transcrições (117)",
+   "adaptacao": true,
+   "nota": "as transcrições só têm bumbo; sem transcrição de bateria que sirva: levada de pop no BPM da música; conferir"
+  },
+  {
+   "titulo": "De Repente Califórnia",
+   "artista": "Lulu Santos",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 110,
+   "fonte_bpm": "GetSongBPM 110, 4/4",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de pop no BPM da música; conferir"
+  },
+  {
+   "titulo": "O Último Romântico",
+   "artista": "Lulu Santos",
+   "batidaA": "esq475dc5Leve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 135,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 4215502"
+  },
+  {
+   "titulo": "Sereia",
+   "artista": "Lulu Santos",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 111,
+   "fonte_bpm": "GetSongBPM 111; Songsterr 110–115 (sem bateria)",
+   "adaptacao": true,
+   "nota": "a única transcrição com bateria é um pot-pourri; sem transcrição de bateria que sirva: levada de pop no BPM da música; conferir"
+  },
+  {
+   "titulo": "Tempos Modernos",
+   "artista": "Lulu Santos",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "estradaLeve",
+   "bpm": 118,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 813010"
+  },
+  {
+   "titulo": "Toda Forma de Amor",
+   "artista": "Lulu Santos",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 137,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1653405"
+  },
+  {
+   "titulo": "Um Certo Alguém",
+   "artista": "Lulu Santos",
+   "batidaA": "esq475dc5Leve",
+   "batidaB": "esq267737Cheio",
+   "bpm": 135,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 376297"
+  }
+ ]
+}

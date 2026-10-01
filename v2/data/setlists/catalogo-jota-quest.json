@@ -1,0 +1,78 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Jota Quest",
+ "tipo": "catalogo",
+ "artista": "Jota Quest",
+ "musicas": [
+  {
+   "titulo": "Além do Horizonte",
+   "artista": "Jota Quest",
+   "batidaA": "esq36b3e2Leve",
+   "batidaB": "esq36b3e2Cheio",
+   "bpm": 140,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1892196"
+  },
+  {
+   "titulo": "Amor Maior",
+   "artista": "Jota Quest",
+   "batidaA": "esqd9359aLeve",
+   "batidaB": "esqd9359aCheio",
+   "bpm": 153,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 10456",
+   "nota": "meio-tempo: o slap cai no 3"
+  },
+  {
+   "titulo": "Descobridor dos Sete Mares – Jota Quest",
+   "artista": null,
+   "batidaA": null,
+   "batidaB": null,
+   "bpm": null,
+   "fonte_bpm": null,
+   "nota": "Não achei transcrição nem BPM da versão do Jota Quest."
+  },
+  {
+   "titulo": "Dias Melhores",
+   "artista": "Jota Quest",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 104,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3449946"
+  },
+  {
+   "titulo": "Fácil",
+   "artista": "Jota Quest",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esq933e99Cheio",
+   "bpm": 102,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 445419",
+   "nota": "B do Cifra Club"
+  },
+  {
+   "titulo": "O Que Eu Também Não Entendo",
+   "artista": "Jota Quest",
+   "batidaA": "esqa1990aLeve",
+   "batidaB": "esqf4bb86Cheio",
+   "bpm": 115,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3931351"
+  },
+  {
+   "titulo": "O Sol",
+   "artista": "Jota Quest",
+   "batidaA": "esq4a91f1Leve",
+   "batidaB": "esqe7dae5Cheio",
+   "bpm": 80,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 72141",
+   "nota": "transcrição com grade mista; esqueleto simplificado"
+  },
+  {
+   "titulo": "Só Hoje",
+   "artista": "Jota Quest",
+   "batidaA": "baladaLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 75,
+   "fonte_bpm": "Songsterr id 72140 (sem bateria, 75)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de balada no BPM da música; conferir"
+  }
+ ]
+}

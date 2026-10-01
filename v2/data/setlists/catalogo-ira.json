@@ -1,0 +1,93 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Ira!",
+ "tipo": "catalogo",
+ "artista": "Ira!",
+ "musicas": [
+  {
+   "titulo": "Dias de Luta",
+   "artista": "Ira!",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esq835668Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 5561297",
+   "nota": "transcrição do MTV"
+  },
+  {
+   "titulo": "Envelheço na Cidade",
+   "artista": "Ira!",
+   "batidaA": "popMedioLeve",
+   "batidaB": "soulCheio",
+   "bpm": 116,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 735771"
+  },
+  {
+   "titulo": "Eu Quero Sempre Mais",
+   "artista": "Ira!",
+   "batidaA": "esqfbb460Leve",
+   "batidaB": "estradaCheio",
+   "bpm": 134,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2813189"
+  },
+  {
+   "titulo": "Flores em Você",
+   "artista": "Ira!",
+   "batidaA": "eDo2e3Leve",
+   "batidaB": "eDo2e3Cheio",
+   "bpm": 180,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3590356",
+   "nota": "versão ao vivo; 3 transcrições concordam"
+  },
+  {
+   "titulo": "Mudança de Comportamento",
+   "artista": "Ira!",
+   "batidaA": "soulLeve",
+   "batidaB": "estradaCheio",
+   "bpm": 144,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 792731"
+  },
+  {
+   "titulo": "Núcleo Base",
+   "artista": "Ira!",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 176,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 792861",
+   "nota": "ao vivo MTV"
+  },
+  {
+   "titulo": "O Girassol",
+   "artista": "Ira!",
+   "batidaA": "eDo2e3Leve",
+   "batidaB": "popSemiCheio",
+   "bpm": 128,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1558751"
+  },
+  {
+   "titulo": "Pobre Paulista",
+   "artista": "Ira!",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "estradaCheio",
+   "bpm": 190,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1628466"
+  },
+  {
+   "titulo": "Tarde Vazia",
+   "artista": "Ira!",
+   "batidaA": "eDo2e3Leve",
+   "batidaB": "estradaCheio",
+   "bpm": 130,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 4709050"
+  },
+  {
+   "titulo": "Vitrine Viva",
+   "artista": "Ira!",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 125,
+   "fonte_bpm": "Songsterr id 6869567 (sem bateria, 125)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de rock no BPM da música; conferir"
+  }
+ ]
+}

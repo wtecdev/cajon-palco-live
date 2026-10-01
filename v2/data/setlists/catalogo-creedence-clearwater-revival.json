@@ -1,0 +1,94 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Creedence Clearwater Revival",
+ "tipo": "catalogo",
+ "artista": "Creedence Clearwater Revival",
+ "musicas": [
+  {
+   "titulo": "Bad Moon Rising",
+   "artista": "Creedence",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 178,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 4232"
+  },
+  {
+   "titulo": "Down on the Corner",
+   "artista": "Creedence Clearwater Revival",
+   "batidaA": "esq0497fbLeve",
+   "batidaB": "esq0497fbCheio",
+   "bpm": 105,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 4584",
+   "nota": "3 transcrições concordam"
+  },
+  {
+   "titulo": "Fortunate Son",
+   "artista": "Creedence Clearwater Revival",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 133,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 4407"
+  },
+  {
+   "titulo": "Green River",
+   "artista": "Creedence Clearwater Revival",
+   "batidaA": "soulLeve",
+   "batidaB": "esq267737Cheio",
+   "bpm": 138,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 19650"
+  },
+  {
+   "titulo": "Have You Ever Seen the Rain",
+   "artista": "Creedence (Have You Ever Seen the Rain)",
+   "batidaA": "eDo2Leve",
+   "batidaB": "esq267737Cheio",
+   "bpm": 113,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 351",
+   "nota": "confirmar: pode ser outra \"Have You Ever\""
+  },
+  {
+   "titulo": "Lookin' Out My Back Door",
+   "artista": "Creedence Clearwater Revival",
+   "batidaA": "esq23c6a6Leve",
+   "batidaB": "esq23c6a6Cheio",
+   "bpm": 105,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 28666",
+   "nota": "country de dois tempos: grave no tempo, slap no contratempo"
+  },
+  {
+   "titulo": "Proud Mary",
+   "artista": "Creedence",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 115,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 23318"
+  },
+  {
+   "titulo": "Run Through the Jungle",
+   "artista": "Creedence Clearwater Revival",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 135,
+   "fonte_bpm": "Songsterr, 3 transcrições (135–136)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de rock no BPM da música; conferir"
+  },
+  {
+   "titulo": "Up Around the Bend",
+   "artista": "Creedence Clearwater Revival",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esq8c8d88Cheio",
+   "bpm": 130,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3810"
+  },
+  {
+   "titulo": "Who'll Stop the Rain",
+   "artista": "Creedence Clearwater Revival",
+   "batidaA": "soulLeve",
+   "batidaB": "esq267737Cheio",
+   "bpm": 122,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2447556",
+   "nota": "3 transcrições concordam"
+  }
+ ]
+}

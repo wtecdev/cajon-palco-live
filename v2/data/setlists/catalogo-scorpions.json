@@ -1,0 +1,78 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Scorpions",
+ "tipo": "catalogo",
+ "artista": "Scorpions",
+ "musicas": [
+  {
+   "titulo": "Always Somewhere",
+   "artista": "Scorpions",
+   "batidaA": "esqd9359aLeve",
+   "batidaB": "esq226bdaCheio",
+   "bpm": 115,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 24284",
+   "nota": "meio-tempo: o slap cai no 3"
+  },
+  {
+   "titulo": "Big City Nights",
+   "artista": "Scorpions",
+   "batidaA": "esq5dbf65Leve",
+   "batidaB": "esq5dbf65Cheio",
+   "bpm": 140,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 17643",
+   "nota": "conferir: na transcrição o grave não cai no 1"
+  },
+  {
+   "titulo": "No One Like You",
+   "artista": "Scorpions",
+   "batidaA": "esq36b3e2Leve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 119,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 16210",
+   "nota": "3 transcrições e o Cifra Club concordam"
+  },
+  {
+   "titulo": "Rock You Like a Hurricane",
+   "artista": "Scorpions",
+   "batidaA": "esq36b3e2Leve",
+   "batidaB": "esqce0b36Cheio",
+   "bpm": 126,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 337"
+  },
+  {
+   "titulo": "Send Me an Angel",
+   "artista": "Scorpions",
+   "batidaA": "esqa60333Leve",
+   "batidaB": "esqa60333Cheio",
+   "bpm": 54,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 27749",
+   "nota": "conferir"
+  },
+  {
+   "titulo": "Still Loving You",
+   "artista": "Scorpions",
+   "batidaA": "esq226bdaLeve",
+   "batidaB": "esq226bdaCheio",
+   "bpm": 103,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 86",
+   "nota": "meio-tempo: o slap cai no 3; 3 transcrições concordam"
+  },
+  {
+   "titulo": "When the Smoke Is Going Down",
+   "artista": "Scorpions",
+   "batidaA": "esq226bdaLeve",
+   "batidaB": "esq226bdaCheio",
+   "bpm": 99,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 164",
+   "nota": "meio-tempo: o slap cai no 3; Songsterr e Cifra Club concordam"
+  },
+  {
+   "titulo": "Wind of Change",
+   "artista": "Scorpions",
+   "batidaA": "baladaLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 76,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 381"
+  }
+ ]
+}

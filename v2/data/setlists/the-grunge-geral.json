@@ -1,0 +1,313 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "The Grunge — Geral",
+ "musicas": [
+  {
+   "titulo": "Aonde Quer Que Eu Vá",
+   "artista": "Paralamas do Sucesso",
+   "batidaA": "esq933e99Leve",
+   "batidaB": "esq3d6264Cheio",
+   "bpm": 80,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 233570"
+  },
+  {
+   "titulo": "Segundo Sol",
+   "artista": "Cássia Eller",
+   "batidaA": "esq933e99Leve",
+   "batidaB": "esq933e99Cheio",
+   "bpm": 75,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 382712"
+  },
+  {
+   "titulo": "O Tempo Não Para",
+   "artista": "Cazuza",
+   "batidaA": "esq0396f5Leve",
+   "batidaB": "popSemiLeve",
+   "bpm": 80,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6960033"
+  },
+  {
+   "titulo": "Por Onde Andei",
+   "artista": "Nando Reis",
+   "batidaA": "esqf7d557Leve",
+   "batidaB": "esq771bcfCheio",
+   "bpm": 168,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 5857109",
+   "nota": "meio-tempo: o slap cai no 3"
+  },
+  {
+   "titulo": "Daughter",
+   "artista": "Pearl Jam",
+   "batidaA": "esq835668Leve",
+   "batidaB": "esq4d8100Cheio",
+   "bpm": 97,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 166"
+  },
+  {
+   "titulo": "Céu Azul",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "esqf4bb86Leve",
+   "batidaB": "esqf4bb86Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 383836",
+   "nota": "na gravação o slap é aro (rimshot)"
+  },
+  {
+   "titulo": "Society – Eddie Vedder",
+   "artista": "Eddie Vedder",
+   "batidaA": "baladaLeve",
+   "batidaB": "baladaCheia",
+   "bpm": 81,
+   "fonte_bpm": "SongBPM (162, meio-tempo 81); a gravação não tem bateria",
+   "adaptacao": true
+  },
+  {
+   "titulo": "Você Me Faz Tão Bem",
+   "artista": "Detonautas",
+   "batidaA": "eDo2e3Leve",
+   "batidaB": "eDo2e3Cheio",
+   "bpm": 170,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 379539"
+  },
+  {
+   "titulo": "The Man Who Sold the World",
+   "artista": "Nirvana",
+   "batidaA": "esqf4bb86Leve",
+   "batidaB": "estradaCheio",
+   "bpm": 114,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 7346"
+  },
+  {
+   "titulo": "Stand By Me – Oasis",
+   "artista": "Oasis",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqda35a1Cheio",
+   "bpm": 87,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 49244"
+  },
+  {
+   "titulo": "Garoto de Aluguel",
+   "artista": "Zé Ramalho",
+   "batidaA": "popMedioLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 90,
+   "fonte_bpm": "GetSongBPM 90, 4/4; sem transcrição de bateria",
+   "adaptacao": true
+  },
+  {
+   "titulo": "Refrão de um Bolero",
+   "artista": "Engenheiros do Hawaii",
+   "batidaA": "baladaLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 80,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 89833"
+  },
+  {
+   "titulo": "Wish You Were Here",
+   "artista": "Pink Floyd",
+   "batidaA": "esq72a469Leve",
+   "batidaB": "esq9c68e4Cheio",
+   "bpm": 61,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 153"
+  },
+  {
+   "titulo": "Que Eu Também Não Entendo",
+   "artista": "Jota Quest",
+   "batidaA": "esqa1990aLeve",
+   "batidaB": "esqf4bb86Cheio",
+   "bpm": 115,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3005440"
+  },
+  {
+   "titulo": "O Dia Que Não Terminou",
+   "artista": "Detonautas",
+   "batidaA": "esq01185dLeve",
+   "batidaB": "esqbe5963Cheio",
+   "bpm": 110,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 87614"
+  },
+  {
+   "titulo": "Patience",
+   "artista": "Guns N' Roses",
+   "batidaA": "baladaLeve",
+   "batidaB": "baladaCheia",
+   "bpm": 60,
+   "fonte_bpm": "GetSongBPM 58 / partitura Musicnotes ~60 (gravação sem bateria)"
+  },
+  {
+   "titulo": "Cegos do Castelo",
+   "artista": "Titãs",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esq76f448Cheio",
+   "bpm": 79,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2102710",
+   "nota": "transcrição do Acústico MTV"
+  },
+  {
+   "titulo": "Você Vai Lembrar de Mim",
+   "artista": "Nenhum de Nós",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esq72a469Cheio",
+   "bpm": 93,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 83458"
+  },
+  {
+   "titulo": "Ana Song (Open Fire)",
+   "artista": "Silverchair",
+   "batidaA": "baladaLeve",
+   "batidaB": "eDo2e3Cheio",
+   "bpm": 79,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 32816"
+  },
+  {
+   "titulo": "All Star",
+   "artista": "Nando Reis",
+   "batidaA": "esq92c183Leve",
+   "batidaB": "esq92c183Cheio",
+   "bpm": 135,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 229101",
+   "nota": "meio-tempo: o slap cai no 3"
+  },
+  {
+   "titulo": "Don't Look Back in Anger",
+   "artista": "Oasis",
+   "batidaA": "esqae9d20Leve",
+   "batidaB": "esq7846aaCheio",
+   "bpm": 81,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 15472"
+  },
+  {
+   "titulo": "Eu Que Não Amo Você",
+   "artista": "Engenheiros do Hawaii",
+   "batidaA": "popMedioLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 75,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 357679"
+  },
+  {
+   "titulo": "Use Somebody",
+   "artista": "Kings of Leon",
+   "batidaA": "esqeb0eccLeve",
+   "batidaB": "esq402e51Cheio",
+   "bpm": 137,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 86274"
+  },
+  {
+   "titulo": "Codinome Beija-Flor",
+   "artista": "Cazuza",
+   "batidaA": "baladaLeve",
+   "batidaB": "esq3225d8Cheio",
+   "bpm": 70,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 438843",
+   "nota": "transcrição curta (10 compassos com bateria)"
+  },
+  {
+   "titulo": "Like a Stone",
+   "artista": "Audioslave",
+   "batidaA": "popMedioLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 108,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1859"
+  },
+  {
+   "titulo": "Black – Pearl Jam",
+   "artista": "Pearl Jam",
+   "batidaA": "baladaLeve",
+   "batidaB": "baladaCheia",
+   "bpm": 77,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 15712",
+   "nota": "transcrição com grade mista; esqueleto simplificado"
+  },
+  {
+   "titulo": "Yellow Ledbetter",
+   "artista": "Pearl Jam",
+   "batidaA": "baladaLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 70,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 195"
+  },
+  {
+   "titulo": "Exagerado",
+   "artista": "Cazuza",
+   "batidaA": "esq23c6a6Leve",
+   "batidaB": "esqd03c2fCheio",
+   "bpm": 70,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 86219",
+   "nota": "escrita em 70 com slap em todo contratempo (sente como 140)"
+  },
+  {
+   "titulo": "My Hero",
+   "artista": "Foo Fighters",
+   "batidaA": "esqf9e0b6Leve",
+   "batidaB": "popMedioCheio",
+   "bpm": 155,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 7421",
+   "nota": "no verso a bateria é só tom e bumbo; o refrão aqui é adaptação"
+  },
+  {
+   "titulo": "Fátima",
+   "artista": "Capital Inicial",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 128,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3164044"
+  },
+  {
+   "titulo": "Retorno de Saturno",
+   "artista": "Detonautas",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "estradaLeve",
+   "bpm": 140,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 997741"
+  },
+  {
+   "titulo": "Miss You Love",
+   "artista": "Silverchair",
+   "batidaA": "esq2d091dLeve",
+   "batidaB": "esq2d091dCheio",
+   "bpm": 50,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 53393",
+   "nota": "transcrição em 6/8 a 75 (semínima); aqui o pulso é a semínima pontuada = 50"
+  },
+  {
+   "titulo": "Amanhã ou Depois",
+   "artista": "Nenhum de Nós",
+   "batidaA": "esq933e99Leve",
+   "batidaB": "esq72a469Cheio",
+   "bpm": 94,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3067723"
+  },
+  {
+   "titulo": "O Papa é Pop",
+   "artista": "Engenheiros do Hawaii",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "soulCheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 357466"
+  },
+  {
+   "titulo": "Creep – Radiohead",
+   "artista": "Radiohead",
+   "batidaA": "esq72a469Leve",
+   "batidaB": "esq6a6528Cheio",
+   "bpm": 92,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 97"
+  },
+  {
+   "titulo": "O Poeta Está Vivo",
+   "artista": "Barão Vermelho",
+   "batidaA": "esq85e460Leve",
+   "batidaB": "esq933e99Cheio",
+   "bpm": 64,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 439154"
+  },
+  {
+   "titulo": "O Chão Que Ela Pisa",
+   "artista": "CPM 22",
+   "batidaA": "popMedioLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 80849"
+  }
+ ]
+}

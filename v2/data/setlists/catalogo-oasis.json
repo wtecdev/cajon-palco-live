@@ -1,0 +1,92 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Oasis",
+ "tipo": "catalogo",
+ "artista": "Oasis",
+ "musicas": [
+  {
+   "titulo": "Champagne Supernova",
+   "artista": "Oasis",
+   "batidaA": "esqae768bLeve",
+   "batidaB": "todoTempo",
+   "bpm": 80,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2528722",
+   "nota": "transcrição do Unplugged"
+  },
+  {
+   "titulo": "Don't Look Back in Anger",
+   "artista": "Oasis",
+   "batidaA": "esqae9d20Leve",
+   "batidaB": "esq7846aaCheio",
+   "bpm": 81,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 15472"
+  },
+  {
+   "titulo": "Live Forever",
+   "artista": "Oasis",
+   "batidaA": "esq0497fbLeve",
+   "batidaB": "esqbb494bCheio",
+   "bpm": 90,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2724391"
+  },
+  {
+   "titulo": "She's Electric",
+   "artista": "Oasis",
+   "batidaA": "todoTempo",
+   "batidaB": "esq2f8c02Cheio",
+   "bpm": 126,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 49233",
+   "nota": "conferir: a gravação alterna reto e shuffle; A reto, B em shuffle"
+  },
+  {
+   "titulo": "Slide Away",
+   "artista": "Oasis",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 88,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 67824",
+   "nota": "transcrição da versão acústica"
+  },
+  {
+   "titulo": "Stand By Me (Oasis)",
+   "artista": "Oasis",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqda35a1Cheio",
+   "bpm": 87,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 49244"
+  },
+  {
+   "titulo": "Stop Crying Your Heart Out",
+   "artista": "Oasis",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esq0497fbCheio",
+   "bpm": 76,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 49291"
+  },
+  {
+   "titulo": "Supersonic",
+   "artista": "Oasis",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 112,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3868869",
+   "nota": "3 transcrições ao vivo concordam"
+  },
+  {
+   "titulo": "Whatever",
+   "artista": "Oasis",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 92,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 49235"
+  },
+  {
+   "titulo": "Wonderwall",
+   "artista": "Oasis",
+   "batidaA": "esqae9d20Leve",
+   "batidaB": "esqc816beCheio",
+   "bpm": 88,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1617145"
+  }
+ ]
+}

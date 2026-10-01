@@ -1,0 +1,95 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Engenheiros do Hawaii",
+ "tipo": "catalogo",
+ "artista": "Engenheiros do Hawaii",
+ "musicas": [
+  {
+   "titulo": "3x4",
+   "artista": "Engenheiros do Hawaii",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "esq267737Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1542145",
+   "nota": "versão ao vivo"
+  },
+  {
+   "titulo": "Até o Fim",
+   "artista": "Engenheiros do Hawaii",
+   "batidaA": "soulLeve",
+   "batidaB": "popSemiCheio",
+   "bpm": 130,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6835218",
+   "nota": "versão acústica; 3 transcrições concordam"
+  },
+  {
+   "titulo": "Era um Garoto Que Como Eu Amava os Beatles e os Rolling Stones",
+   "artista": "Engenheiros do Hawaii",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "popSemiCheio",
+   "bpm": 134,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 933594",
+   "nota": "transcrições em 2/4 a 65–67; aqui em 4/4 a 134"
+  },
+  {
+   "titulo": "Infinita Highway",
+   "artista": "Engenheiros do Hawaii",
+   "batidaA": "estradaLeve",
+   "batidaB": "estradaCheio",
+   "bpm": 139,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 89825"
+  },
+  {
+   "titulo": "O Papa é Pop",
+   "artista": "Engenheiros do Hawaii",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "soulCheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 357466"
+  },
+  {
+   "titulo": "Pra Ser Sincero",
+   "artista": "Engenheiros do Hawaii",
+   "batidaA": "esqd9359aLeve",
+   "batidaB": "esq9f50f4Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 7038284",
+   "nota": "meio-tempo: o slap cai no 3"
+  },
+  {
+   "titulo": "Refrão de Bolero",
+   "artista": "Engenheiros do Hawaii",
+   "batidaA": "baladaLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 80,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 89833"
+  },
+  {
+   "titulo": "Somos Quem Podemos Ser",
+   "artista": "Engenheiros do Hawaii",
+   "batidaA": "shuffleLentoLeve",
+   "batidaB": "shuffleLentoCheio",
+   "bpm": 94,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3954640",
+   "nota": "shuffle"
+  },
+  {
+   "titulo": "Terra de Gigantes",
+   "artista": "Engenheiros do Hawaii",
+   "batidaA": "popMedioLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 88,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 4207775",
+   "nota": "versão acústica"
+  },
+  {
+   "titulo": "Toda Forma de Poder",
+   "artista": "Engenheiros do Hawaii",
+   "batidaA": "esq69368dLeve",
+   "batidaB": "esq69368dCheio",
+   "bpm": 118,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3769349",
+   "nota": "conferir o andamento: as transcrições dão 89, 110 e 118"
+  }
+ ]
+}

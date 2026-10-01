@@ -1,0 +1,87 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Cidade Negra",
+ "tipo": "catalogo",
+ "artista": "Cidade Negra",
+ "musicas": [
+  {
+   "titulo": "A Estrada",
+   "artista": "Cidade Negra",
+   "batidaA": "reggaeTramandaLeve",
+   "batidaB": "reggaeTramandaCheio",
+   "bpm": 96,
+   "fonte_bpm": "BPM: transcrição do Songsterr id 174760; batida: levada de reggae do app (adaptação)",
+   "adaptacao": true,
+   "nota": "reggae reto (o mesmo de Reggae das Tramanda); transcrição id 174760 a 96; conferir"
+  },
+  {
+   "titulo": "A Sombra da Maldade",
+   "artista": "Cidade Negra",
+   "batidaA": "reggaeTramandaLeve",
+   "batidaB": "reggaeTramandaCheio",
+   "bpm": 108,
+   "fonte_bpm": "BPM: transcrição do Songsterr id 2659576; batida: levada de reggae do app (adaptação)",
+   "adaptacao": true,
+   "nota": "reggae reto; transcrição id 2659576 a 108; conferir"
+  },
+  {
+   "titulo": "Firmamento",
+   "artista": "Cidade Negra",
+   "batidaA": "reggaeAbertoLeve",
+   "batidaB": "reggaeAbertoCheio",
+   "bpm": 78,
+   "fonte_bpm": "BPM: transcrição do Songsterr id 2659572; batida: levada de reggae do app (adaptação)",
+   "adaptacao": true,
+   "nota": "reggae aberto; transcrição a 157 em meio-tempo, aqui 78; conferir"
+  },
+  {
+   "titulo": "Girassol",
+   "artista": "Cidade Negra",
+   "batidaA": "reggaeAbertoLeve",
+   "batidaB": "reggaeAbertoCheio",
+   "bpm": 82,
+   "fonte_bpm": "BPM: transcrição do Songsterr id 2659558; batida: levada de reggae do app (adaptação)",
+   "adaptacao": true,
+   "nota": "reggae aberto (o mesmo de Jack Tequila); transcrição a 164 em meio-tempo, aqui 82; conferir"
+  },
+  {
+   "titulo": "Johnny B. Goode",
+   "artista": null,
+   "batidaA": null,
+   "batidaB": null,
+   "bpm": null,
+   "fonte_bpm": null,
+   "nota": "Não achei transcrição nem BPM da versão do Cidade Negra."
+  },
+  {
+   "titulo": "Onde Você Mora",
+   "artista": "Cidade Negra",
+   "batidaA": "reggaeAbertoLeve",
+   "batidaB": "reggaeAbertoCheio",
+   "bpm": 76,
+   "fonte_bpm": "BPM: transcrição do Songsterr id 2487930; batida: levada de reggae do app (adaptação)",
+   "adaptacao": true,
+   "nota": "reggae aberto (o mesmo de Jack Tequila); transcrição a 153, GetSongBPM 76; conferir"
+  },
+  {
+   "titulo": "Pensamento",
+   "artista": "Cidade Negra",
+   "batidaA": "reggaeTramandaLeve",
+   "batidaB": "reggaeTramandaCheio",
+   "bpm": 88,
+   "fonte_bpm": "BPM: transcrição do Songsterr id 1110766; batida: levada de reggae do app (adaptação)",
+   "adaptacao": true,
+   "nota": "reggae reto; transcrição id 1110766 a 88; conferir"
+  },
+  {
+   "titulo": "Querem Meu Sangue",
+   "artista": "Cidade Negra",
+   "batidaA": "reggaeTramandaLeve",
+   "batidaB": "reggaeTramandaCheio",
+   "bpm": 95,
+   "fonte_bpm": "BPM: transcrição do Songsterr id 2659570; batida: levada de reggae do app (adaptação)",
+   "adaptacao": true,
+   "nota": "reggae reto; transcrição id 2659570 a 95; conferir"
+  }
+ ]
+}

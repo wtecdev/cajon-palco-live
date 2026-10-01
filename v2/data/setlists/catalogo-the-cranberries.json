@@ -1,0 +1,97 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · The Cranberries",
+ "tipo": "catalogo",
+ "artista": "The Cranberries",
+ "musicas": [
+  {
+   "titulo": "Animal Instinct",
+   "artista": "The Cranberries",
+   "batidaA": "eDo2e3Leve",
+   "batidaB": "eDo2e3Cheio",
+   "bpm": 132,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3990"
+  },
+  {
+   "titulo": "Dreams",
+   "artista": "The Cranberries",
+   "batidaA": "esqae768bLeve",
+   "batidaB": "todoTempo",
+   "bpm": 129,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 22418"
+  },
+  {
+   "titulo": "Free to Decide",
+   "artista": "The Cranberries",
+   "batidaA": "esq5aa34bLeve",
+   "batidaB": "esq5aa34bCheio",
+   "bpm": 115,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 61489"
+  },
+  {
+   "titulo": "Just My Imagination",
+   "artista": "The Cranberries",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 100,
+   "fonte_bpm": "Songsterr, 3 transcrições (100–101)",
+   "adaptacao": true,
+   "nota": "a transcrição é muito carregada; sem transcrição de bateria que sirva: levada de pop no BPM da música; conferir"
+  },
+  {
+   "titulo": "Linger",
+   "artista": "The Cranberries",
+   "batidaA": "baladaGhosts",
+   "batidaB": null,
+   "bpm": 95,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 22422 (andamento do corpo da música)"
+  },
+  {
+   "titulo": "Ode to My Family",
+   "artista": "The Cranberries",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 92,
+   "fonte_bpm": "Songsterr, 3 transcrições (92–93)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de balada no BPM da música; conferir"
+  },
+  {
+   "titulo": "Salvation",
+   "artista": "The Cranberries",
+   "batidaA": "esqae9d20Leve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 170,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6193386"
+  },
+  {
+   "titulo": "Sunday",
+   "artista": "The Cranberries",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 106,
+   "fonte_bpm": "Songsterr, transcrições a 100 e 106",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de pop no BPM da música; conferir"
+  },
+  {
+   "titulo": "When You're Gone",
+   "artista": "The Cranberries",
+   "batidaA": "esq1342e7Leve",
+   "batidaB": "esq1342e7Cheio",
+   "bpm": 63,
+   "fonte_bpm": "Songsterr, 3 transcrições (94–97, em 6/8 e 12/8)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de 6/8 no BPM da música; conferir andamento (pulso = semínima pontuada)"
+  },
+  {
+   "titulo": "Zombie",
+   "artista": "The Cranberries",
+   "batidaA": "estradaCheio",
+   "batidaB": null,
+   "bpm": 83,
+   "fonte_bpm": "Cifra Club (tab de bateria); BPM de 3 transcrições do Songsterr (80–83)",
+   "nota": "a transcrição do Songsterr não tinha a caixa; esta é do Cifra Club"
+  }
+ ]
+}

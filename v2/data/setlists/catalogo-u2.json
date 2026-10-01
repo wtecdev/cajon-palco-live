@@ -1,0 +1,90 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · U2",
+ "tipo": "catalogo",
+ "artista": "U2",
+ "musicas": [
+  {
+   "titulo": "Beautiful Day",
+   "artista": "U2",
+   "batidaA": "estradaCheio",
+   "batidaB": null,
+   "bpm": 137,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 20574"
+  },
+  {
+   "titulo": "I Still Haven't Found What I'm Looking For",
+   "artista": "U2",
+   "batidaA": "esqae768bLeve",
+   "batidaB": "esq2bd173Cheio",
+   "bpm": 101,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 22652",
+   "nota": "verso só grave; na parte forte o slap entra só no 4"
+  },
+  {
+   "titulo": "New Year's Day",
+   "artista": "U2",
+   "batidaA": "soulLeve",
+   "batidaB": "estradaCheio",
+   "bpm": 135,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 502180"
+  },
+  {
+   "titulo": "One",
+   "artista": "U2",
+   "batidaA": "esqae9d20Leve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 90,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 66"
+  },
+  {
+   "titulo": "Pride (In the Name of Love)",
+   "artista": "U2",
+   "batidaA": "popSemiLeve",
+   "batidaB": "esq7a4d2cCheio",
+   "bpm": 107,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 22656"
+  },
+  {
+   "titulo": "Stuck in a Moment You Can't Get Out Of",
+   "artista": "U2",
+   "batidaA": "esqfbb460Leve",
+   "batidaB": "esqfbb460Cheio",
+   "bpm": 80,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 22657",
+   "nota": "3 transcrições concordam"
+  },
+  {
+   "titulo": "Sunday Bloody Sunday",
+   "artista": "U2",
+   "batidaA": "todoTempo",
+   "batidaB": "esq52913eCheio",
+   "bpm": 102,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 61480"
+  },
+  {
+   "titulo": "Vertigo",
+   "artista": "U2",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 140,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 20777"
+  },
+  {
+   "titulo": "Where the Streets Have No Name",
+   "artista": "U2",
+   "batidaA": "todoTempo",
+   "batidaB": null,
+   "bpm": 125,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2229680"
+  },
+  {
+   "titulo": "With or Without You",
+   "artista": "U2",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "todoTempo",
+   "bpm": 110,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 8711"
+  }
+ ]
+}

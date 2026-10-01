@@ -1,0 +1,92 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Charlie Brown Jr.",
+ "tipo": "catalogo",
+ "artista": "Charlie Brown Jr.",
+ "musicas": [
+  {
+   "titulo": "Céu Azul",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "esqf4bb86Leve",
+   "batidaB": "esqf4bb86Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 383836",
+   "nota": "na gravação o slap é aro (rimshot)"
+  },
+  {
+   "titulo": "Como Tudo Deve Ser",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqe765beCheio",
+   "bpm": 90,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 541546",
+   "nota": "conferir: as 3 transcrições discordam"
+  },
+  {
+   "titulo": "Dias de Luta, Dias de Glória",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "popMedioLeve",
+   "batidaB": "reggaeAbertoLeve",
+   "bpm": 100,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1557315"
+  },
+  {
+   "titulo": "Ela Vai Voltar",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "esqcce834Leve",
+   "batidaB": "esqcce834Cheio",
+   "bpm": 105,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 85460"
+  },
+  {
+   "titulo": "Lugar ao Sol",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "esq0460fbLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 140,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3765",
+   "nota": "transcrição curta (32 compassos com bateria)"
+  },
+  {
+   "titulo": "Me Encontra",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "esqfa9105Leve",
+   "batidaB": "esqfa9105Cheio",
+   "bpm": 95,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 484514"
+  },
+  {
+   "titulo": "Meu Novo Mundo",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "esqfbb460Cheio",
+   "bpm": 125,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 383510",
+   "nota": "conferir: as transcrições discordam"
+  },
+  {
+   "titulo": "Pontes Indestrutíveis",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "popSemiLeve",
+   "batidaB": "esq2ec75aCheio",
+   "bpm": 80,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 268805"
+  },
+  {
+   "titulo": "Só os Loucos Sabem",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "esq6118fcLeve",
+   "batidaB": "esq4a323aCheio",
+   "bpm": 102,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 173307"
+  },
+  {
+   "titulo": "Zóio de Lula",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "reggaeAbertoLeve",
+   "batidaB": "esq690ef9Cheio",
+   "bpm": 76,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 397700"
+  }
+ ]
+}

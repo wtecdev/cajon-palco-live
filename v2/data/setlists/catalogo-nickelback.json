@@ -1,0 +1,96 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Nickelback",
+ "tipo": "catalogo",
+ "artista": "Nickelback",
+ "musicas": [
+  {
+   "titulo": "Animals",
+   "artista": "Nickelback",
+   "batidaA": "esqce98c2Leve",
+   "batidaB": "estradaCheio",
+   "bpm": 154,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 48515",
+   "nota": "3 transcrições concordam"
+  },
+  {
+   "titulo": "Burn It to the Ground",
+   "artista": "Nickelback",
+   "batidaA": "todoTempo",
+   "batidaB": null,
+   "bpm": 134,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 33544",
+   "nota": "grave em todo tempo, slap junto no 2 e no 4"
+  },
+  {
+   "titulo": "Far Away",
+   "artista": "Nickelback",
+   "batidaA": "esqd9359aLeve",
+   "batidaB": "esq226bdaCheio",
+   "bpm": 130,
+   "fonte_bpm": "Songsterr, 2 transcrições a 130 (uma acústica a 120)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de meio-tempo (sente-se a 65) no BPM da música; conferir"
+  },
+  {
+   "titulo": "How You Remind Me",
+   "artista": "Nickelback",
+   "batidaA": "popMedioLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 86,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 9528",
+   "nota": "3 transcrições concordam"
+  },
+  {
+   "titulo": "Photograph",
+   "artista": "Nickelback",
+   "batidaA": "meioTempoLeve",
+   "batidaB": "meioTempoCheio",
+   "bpm": 146,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 14586",
+   "nota": "meio-tempo: o slap cai no 3"
+  },
+  {
+   "titulo": "Rockstar",
+   "artista": "Nickelback",
+   "batidaA": "baladaLeve",
+   "batidaB": "baladaRockAntecipada",
+   "bpm": 72,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6346883",
+   "nota": "uma transcrição conta em 144; 3 outras em 72, que é o que fica aqui"
+  },
+  {
+   "titulo": "Savin' Me",
+   "artista": "Nickelback",
+   "batidaA": "esq0396f5Leve",
+   "batidaB": "esq0396f5Cheio",
+   "bpm": 82,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 31666",
+   "nota": "2 transcrições concordam"
+  },
+  {
+   "titulo": "She Keeps Me Up",
+   "artista": "Nickelback",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 100,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 745041"
+  },
+  {
+   "titulo": "Someday",
+   "artista": "Nickelback",
+   "batidaA": "esqbd3de7Leve",
+   "batidaB": "popMedioCheio",
+   "bpm": 81,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 9535"
+  },
+  {
+   "titulo": "Something in Your Mouth",
+   "artista": "Nickelback",
+   "batidaA": "esqae768bLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 130,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 48513"
+  }
+ ]
+}

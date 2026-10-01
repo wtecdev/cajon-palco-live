@@ -1,0 +1,92 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Bon Jovi",
+ "tipo": "catalogo",
+ "artista": "Bon Jovi",
+ "musicas": [
+  {
+   "titulo": "Always",
+   "artista": "Bon Jovi",
+   "batidaA": "baladaLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 72,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3553"
+  },
+  {
+   "titulo": "Bad Medicine",
+   "artista": "Bon Jovi",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3639"
+  },
+  {
+   "titulo": "Bed of Roses",
+   "artista": "Bon Jovi",
+   "batidaA": "baladaLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 54,
+   "fonte_bpm": "Songsterr, 2 transcrições (53–55)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de balada no BPM da música; conferir"
+  },
+  {
+   "titulo": "I'll Be There for You",
+   "artista": "Bon Jovi",
+   "batidaA": "baladaLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 74,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 407841"
+  },
+  {
+   "titulo": "It's My Life",
+   "artista": "Bon Jovi",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 632794"
+  },
+  {
+   "titulo": "Livin' on a Prayer",
+   "artista": "Bon Jovi",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 123,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3131",
+   "nota": "existe versão acústica mais lenta (112), com transcrição curta"
+  },
+  {
+   "titulo": "Never Say Goodbye",
+   "artista": "Bon Jovi",
+   "batidaA": "eDo2Leve",
+   "batidaB": "eDo2Cheio",
+   "bpm": 70,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3571"
+  },
+  {
+   "titulo": "Runaway",
+   "artista": "Bon Jovi",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 150,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6590867"
+  },
+  {
+   "titulo": "Wanted Dead or Alive",
+   "artista": "Bon Jovi",
+   "batidaA": "esq092006Leve",
+   "batidaB": "eDo2e3Cheio",
+   "bpm": 74,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 54",
+   "nota": "no começo só grave"
+  },
+  {
+   "titulo": "You Give Love a Bad Name",
+   "artista": "Bon Jovi",
+   "batidaA": "esq85beadLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 123,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 816387"
+  }
+ ]
+}

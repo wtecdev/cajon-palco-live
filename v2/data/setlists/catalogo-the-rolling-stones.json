@@ -1,0 +1,96 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · The Rolling Stones",
+ "tipo": "catalogo",
+ "artista": "The Rolling Stones",
+ "musicas": [
+  {
+   "titulo": "Angie",
+   "artista": "The Rolling Stones",
+   "batidaA": "baladaLeve",
+   "batidaB": "baladaRockAntecipada",
+   "bpm": 68,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 61",
+   "nota": "3 transcrições concordam"
+  },
+  {
+   "titulo": "Beast of Burden",
+   "artista": "The Rolling Stones",
+   "batidaA": "esq267737Leve",
+   "batidaB": "esq267737Cheio",
+   "bpm": 103,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 52288",
+   "nota": "2 transcrições concordam"
+  },
+  {
+   "titulo": "Gimme Shelter",
+   "artista": "The Rolling Stones",
+   "batidaA": "esqae9d20Leve",
+   "batidaB": "popMedioCheio",
+   "bpm": 119,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 380",
+   "nota": "3 transcrições concordam"
+  },
+  {
+   "titulo": "Miss You",
+   "artista": "The Rolling Stones",
+   "batidaA": "todoTempo",
+   "batidaB": null,
+   "bpm": 108,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 16458",
+   "nota": "grave em todo tempo, slap no 2 e no 4 (disco); ao vivo eles tocam a 120"
+  },
+  {
+   "titulo": "Paint It Black",
+   "artista": "The Rolling Stones",
+   "batidaA": "esq468d2eLeve",
+   "batidaB": "esq11ed14Cheio",
+   "bpm": 139,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2363933",
+   "nota": "conferir: na gravação a caixa bate em todo tempo; aqui grave e slap juntos no 1 e no 3"
+  },
+  {
+   "titulo": "(I Can't Get No) Satisfaction",
+   "artista": "The Rolling Stones",
+   "batidaA": "esq794654Leve",
+   "batidaB": "esq794654Cheio",
+   "bpm": 136,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 16453",
+   "nota": "grave e slap juntos em todo tempo; 3 transcrições concordam"
+  },
+  {
+   "titulo": "She's a Rainbow",
+   "artista": "The Rolling Stones",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 105,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1273147"
+  },
+  {
+   "titulo": "Start Me Up",
+   "artista": "The Rolling Stones",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 122,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 16469"
+  },
+  {
+   "titulo": "Sympathy for the Devil",
+   "artista": "The Rolling Stones",
+   "batidaA": "esq4e719aLeve",
+   "batidaB": "esqdf774aCheio",
+   "bpm": 112,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 16975",
+   "nota": "levada de samba"
+  },
+  {
+   "titulo": "Wild Horses",
+   "artista": "The Rolling Stones",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 70,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 5677755",
+   "nota": "transcrição da versão acústica (Stripped)"
+  }
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · O Rappa",
+ "tipo": "catalogo",
+ "artista": "O Rappa",
+ "musicas": [
+  {
+   "titulo": "Anjos (Pra Quem Tem Fé)",
+   "artista": "O Rappa (Anjos — Pra Quem Tem Fé) — confirmar se é esta",
+   "batidaA": "aDo3Leve",
+   "batidaB": "aDo3Cheio",
+   "bpm": 105,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 933786"
+  },
+  {
+   "titulo": "Auto-Reverse",
+   "artista": "O Rappa",
+   "batidaA": "popMedioLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 100,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 439044"
+  },
+  {
+   "titulo": "Mar de Gente",
+   "artista": "O Rappa",
+   "batidaA": "esq4575b5Leve",
+   "batidaB": "esq729b1aCheio",
+   "bpm": 110,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 445906"
+  },
+  {
+   "titulo": "Me Deixa",
+   "artista": "O Rappa",
+   "batidaA": "esqbd3de7Leve",
+   "batidaB": "esqce98c2Cheio",
+   "bpm": 118,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 5592201",
+   "nota": "conferir: as transcrições têm levadas bem carregadas; simplifiquei"
+  },
+  {
+   "titulo": "Minha Alma (A Paz Que Eu Não Quero)",
+   "artista": "O Rappa",
+   "batidaA": "esq6118fcLeve",
+   "batidaB": "esq6118fcCheio",
+   "bpm": 98,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 439047"
+  },
+  {
+   "titulo": "O Que Sobrou do Céu",
+   "artista": "O Rappa",
+   "batidaA": "esq0493c4Leve",
+   "batidaB": "esq0493c4Cheio",
+   "bpm": 105,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 704483"
+  },
+  {
+   "titulo": "Pescador de Ilusões",
+   "artista": "O Rappa",
+   "batidaA": "esqae9d20Leve",
+   "batidaB": "esq41a97fCheio",
+   "bpm": 93,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2803924",
+   "nota": "3 transcrições concordam"
+  },
+  {
+   "titulo": "Sentimento",
+   "artista": "O Rappa",
+   "batidaA": "esq1316f4Leve",
+   "batidaB": "esq1316f4Cheio",
+   "bpm": 90,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 4862635"
+  },
+  {
+   "titulo": "Súplica Cearense",
+   "artista": "O Rappa",
+   "batidaA": "esq581de2Leve",
+   "batidaB": "esq581de2Cheio",
+   "bpm": 136,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 231670",
+   "nota": "conferir: transcrição com grade mista"
+  },
+  {
+   "titulo": "Vapor Barato",
+   "artista": "O Rappa",
+   "batidaA": "meioTempoLeve",
+   "batidaB": "meioTempoCheio",
+   "bpm": 186,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 231672",
+   "nota": "meio-tempo: o slap cai no 3 (sente como 93)"
+  }
+ ]
+}

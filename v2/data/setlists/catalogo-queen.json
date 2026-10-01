@@ -1,0 +1,94 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Queen",
+ "tipo": "catalogo",
+ "artista": "Queen",
+ "musicas": [
+  {
+   "titulo": "Another One Bites the Dust",
+   "artista": "Queen",
+   "batidaA": "todoTempo",
+   "batidaB": null,
+   "bpm": 112,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 371",
+   "nota": "grave em todo tempo, slap junto no 2 e no 4"
+  },
+  {
+   "titulo": "Bohemian Rhapsody",
+   "artista": "Queen",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esq23c6a6Cheio",
+   "bpm": 72,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 270",
+   "nota": "conferir: música com várias partes; A = balada, B = a parte rock (144, aqui contada em 72)"
+  },
+  {
+   "titulo": "Crazy Little Thing Called Love",
+   "artista": "Queen",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqde0bcdCheio",
+   "bpm": 153,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 540502"
+  },
+  {
+   "titulo": "Don't Stop Me Now",
+   "artista": "Queen",
+   "batidaA": "esqae9d20Leve",
+   "batidaB": "estradaCheio",
+   "bpm": 156,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 41082",
+   "nota": "a introdução é lenta (piano); o andamento é o do corpo da música; 4 transcrições concordam"
+  },
+  {
+   "titulo": "Killer Queen",
+   "artista": "Queen",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 117,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 23424"
+  },
+  {
+   "titulo": "Radio Ga Ga",
+   "artista": "Queen",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 118,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1811440"
+  },
+  {
+   "titulo": "Somebody to Love",
+   "artista": "Queen",
+   "batidaA": "esq2d091dLeve",
+   "batidaB": "esq2d091dCheio",
+   "bpm": 73,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 24084",
+   "nota": "6/8: transcrição a 110 (semínima); aqui o pulso é a semínima pontuada = 73"
+  },
+  {
+   "titulo": "Under Pressure",
+   "artista": "Queen",
+   "batidaA": "esqbd3de7Leve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 114,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 17042"
+  },
+  {
+   "titulo": "We Are the Champions",
+   "artista": "Queen",
+   "batidaA": "esq3e5049Leve",
+   "batidaB": "esqc17f0cCheio",
+   "bpm": 62,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 35507",
+   "nota": "6/8: transcrição a 93 (semínima); aqui o pulso é a semínima pontuada = 62"
+  },
+  {
+   "titulo": "We Will Rock You",
+   "artista": "Queen",
+   "batidaA": "esqae9d20Leve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 80,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 527752",
+   "nota": "pé-pé-palma: grave, grave, slap. Transcrições em 95 (ao vivo) e 160 (acústica, contada em dobro)"
+  }
+ ]
+}

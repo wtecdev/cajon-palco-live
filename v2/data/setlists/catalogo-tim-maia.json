@@ -1,0 +1,95 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Tim Maia",
+ "tipo": "catalogo",
+ "artista": "Tim Maia",
+ "musicas": [
+  {
+   "titulo": "Acenda o Farol",
+   "artista": "Tim Maia",
+   "batidaA": "todoTempo",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 126,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2394803"
+  },
+  {
+   "titulo": "Azul da Cor do Mar",
+   "artista": "Tim Maia",
+   "batidaA": "eDo2Leve",
+   "batidaB": "eDo2Cheio",
+   "bpm": 67,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 439053"
+  },
+  {
+   "titulo": "Casinha de Sapê",
+   "artista": null,
+   "batidaA": null,
+   "batidaB": null,
+   "bpm": null,
+   "fonte_bpm": null,
+   "nota": "Não achei transcrição nem BPM da versão do Tim Maia."
+  },
+  {
+   "titulo": "Eu Amo Você",
+   "artista": "Tim Maia",
+   "batidaA": "esq9f50f4Leve",
+   "batidaB": "esq9f50f4Cheio",
+   "bpm": 125,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2609907",
+   "nota": "o slap cai no 3"
+  },
+  {
+   "titulo": "Gostava Tanto de Você",
+   "artista": "Tim Maia",
+   "batidaA": "esq5c87a2Leve",
+   "batidaB": "esq5c87a2Cheio",
+   "bpm": 95,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 813265",
+   "nota": "soul: grave e slap juntos no 2 e no 4"
+  },
+  {
+   "titulo": "Não Quero Dinheiro",
+   "artista": "Tim Maia",
+   "batidaA": "esq475dc5Leve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 137,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 813135"
+  },
+  {
+   "titulo": "O Descobridor dos Sete Mares",
+   "artista": "Tim Maia",
+   "batidaA": "esqbd3de7Leve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 135,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 813099",
+   "nota": "2 transcrições concordam"
+  },
+  {
+   "titulo": "Que Beleza",
+   "artista": "Tim Maia",
+   "batidaA": "esqb603c9Leve",
+   "batidaB": "esqb603c9Cheio",
+   "bpm": 160,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3637793",
+   "nota": "conferir: meio-tempo com grave e slap juntos no 3"
+  },
+  {
+   "titulo": "Réu Confesso",
+   "artista": "Tim Maia",
+   "batidaA": "esq5c87a2Leve",
+   "batidaB": "esq5c87a2Cheio",
+   "bpm": 84,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 771184",
+   "nota": "soul: grave e slap juntos no 2 e no 4; 2 transcrições concordam"
+  },
+  {
+   "titulo": "Você",
+   "artista": "Tim Maia",
+   "batidaA": "esq9f50f4Leve",
+   "batidaB": "meioTempoPopLeve",
+   "bpm": 138,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 813128",
+   "nota": "o slap cai no 3 (sente-se a 69)"
+  }
+ ]
+}

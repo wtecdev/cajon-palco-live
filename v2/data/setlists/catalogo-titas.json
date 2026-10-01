@@ -1,0 +1,95 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Titãs",
+ "tipo": "catalogo",
+ "artista": "Titãs",
+ "musicas": [
+  {
+   "titulo": "Cegos do Castelo",
+   "artista": "Titãs",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esq76f448Cheio",
+   "bpm": 79,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2102710",
+   "nota": "transcrição do Acústico MTV"
+  },
+  {
+   "titulo": "Comida",
+   "artista": "Titãs",
+   "batidaA": "esqf7d557Leve",
+   "batidaB": "esqf7d557Cheio",
+   "bpm": 165,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3592494",
+   "nota": "versão acústica; meio-tempo: o slap cai no 3"
+  },
+  {
+   "titulo": "É Preciso Saber Viver",
+   "artista": "Titãs",
+   "batidaA": "esq933e99Leve",
+   "batidaB": "esqa11dbeCheio",
+   "bpm": 89,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 845770"
+  },
+  {
+   "titulo": "Enquanto Houver Sol",
+   "artista": "Titãs",
+   "batidaA": "eDo2e3Leve",
+   "batidaB": "esqfbb460Cheio",
+   "bpm": 115,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1439121",
+   "nota": "4 transcrições concordam"
+  },
+  {
+   "titulo": "Epitáfio",
+   "artista": "Titãs",
+   "batidaA": "pop80Leve",
+   "batidaB": "pop80Cheio",
+   "bpm": 112,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 758004"
+  },
+  {
+   "titulo": "Flores",
+   "artista": "Titãs",
+   "batidaA": "popMedioLeve",
+   "batidaB": "eDo2e3Cheio",
+   "bpm": 144,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1439123"
+  },
+  {
+   "titulo": "Marvin",
+   "artista": "Titãs",
+   "batidaA": "esq81d7f8Leve",
+   "batidaB": "esq81d7f8Cheio",
+   "bpm": 91,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 59153"
+  },
+  {
+   "titulo": "Porque Eu Sei Que É Amor",
+   "artista": "Titãs",
+   "batidaA": "baladaLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 82,
+   "fonte_bpm": "GetSongBPM 82, 4/4",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de balada no BPM da música; conferir"
+  },
+  {
+   "titulo": "Pra Dizer Adeus",
+   "artista": "Titãs",
+   "batidaA": "esqce0b36Leve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 128,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2798947",
+   "nota": "conferir: versão do trio acústico e de estúdio discordam"
+  },
+  {
+   "titulo": "Sonífera Ilha",
+   "artista": "Titãs",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 145,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 825001",
+   "nota": "4 transcrições concordam"
+  }
+ ]
+}

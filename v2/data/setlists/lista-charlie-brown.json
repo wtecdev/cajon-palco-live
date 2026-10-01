@@ -1,0 +1,197 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Charlie Brown Jr.",
+ "musicas": [
+  {
+   "titulo": "O Coro Vai Comer",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 150,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1820012"
+  },
+  {
+   "titulo": "Proibida Pra Mim",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 164,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 28081"
+  },
+  {
+   "titulo": "Tudo Que Ela Gosta de Escutar",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "eDo2Leve",
+   "batidaB": "estradaCheio",
+   "bpm": 115,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2766840"
+  },
+  {
+   "titulo": "Só Por Uma Noite",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "meioTempoLeve",
+   "batidaB": "meioTempoCheio",
+   "bpm": 210,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 4748",
+   "nota": "meio-tempo: o slap cai no 3"
+  },
+  {
+   "titulo": "Sino Dourado",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 150,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 473583"
+  },
+  {
+   "titulo": "Rubão, o Dono do Mundo",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "esq69368dLeve",
+   "batidaB": "esq69368dCheio",
+   "bpm": 93,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 28073"
+  },
+  {
+   "titulo": "Dias de Luta, Dias de Glória",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "popMedioLeve",
+   "batidaB": "reggaeAbertoLeve",
+   "bpm": 100,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 1557315"
+  },
+  {
+   "titulo": "Me Encontra",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "esqfa9105Leve",
+   "batidaB": "esqfa9105Cheio",
+   "bpm": 95,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 484514"
+  },
+  {
+   "titulo": "Lugar ao Sol",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "esq0460fbLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 140,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 3765",
+   "nota": "transcrição curta (32 compassos com bateria)"
+  },
+  {
+   "titulo": "Te Levar",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "esqb78ac2Leve",
+   "batidaB": "esqb23d09Cheio",
+   "bpm": 116,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 28082"
+  },
+  {
+   "titulo": "Sheik",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "esqefdee6Cheio",
+   "bpm": 108,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 998684"
+  },
+  {
+   "titulo": "Gimme o Anel",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "estradaCheio",
+   "batidaB": "estradaCheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 462582"
+  },
+  {
+   "titulo": "Quinta-Feira",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "esq18ffffLeve",
+   "batidaB": "esq2f8c02Cheio",
+   "bpm": 138,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 28083",
+   "nota": "em tercinas; no verso o slap é aro"
+  },
+  {
+   "titulo": "Pontes Indestrutíveis",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "popSemiLeve",
+   "batidaB": "esq2ec75aCheio",
+   "bpm": 80,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 268805"
+  },
+  {
+   "titulo": "Samba Makossa",
+   "artista": "Chico Science & Nação Zumbi",
+   "batidaA": "sambaMakossaLeve",
+   "batidaB": "sambaMakossaCheio",
+   "bpm": 125,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 6331706",
+   "nota": "caixa em semicolcheias o tempo todo"
+  },
+  {
+   "titulo": "Vícios e Virtudes",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "esq17f480Leve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 186,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 28094"
+  },
+  {
+   "titulo": "Tudo Mudar",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "esq475dc5Leve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 180,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 28078"
+  },
+  {
+   "titulo": "Céu Azul",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "esqf4bb86Leve",
+   "batidaB": "esqf4bb86Cheio",
+   "bpm": 120,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 383836",
+   "nota": "na gravação o slap é aro (rimshot)"
+  },
+  {
+   "titulo": "Longe de Você",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "eDo2Leve",
+   "batidaB": "eDo2Cheio",
+   "bpm": 108,
+   "fonte_bpm": "Tunebat 108; sem transcrição de bateria da versão do Charlie Brown Jr.",
+   "adaptacao": true
+  },
+  {
+   "titulo": "Só os Loucos Sabem",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "esq6118fcLeve",
+   "batidaB": "esq4a323aCheio",
+   "bpm": 102,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 173307"
+  },
+  {
+   "titulo": "Lutar Pelo Que É Meu",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "esq5e4848Leve",
+   "batidaB": "esq5e4848Cheio",
+   "bpm": 188,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 85604"
+  },
+  {
+   "titulo": "Zóio de Lula",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "reggaeAbertoLeve",
+   "batidaB": "esq690ef9Cheio",
+   "bpm": 76,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 397700"
+  },
+  {
+   "titulo": "Papo Reto",
+   "artista": "Charlie Brown Jr.",
+   "batidaA": "meioTempoPopLeve",
+   "batidaB": "meioTempoPopCheio",
+   "bpm": 101,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 4053",
+   "nota": "meio-tempo: o slap cai no 3"
+  }
+ ]
+}

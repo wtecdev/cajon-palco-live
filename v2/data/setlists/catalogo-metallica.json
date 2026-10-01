@@ -1,0 +1,96 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Metallica",
+ "tipo": "catalogo",
+ "artista": "Metallica",
+ "musicas": [
+  {
+   "titulo": "Enter Sandman",
+   "artista": "Metallica",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 123,
+   "fonte_bpm": "Cifra Club (tab de bateria); BPM da transcrição do Songsterr id 19"
+  },
+  {
+   "titulo": "For Whom the Bell Tolls",
+   "artista": "Metallica",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 118,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 572",
+   "nota": "3 transcrições e o Cifra Club concordam"
+  },
+  {
+   "titulo": "Fuel",
+   "artista": "Metallica",
+   "batidaA": "eDo2e3Leve",
+   "batidaB": "eDo2e3Cheio",
+   "bpm": 214,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 12104"
+  },
+  {
+   "titulo": "Master of Puppets",
+   "artista": "Metallica",
+   "batidaA": "popMedioLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 212,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 455118",
+   "nota": "3 transcrições e o Cifra Club concordam"
+  },
+  {
+   "titulo": "Nothing Else Matters",
+   "artista": "Metallica",
+   "batidaA": "esq1342e7Leve",
+   "batidaB": "esq3e5049Cheio",
+   "bpm": 47,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 439171",
+   "nota": "conferir andamento: 6/8, transcrição a 71 (semínima); aqui o pulso é a semínima pontuada = 47. 3 transcrições e o Cifra Club concordam no desenho"
+  },
+  {
+   "titulo": "One – Metallica",
+   "artista": null,
+   "batidaA": null,
+   "batidaB": null,
+   "bpm": null,
+   "fonte_bpm": null,
+   "nota": "Várias partes e compassos diferentes."
+  },
+  {
+   "titulo": "Sad but True",
+   "artista": "Metallica",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 89,
+   "fonte_bpm": "Cifra Club (tab de bateria); BPM de 3 transcrições do Songsterr (86–89)"
+  },
+  {
+   "titulo": "Seek & Destroy",
+   "artista": "Metallica",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "rockBasicoCheio",
+   "bpm": 143,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 247",
+   "nota": "conferir: simplifiquei as puxadas de bumbo"
+  },
+  {
+   "titulo": "The Unforgiven",
+   "artista": "Metallica",
+   "batidaA": "baladaLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 72,
+   "fonte_bpm": "Songsterr id 19616 (72)",
+   "adaptacao": true,
+   "nota": "a transcrição só mostra o bumbo; sem transcrição de bateria que sirva: levada de balada no BPM da música; conferir"
+  },
+  {
+   "titulo": "Whiskey in the Jar",
+   "artista": "Metallica",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "estradaLeve",
+   "bpm": 133,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 326",
+   "nota": "3 transcrições e o Cifra Club concordam"
+  }
+ ]
+}

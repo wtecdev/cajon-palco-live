@@ -1,0 +1,100 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Led Zeppelin",
+ "tipo": "catalogo",
+ "artista": "Led Zeppelin",
+ "musicas": [
+  {
+   "titulo": "Black Dog",
+   "artista": null,
+   "batidaA": null,
+   "batidaB": null,
+   "bpm": null,
+   "fonte_bpm": null,
+   "nota": "A levada muda de compasso o tempo todo (Songsterr e Cifra Club); não dá para fazer uma batida fixa."
+  },
+  {
+   "titulo": "Going to California",
+   "artista": "Led Zeppelin",
+   "batidaA": "esqd9359aLeve",
+   "batidaB": "esq226bdaCheio",
+   "bpm": 156,
+   "fonte_bpm": "Songsterr, andamento de 3 transcrições sem bateria (156)",
+   "adaptacao": true,
+   "nota": "a gravação não tem bateria; sem transcrição de bateria que sirva: levada de meio-tempo (sente-se a 78) no BPM da música; conferir"
+  },
+  {
+   "titulo": "Immigrant Song",
+   "artista": "Led Zeppelin",
+   "batidaA": "esq0e870fLeve",
+   "batidaB": "esq0e870fCheio",
+   "bpm": 113,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 568",
+   "nota": "galope; Songsterr e Cifra Club concordam no desenho"
+  },
+  {
+   "titulo": "Kashmir",
+   "artista": "Led Zeppelin",
+   "batidaA": "esq0396f5Leve",
+   "batidaB": "esq475dc5Cheio",
+   "bpm": 80,
+   "fonte_bpm": "Cifra Club (tab de bateria); BPM de 3 transcrições do Songsterr (80)",
+   "nota": "a bateria fica em 4/4 enquanto o riff é em 3"
+  },
+  {
+   "titulo": "Over the Hills and Far Away",
+   "artista": "Led Zeppelin",
+   "batidaA": "esqee641fLeve",
+   "batidaB": "esqee641fCheio",
+   "bpm": 98,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 11714",
+   "nota": "conferir: levada carregada, mas Songsterr e Cifra Club concordam"
+  },
+  {
+   "titulo": "Ramble On",
+   "artista": "Led Zeppelin",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 102,
+   "fonte_bpm": "Songsterr id 22711 (102)",
+   "adaptacao": true,
+   "nota": "conferir: na gravação o verso é tocado em percussão de mão e só tem caixa no 2; aqui levada de rock simples"
+  },
+  {
+   "titulo": "Rock and Roll",
+   "artista": "Led Zeppelin",
+   "batidaA": "esqae9d20Leve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 172,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 11537",
+   "nota": "3 transcrições no mesmo andamento"
+  },
+  {
+   "titulo": "Stairway to Heaven",
+   "artista": "Led Zeppelin",
+   "batidaA": "esqae9d20Leve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 71,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 27",
+   "nota": "a bateria só entra na metade e a parte final acelera; aqui o andamento de quando a bateria entra"
+  },
+  {
+   "titulo": "When the Levee Breaks",
+   "artista": "Led Zeppelin",
+   "batidaA": "esqc5012bLeve",
+   "batidaB": "esqc5012bCheio",
+   "bpm": 71,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 11512",
+   "nota": "a levada famosa do Bonham; 3 transcrições entre 69 e 71"
+  },
+  {
+   "titulo": "Whole Lotta Love",
+   "artista": "Led Zeppelin",
+   "batidaA": "esq08be3aLeve",
+   "batidaB": "esq08be3aCheio",
+   "bpm": 90,
+   "fonte_bpm": "Cifra Club (tab de bateria); BPM da transcrição do Songsterr id 449",
+   "nota": "conferir: levada carregada, mas Songsterr e Cifra Club concordam"
+  }
+ ]
+}

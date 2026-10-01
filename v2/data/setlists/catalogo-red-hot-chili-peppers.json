@@ -1,0 +1,95 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Red Hot Chili Peppers",
+ "tipo": "catalogo",
+ "artista": "Red Hot Chili Peppers",
+ "musicas": [
+  {
+   "titulo": "By the Way",
+   "artista": "Red Hot Chili Peppers",
+   "batidaA": "esqc376d7Leve",
+   "batidaB": "esqc376d7Cheio",
+   "bpm": 125,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 8707",
+   "nota": "conferir: o verso da gravação é quebrado (sem caixa); aqui só a levada do refrão"
+  },
+  {
+   "titulo": "Californication",
+   "artista": "Red Hot Chili Peppers",
+   "batidaA": "esqbd3de7Leve",
+   "batidaB": "esqbd3de7Cheio",
+   "bpm": 96,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 439"
+  },
+  {
+   "titulo": "Can't Stop",
+   "artista": "Red Hot Chili Peppers",
+   "batidaA": "esq36b3e2Leve",
+   "batidaB": "esq36b3e2Cheio",
+   "bpm": 92,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 12"
+  },
+  {
+   "titulo": "Dani California",
+   "artista": "Red Hot Chili Peppers",
+   "batidaA": "esq69cccbLeve",
+   "batidaB": "esqb11450Cheio",
+   "bpm": 96,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 2591707"
+  },
+  {
+   "titulo": "Dark Necessities",
+   "artista": "Red Hot Chili Peppers",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 91,
+   "fonte_bpm": "Songsterr, 2 transcrições (91)",
+   "adaptacao": true,
+   "nota": "na gravação é funk; sem transcrição de bateria que sirva: levada de pop-rock no BPM da música; conferir"
+  },
+  {
+   "titulo": "Otherside",
+   "artista": "Red Hot Chili Peppers",
+   "batidaA": "esqf4bb86Leve",
+   "batidaB": "esqf4bb86Cheio",
+   "bpm": 124,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 23785"
+  },
+  {
+   "titulo": "Scar Tissue",
+   "artista": "Red Hot Chili Peppers",
+   "batidaA": "esqec20e7Leve",
+   "batidaB": "esq8d3774Cheio",
+   "bpm": 89,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 49"
+  },
+  {
+   "titulo": "Snow (Hey Oh)",
+   "artista": "Red Hot Chili Peppers",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 105,
+   "fonte_bpm": "Songsterr, transcrições a 100 e 105",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de pop-rock no BPM da música; conferir"
+  },
+  {
+   "titulo": "The Zephyr Song",
+   "artista": "Red Hot Chili Peppers",
+   "batidaA": "esq835668Leve",
+   "batidaB": "esq835668Cheio",
+   "bpm": 117,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 16530"
+  },
+  {
+   "titulo": "Under the Bridge",
+   "artista": "Red Hot Chili Peppers",
+   "batidaA": "rockBasicoLeve",
+   "batidaB": "popMedioCheio",
+   "bpm": 87,
+   "fonte_bpm": "Songsterr, 2 transcrições (86–87)",
+   "adaptacao": true,
+   "nota": "a transcrição é quebrada; sem transcrição de bateria que sirva: levada de balada no BPM da música; conferir"
+  }
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "formato": "repertorio_v1",
+ "nome": "Catálogo · Foo Fighters",
+ "tipo": "catalogo",
+ "artista": "Foo Fighters",
+ "musicas": [
+  {
+   "titulo": "All My Life",
+   "artista": "Foo Fighters",
+   "batidaA": "estradaCheio",
+   "batidaB": null,
+   "bpm": 168,
+   "fonte_bpm": "Cifra Club (tab de bateria); BPM de 3 transcrições do Songsterr (168–170)"
+  },
+  {
+   "titulo": "Best of You",
+   "artista": "Foo Fighters",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 131,
+   "fonte_bpm": "Songsterr, 2 transcrições (131)",
+   "adaptacao": true,
+   "nota": "as transcrições (Songsterr e Cifra Club) parecem deslocadas; sem transcrição de bateria que sirva: levada de rock no BPM da música; conferir"
+  },
+  {
+   "titulo": "Big Me",
+   "artista": "Foo Fighters",
+   "batidaA": "popMedioLeve",
+   "batidaB": "esqae9d20Cheio",
+   "bpm": 129,
+   "fonte_bpm": "Songsterr id 7725 (129)",
+   "adaptacao": true,
+   "nota": "sem transcrição de bateria que sirva: levada de pop no BPM da música; conferir"
+  },
+  {
+   "titulo": "Everlong",
+   "artista": "Foo Fighters",
+   "batidaA": "esq475dc5Leve",
+   "batidaB": "esqbb494bCheio",
+   "bpm": 158,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 86505"
+  },
+  {
+   "titulo": "Learn to Fly",
+   "artista": "Foo Fighters",
+   "batidaA": "esqfbb460Leve",
+   "batidaB": "esqfbb460Cheio",
+   "bpm": 136,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 13990"
+  },
+  {
+   "titulo": "Monkey Wrench",
+   "artista": "Foo Fighters",
+   "batidaA": "estradaCheio",
+   "batidaB": null,
+   "bpm": 175,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 7754"
+  },
+  {
+   "titulo": "My Hero",
+   "artista": "Foo Fighters",
+   "batidaA": "esqf9e0b6Leve",
+   "batidaB": "popMedioCheio",
+   "bpm": 155,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 7421",
+   "nota": "no verso a bateria é só tom e bumbo; o refrão aqui é adaptação"
+  },
+  {
+   "titulo": "The Pretender",
+   "artista": "Foo Fighters",
+   "batidaA": "esqde0bcdLeve",
+   "batidaB": "esqde0bcdCheio",
+   "bpm": 173,
+   "fonte_bpm": "Cifra Club (tab de bateria); BPM da transcrição do Songsterr id 400463 (173)",
+   "nota": "conferir andamento: outras transcrições contam a metade (87–90)"
+  },
+  {
+   "titulo": "Times Like These",
+   "artista": "Foo Fighters",
+   "batidaA": "estradaCheio",
+   "batidaB": null,
+   "bpm": 144,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 180",
+   "nota": "a introdução é em 7/8; aqui fica o corpo da música em 4/4"
+  },
+  {
+   "titulo": "Walk",
+   "artista": "Foo Fighters",
+   "batidaA": "estradaCheio",
+   "batidaB": null,
+   "bpm": 140,
+   "fonte_bpm": "Songsterr, transcrição de bateria id 83271"
+  }
+ ]
+}
