@@ -2,7 +2,7 @@
 // Guarda todos os arquivos na instalação para funcionar sem internet no palco.
 // VERSAO e ARQUIVOS são preenchidos por tools/build.mjs — não editar à mão.
 
-const VERSAO = '2.0.0-e1+6f371e379f';
+const VERSAO = '2.0.0-e1+a7b0a0da20';
 const ARQUIVOS = [
   "./",
   "./css/app.css",

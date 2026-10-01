@@ -30,14 +30,17 @@ let swReg = null;
 const ACOES = { A: 'Play / parar (com virada)', B: '1 toque: só grave · 2 toques: marcação leve · de novo: volta à batida', C: 'Virada no fim do compasso', D: 'Troca A ↔ B no próximo 1' };
 
 // ---------------------------------------------------------------- avisos
-function aviso(id, texto, { tipo = 'erro', botao, acao } = {}) {
+function aviso(id, texto, { tipo = 'erro', botao, acao, fechar = false } = {}) {
   let el = document.getElementById('aviso-' + id);
   if (!texto) { if (el) el.remove(); return; }
   if (!el) { el = document.createElement('div'); el.id = 'aviso-' + id; $('avisos').appendChild(el); }
   el.className = 'aviso' + (tipo === 'info' ? ' info' : '');
   el.innerHTML = '';
   const s = document.createElement('span'); s.textContent = texto; el.appendChild(s);
-  if (botao) { const b = document.createElement('button'); b.textContent = botao; b.onclick = acao; el.appendChild(b); }
+  const acoes = document.createElement('span'); acoes.className = 'aviso-acoes';
+  if (botao) { const b = document.createElement('button'); b.textContent = botao; b.onclick = acao; acoes.appendChild(b); }
+  if (fechar) { const x = document.createElement('button'); x.className = 'aviso-x'; x.textContent = '✕'; x.setAttribute('aria-label', 'Fechar aviso'); x.onclick = () => el.remove(); acoes.appendChild(x); }
+  el.appendChild(acoes);
 }
 
 // ---------------------------------------------------------------- abas
@@ -917,9 +920,12 @@ if (swOk) {
   navigator.serviceWorker.register('sw.js').then((reg) => {
     swReg = reg;
     const oferecer = () => {
-      if (!reg.waiting || !navigator.serviceWorker.controller) return;
+      // Só é versão nova se uma versão DESTE app já estiver ativa e controlando a página. Na primeira visita
+      // quem controla pode ser o service worker da v1 (mesmo domínio, pasta de cima): aí não é atualização.
+      const ctl = navigator.serviceWorker.controller;
+      if (!reg.waiting || !reg.active || !ctl || ctl.scriptURL !== reg.active.scriptURL) return;
       $('btnAtualizar').hidden = false;
-      aviso('upd', 'Nova versão pronta. Atualize com a música parada.', { tipo: 'info', botao: 'ATUALIZAR', acao: aplicarAtualizacao });
+      aviso('upd', 'Nova versão pronta. Atualize com a música parada.', { tipo: 'info', botao: 'ATUALIZAR', acao: aplicarAtualizacao, fechar: true });
     };
     oferecer();
     reg.addEventListener('updatefound', () => {
@@ -932,7 +938,7 @@ if (swOk) {
   navigator.serviceWorker.addEventListener('controllerchange', () => { if (atualizacaoPedida && estado.state === 'stopped') { atualizacaoPedida = false; location.reload(); } });
 }
 function aplicarAtualizacao() {
-  if (estado.state !== 'stopped') { aviso('upd', 'Pare a música antes de atualizar.', { tipo: 'info', botao: 'ATUALIZAR', acao: aplicarAtualizacao }); return; }
+  if (estado.state !== 'stopped') { aviso('upd', 'Pare a música antes de atualizar.', { tipo: 'info', botao: 'ATUALIZAR', acao: aplicarAtualizacao, fechar: true }); return; }
   if (swReg && swReg.waiting) { atualizacaoPedida = true; swReg.waiting.postMessage({ type: 'skipWaiting' }); }
 }
 $('btnAtualizar').onclick = aplicarAtualizacao;
